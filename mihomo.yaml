@@ -1,0 +1,1170 @@
+dns:
+  direct-nameserver:
+  - system
+  direct-nameserver-follow-policy: true
+  dns-hijack:
+  - any:53
+  - tcp://any:53
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+  - "*.local"
+  - "*.lan"
+  - "*.localdomain"
+  - "*.home.arpa"
+  - "*.test"
+  - "*.invalid"
+  - "*.example"
+  - localhost.ptlogin2.qq.com
+  - time.*.com
+  - ntp.*.com
+  - +.push.apple.com
+  - +.miwifi.com
+  - +.market.xiaomi.com
+  - geosite:cn
+  - geosite:private
+  fake-ip-range: 198.18.0.1/16
+  fallback:
+  - "https://1.1.1.1/dns-query#h3=true"
+  - "https://1.0.0.1/dns-query#h3=true"
+  - "https://8.8.8.8/dns-query#h3=true"
+  - "https://8.8.4.4/dns-query#h3=true"
+  - tls://8.8.4.4
+  - tls://1.1.1.1
+  fallback-filter:
+    domain:
+    - +.google.com
+    - +.youtube.com
+    - +.twitter.com
+    - +.x.com
+    - +.reddit.com
+    - +.telegram.org
+    - +.instagram.com
+    - +.facebook.com
+    - +.jsdelivr.net
+    - +.proton.me
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+    - 223.75.236.241/32
+    - 182.43.124.6/32
+    - 106.74.25.198/32
+    - 183.192.65.101/32
+  ipv6: true
+  listen: 0.0.0.0:1053
+  nameserver:
+  - "https://1.1.1.1/dns-query#h3=true"
+  - "https://1.0.0.1/dns-query#h3=true"
+  - "https://8.8.8.8/dns-query#h3=true"
+  - "https://8.8.4.4/dns-query#h3=true"
+  nameserver-policy:
+    +.1010.com.hk: dns1.pccw.com
+    +.1688.com: quic://dns.alidns.com:853
+    +.25pp.com: quic://dns.alidns.com:853
+    +.360.cn: https://doh.360.cn/dns-query
+    +.360.com: https://doh.360.cn/dns-query
+    +.360.net: https://doh.360.cn/dns-query
+    +.360kuai.com: https://doh.360.cn/dns-query
+    +.360os.com: https://doh.360.cn/dns-query
+    +.360safe.com: https://doh.360.cn/dns-query
+    +.360tpcdn.com: https://doh.360.cn/dns-query
+    +.360webcache.com: https://doh.360.cn/dns-query
+    +.91.com: 180.76.76.76
+    +.acgvideo.com: https://doh.pub/dns-query
+    +.aliapp.org: quic://dns.alidns.com:853
+    +.alibaba-inc.com: quic://dns.alidns.com:853
+    +.alibaba.com: quic://dns.alidns.com:853
+    +.alibabachengdun.com: quic://dns.alidns.com:853
+    +.alibabadns.com: quic://dns.alidns.com:853
+    +.alibabausercontent.com: quic://dns.alidns.com:853
+    +.alicdn.com: quic://dns.alidns.com:853
+    +.alicloudccp.com: quic://dns.alidns.com:853
+    +.alidns.com: quic://dns.alidns.com:853
+    +.aligames.com: quic://dns.alidns.com:853
+    +.aliimg.com: quic://dns.alidns.com:853
+    +.alikunlun.com: quic://dns.alidns.com:853
+    +.alikunlun.net: quic://dns.alidns.com:853
+    +.alios.cn: quic://dns.alidns.com:853
+    +.alipan.com: quic://dns.alidns.com:853
+    +.alipay.cn: quic://dns.alidns.com:853
+    +.alipay.com: quic://dns.alidns.com:853
+    +.alipay.com.cn: quic://dns.alidns.com:853
+    +.alipayobjects.com: quic://dns.alidns.com:853
+    +.aliyun.com: quic://dns.alidns.com:853
+    +.aliyuncs.com: quic://dns.alidns.com:853
+    +.aliyundrive.com: quic://dns.alidns.com:853
+    +.aliyundrive.net: quic://dns.alidns.com:853
+    +.amap.com: quic://dns.alidns.com:853
+    +.anticheatexpert.com: https://doh.pub/dns-query
+    +.antpcdn.com: 180.76.76.76
+    +.autonavi.com: quic://dns.alidns.com:853
+    +.baidu.cn: 180.76.76.76
+    +.baidu.com: 180.76.76.76
+    +.baidubce.com: 180.76.76.76
+    +.baidubcr.com: 180.76.76.76
+    +.baiducontent.com: 180.76.76.76
+    +.baidupcs.com: 180.76.76.76
+    +.baidustatic.com: 180.76.76.76
+    +.baike.com: 180.184.2.2
+    +.baomitu.com: https://doh.360.cn/dns-query
+    +.bcebos.com: 180.76.76.76
+    +.bcelive.com: 180.76.76.76
+    +.bdimg.com: 180.76.76.76
+    +.bdstatic.com: 180.76.76.76
+    +.bdydns.com: 180.76.76.76
+    +.biliapi.com: https://doh.pub/dns-query
+    +.biliapi.net: https://doh.pub/dns-query
+    +.bilibili.cn: https://doh.pub/dns-query
+    +.bilibili.com: https://doh.pub/dns-query
+    +.bilicdn1.com: https://doh.pub/dns-query
+    +.bilicomic.com: https://doh.pub/dns-query
+    +.bilicomics.com: https://doh.pub/dns-query
+    +.biligame.com: https://doh.pub/dns-query
+    +.biligame.net: https://doh.pub/dns-query
+    +.biliimg.com: https://doh.pub/dns-query
+    +.bilivideo.cn: https://doh.pub/dns-query
+    +.bilivideo.com: https://doh.pub/dns-query
+    +.bilivideo.net: https://doh.pub/dns-query
+    +.byteacctimg.com: 180.184.2.2
+    +.bytecdn.cn: 180.184.2.2
+    +.byted-static.com: 180.184.2.2
+    +.bytedance.com: 180.184.2.2
+    +.bytednsdoc.com: 180.184.2.2
+    +.bytegoofy.com: 180.184.2.2
+    +.byteimg.com: 180.184.2.2
+    +.bytetcc.com: 180.184.2.2
+    +.cabletv.com.hk: dns2.hkcable.com.hk
+    +.cainiao.com: quic://dns.alidns.com:853
+    +.cainiao.com.cn: quic://dns.alidns.com:853
+    +.cainiaoyizhan.com: quic://dns.alidns.com:853
+    +.cdn-go.cn: https://doh.pub/dns-query
+    +.cdngslb.com: quic://dns.alidns.com:853
+    +.cht.com.tw: https://dns.hinet.net/dns-query
+    +.cibntv.net: quic://dns.alidns.com:853
+    +.codehub.cn: https://doh.pub/dns-query
+    +.coding.net: https://doh.pub/dns-query
+    +.dingtalk.com: quic://dns.alidns.com:853
+    +.dnspod.cn: https://doh.pub/dns-query
+    +.dnspod.com: https://doh.pub/dns-query
+    +.dnsv1.com: https://doh.pub/dns-query
+    +.douyin.com: 180.184.2.2
+    +.douyincdn.com: 180.184.2.2
+    +.douyinliving.com: 180.184.2.2
+    +.douyinpic.com: 180.184.2.2
+    +.douyinstatic.com: 180.184.2.2
+    +.douyinvod.com: 180.184.2.2
+    +.duapp.com: 180.76.76.76
+    +.duokan.com: https://doh.pub/dns-query
+    +.edge-byted.com: 180.184.2.2
+    +.ele.me: quic://dns.alidns.com:853
+    +.elemecdn.com: quic://dns.alidns.com:853
+    +.emome.net: https://dns.hinet.net/dns-query
+    +.etao.com: quic://dns.alidns.com:853
+    +.feelgood.cn: 180.184.2.2
+    +.feiliao.com: 180.184.2.2
+    +.feishu.cn: 180.184.2.2
+    +.feishu.net: 180.184.2.2
+    +.feishucdn.com: 180.184.2.2
+    +.feishupkg.com: 180.184.2.2
+    +.feizhu.com: quic://dns.alidns.com:853
+    +.fliggy.com: quic://dns.alidns.com:853
+    +.freshhema.com: quic://dns.alidns.com:853
+    +.gaode.com: quic://dns.alidns.com:853
+    +.gdtimg.com: https://doh.pub/dns-query
+    +.goofish.com: quic://dns.alidns.com:853
+    +.gov.cn: 1.2.4.8
+    +.gtimg.cn: https://doh.pub/dns-query
+    +.gtimg.com: https://doh.pub/dns-query
+    +.gtimg.com.cn: https://doh.pub/dns-query
+    +.guoguo-app.com: quic://dns.alidns.com:853
+    +.hao123.com: 180.76.76.76
+    +.haosou.com: https://doh.360.cn/dns-query
+    +.hdslb.com: https://doh.pub/dns-query
+    +.he.net: https://ordns.he.net/dns-query
+    +.hellobike.com: quic://dns.alidns.com:853
+    +.hemamax.com: quic://dns.alidns.com:853
+    +.hemaos.com: quic://dns.alidns.com:853
+    +.hemashare.cn: quic://dns.alidns.com:853
+    +.hichina.com: quic://dns.alidns.com:853
+    +.hinet.net: https://dns.hinet.net/dns-query
+    +.hk.kddi.com: apple.kdd.net.hk
+    +.hkcable.com.hk: dns1.hkcable.com.hk
+    +.hkcsl.com: dns1.pccw.com
+    +.huoshan.com: 180.184.2.2
+    +.huoshanstatic.com: 180.184.2.2
+    +.huoshanzhibo.com: 180.184.2.2
+    +.i-cable.com: dns2.hkcable.com.hk
+    +.ialicdn.com: quic://dns.alidns.com:853
+    +.ibytedapm.com: 180.184.2.2
+    +.iconfont.cn: quic://dns.alidns.com:853
+    +.idqqimg.com: https://doh.pub/dns-query
+    +.iesdouyin.com: 180.184.2.2
+    +.igamecj.com: https://doh.pub/dns-query
+    +.iqiyi.com: 180.76.76.76
+    +.iqiyipic.com: 180.76.76.76
+    +.ixgvideo.com: 180.184.2.2
+    +.ixigua.com: 180.184.2.2
+    +.ixiguavideo.com: 180.184.2.2
+    +.jomodns.com: 180.76.76.76
+    +.jomoxc.com: 180.76.76.76
+    +.koubei.com: quic://dns.alidns.com:853
+    +.mi-fds.com: https://doh.pub/dns-query
+    +.mi-idc.com: https://doh.pub/dns-query
+    +.mi-img.com: https://doh.pub/dns-query
+    +.mi.com: https://doh.pub/dns-query
+    +.mifile.cn: https://doh.pub/dns-query
+    +.mijia.tech: https://doh.pub/dns-query
+    +.miui.com: https://doh.pub/dns-query
+    +.mmstat.com: quic://dns.alidns.com:853
+    +.moov.hk: dns3.pccw.com
+    +.mxhichina.com: quic://dns.alidns.com:853
+    +.myalicdn.com: quic://dns.alidns.com:853
+    +.myapp.com: https://doh.pub/dns-query
+    +.mybank.cn: quic://dns.alidns.com:853
+    +.myqcloud.com: https://doh.pub/dns-query
+    +.now-tv.com: dns2.pccw.com
+    +.now.com: dns2.pccw.com
+    +.nowe.com: dns2.pccw.com
+    +.npmmirror.com: quic://dns.alidns.com:853
+    +.oceanengine.com: 180.184.2.2
+    +.pccw.com: dns1.pccw.com
+    +.pstatp.com: 180.184.2.2
+    +.qcloud.com: https://doh.pub/dns-query
+    +.qcloudimg.com: https://doh.pub/dns-query
+    +.qh-cdn.com: https://doh.360.cn/dns-query
+    +.qhimg.com: https://doh.360.cn/dns-query
+    +.qhimgs.com: https://doh.360.cn/dns-query
+    +.qhimgs?.com: https://doh.360.cn/dns-query
+    +.qhmsg.com: https://doh.360.cn/dns-query
+    +.qhres.com: https://doh.360.cn/dns-query
+    +.qhres2.com: https://doh.360.cn/dns-query
+    +.qhstatic.com: https://doh.360.cn/dns-query
+    +.qhupdate.com: https://doh.360.cn/dns-query
+    +.qihucdn.com: https://doh.360.cn/dns-query
+    +.qiku.com: https://doh.360.cn/dns-query
+    +.qlivecdn.com: https://doh.pub/dns-query
+    +.qlogo.cn: https://doh.pub/dns-query
+    +.qpic.cn: https://doh.pub/dns-query
+    +.qq.com: https://doh.pub/dns-query
+    +.qq.com.cn: https://doh.pub/dns-query
+    +.qqmail.com: https://doh.pub/dns-query
+    +.qzone.com: https://doh.pub/dns-query
+    +.roblox.cn: https://doh.pub/dns-query
+    +.robloxdev.cn: https://doh.pub/dns-query
+    +.shifen.com: 180.76.76.76
+    +.shyhhema.com: quic://dns.alidns.com:853
+    +.sm.cn: quic://dns.alidns.com:853
+    +.smtcdns.net: https://doh.pub/dns-query
+    +.snssdk.com: 180.184.2.2
+    +.so.com: https://doh.360.cn/dns-query
+    +.sogo.com: https://doh.pub/dns-query
+    +.sogou.com: https://doh.pub/dns-query
+    +.sogoucdn.com: https://doh.pub/dns-query
+    +.soku.com: quic://dns.alidns.com:853
+    +.soso.com: https://doh.pub/dns-query
+    +.taipei: https://dns.twnic.tw/dns-query
+    +.tanx.com: quic://dns.alidns.com:853
+    +.taobao.com: quic://dns.alidns.com:853
+    +.taobaocdn.com: quic://dns.alidns.com:853
+    +.taopiaopiao.com: quic://dns.alidns.com:853
+    +.tb.cn: quic://dns.alidns.com:853
+    +.tbcache.com: quic://dns.alidns.com:853
+    +.tcdnlive.com: https://doh.pub/dns-query
+    +.tencent-cloud.com: https://doh.pub/dns-query
+    +.tencent-cloud.net: https://doh.pub/dns-query
+    +.tencent.com: https://doh.pub/dns-query
+    +.tencent.com.cn: https://doh.pub/dns-query
+    +.tencentcs.cn: https://doh.pub/dns-query
+    +.tencentmusic.com: https://doh.pub/dns-query
+    +.theclub.com.hk: dns1.pccw.com
+    +.tieba.com: 180.76.76.76
+    +.tmall.com: quic://dns.alidns.com:853
+    +.toutiao.com: 180.184.2.2
+    +.toutiaocloud.com: 180.184.2.2
+    +.toutiaoimg.cn: 180.184.2.2
+    +.toutiaoimg.com: 180.184.2.2
+    +.toutiaopage.com: 180.184.2.2
+    +.toutiaostatic.com: 180.184.2.2
+    +.toutiaovod.com: 180.184.2.2
+    +.tudou.com: quic://dns.alidns.com:853
+    +.tw: https://dns.twnic.tw/dns-query
+    +.uc.cn: quic://dns.alidns.com:853
+    +.uczzd.cn: quic://dns.alidns.com:853
+    +.udqqimg.com: https://doh.pub/dns-query
+    +.upos-sz-mirrorali.bilivideo.com: https://dns.alidns.com/dns-query
+    +.upos-sz-mirrorali?.bilivideo.com: https://dns.alidns.com/dns-query
+    +.upos-sz-mirrorali??.bilivideo.com: https://dns.alidns.com/dns-query
+    +.upos-sz-mirrorbos.bilivideo.com: 180.76.76.76
+    +.upos-sz-mirrorcos.bilivideo.com: https://doh.pub/dns-query
+    +.upos-sz-mirrorcos?.bilivideo.com: https://doh.pub/dns-query
+    +.upos-sz-mirrorcos??.bilivideo.com: https://doh.pub/dns-query
+    +.upos-sz-upcdnbd??.bilivideo.com: 180.76.76.76
+    +.upos-sz-upcdntx.bilivideo.com: https://doh.pub/dns-query
+    +.viu.com: dns3.pccw.com
+    +.viu.tv: dns3.pccw.com
+    +.volccdn.com: 180.184.2.2
+    +.volces.com: 180.184.2.2
+    +.volcvideo.com: 180.184.2.2
+    +.wandoujia.com: quic://dns.alidns.com:853
+    +.wegame.com: https://doh.pub/dns-query
+    +.wegame.com.cn: https://doh.pub/dns-query
+    +.wegameplus.com: https://doh.pub/dns-query
+    +.weixin.com: https://doh.pub/dns-query
+    +.weixinbridge.com: https://doh.pub/dns-query
+    +.weiyun.com: https://doh.pub/dns-query
+    +.xiami.com: quic://dns.alidns.com:853
+    +.xiami.net: quic://dns.alidns.com:853
+    +.xiaoaisound.com: https://doh.pub/dns-query
+    +.xiaodutv.com: 180.76.76.76
+    +.xiaomi.cn: https://doh.pub/dns-query
+    +.xiaomi.com: https://doh.pub/dns-query
+    +.xiaomi.net: https://doh.pub/dns-query
+    +.xiaomiev.com: https://doh.pub/dns-query
+    +.xiaomixiaoai.com: https://doh.pub/dns-query
+    +.xiaomiyoupin.com: https://doh.pub/dns-query
+    +.yitao.com: quic://dns.alidns.com:853
+    +.ykimg.com: quic://dns.alidns.com:853
+    +.youku.com: quic://dns.alidns.com:853
+    +.yunjiasu-cdn.net: 180.76.76.76
+    +.yunos.com: quic://dns.alidns.com:853
+    +.yunpan.cn: https://doh.360.cn/dns-query
+    +.yunpan.com: https://doh.360.cn/dns-query
+    +.yunpan.com.cn: https://doh.360.cn/dns-query
+    +.zijieapi.com: 180.184.2.2
+    +.zjcdn.com: 180.184.2.2
+    geosite:cn,private:
+    - "https://doh.pub/dns-query#h3=true"
+    - quic://223.5.5.5:853
+    - quic://223.6.6.6:853
+    - https://223.5.5.5/dns-query
+    - https://223.6.6.6/dns-query
+    geosite:gfw:
+    - "https://cloudflare-dns.com/dns-query#h3=true"
+    - "https://dns.google/dns-query#h3=true"
+  prefer-h3: true
+  proxy-server-nameserver:
+  - quic://223.5.5.5:853
+  - "https://dns.alidns.com/dns-query#h3=true"
+  - "https://doh.pub/dns-query#h3=true"
+  respect-rules: false
+  use-hosts: true
+  use-system-hosts: true
+geo-auto-update: true
+geo-update-interval: 48
+geox-url:
+  geoip: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb
+hosts:
+  1dot1dot1dot1.cloudflare-dns.com: 1.1.1.1
+  cloudflare-dns.com: 104.16.249.249
+  dns.alidns.com: 223.5.5.5
+  dns.google: 8.8.8.8
+  dns.twnic.tw: 101.101.101.101
+  dns64.dns.google: 2001:4860:4860::6464
+  doh.360.cn: 23.6.48.18
+  doh.pub: 1.12.12.12
+  dot.360.cn: 101.198.198.198
+  dot.pub: 1.12.12.12
+  one.one.one.one: 1.1.1.1
+  ordns.he.net: 74.82.42.42
+  sub.store: 127.0.0.1
+  subs.check: 127.0.0.1
+profile:
+  store-fake-ip: true
+  store-selected: true
+proxies:
+- alterId: "0"
+  cipher: auto
+  name: 🏴‍☠_1🏴‍☠_6🏴‍☠_7🏴‍☠_6202404|cf-workers-sub|Succeed|Succeed|Succeed
+  network: tcp
+  port: 13813
+  server: 35.220.192.63
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- alterId: "0"
+  cipher: auto
+  name: 🏴‍☠_2🏴‍☠_1🏴‍☠_3🏴‍☠_4202402|cf-workers-sub|Succeed|Succeed|Succeed
+  network: tcp
+  port: 13813
+  server: 34.80.191.80
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- cipher: rc4-md5
+  name: 🏴‍☠_3🏴‍☠_2🏴‍☠_2🏴‍☠_3海外用户专用-新加坡-01|cf-workers-sub|Succeed|Succeed|Succeed
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 055a6295181.microsoft.com
+    mode: http
+  port: 63257
+  server: f-sg-01.ninjanode.pro
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 🏴‍☠_4🏴‍☠_11🏴‍☠_6🏴‍☠_2海外用户专用-新加坡|cf-workers-sub|Succeed|Succeed|Succeed
+  obfs: plain
+  obfs-param: 055a6295181.microsoft.com
+  password: renzhecloud
+  port: 1063
+  protocol: auth_aes128_sha1
+  protocol-param: 295181:35pIQ3
+  server: f-sg-01.ninjanode.pro
+  type: ssr
+  udp: true
+- alterId: "0"
+  cipher: auto
+  name: 🏴‍☠_5🏴‍☠_12🏴‍☠_8🏴‍☠_10202405|cf-workers-sub|Succeed|Succeed|Succeed
+  network: tcp
+  port: 13813
+  server: 35.187.210.126
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏴‍☠_6🏴‍☠_13x4|cf-workers-sub|Succeed
+  network: tcp
+  port: 14915
+  reality-opts:
+    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
+    short-id: ""
+  server: 43.155.109.184
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
+  xudp: true
+- client-fingerprint: chrome
+  name: 🏴‍☠_7🏴‍☠_9x3|cf-workers-sub|Succeed
+  network: ws
+  port: 16059
+  server: x3.ownstack.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: c86c7c02-ae71-41b0-a8d5-a2654aefb694
+  ws-opts:
+    headers:
+      Host: x3.ownstack.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /d5be78d?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  name: 🏴‍☠_8x3|cf-workers-sub
+  network: ws
+  port: 13946
+  server: x3.ownstack.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: c86c7c02-ae71-41b0-a8d5-a2654aefb694
+  ws-opts:
+    headers:
+      Host: x3.ownstack.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /d5be78d?ed=2048
+  xudp: true
+- alterId: "0"
+  cipher: auto
+  name: 🏴‍☠_9🏴‍☠_5🏴‍☠_5🏴‍☠_8202403|cf-workers-sub|Succeed|Succeed|Succeed
+  network: tcp
+  port: 13813
+  server: 35.229.146.227
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏴‍☠_10x4|cf-workers-sub
+  network: tcp
+  port: 19546
+  reality-opts:
+    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
+    short-id: ""
+  server: 43.155.109.184
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
+  xudp: true
+- alterId: "0"
+  cipher: auto
+  name: 🏴‍☠_11🏴‍☠_4🏴‍☠_10🏴‍☠_9202406|cf-workers-sub|Succeed|Succeed|Succeed
+  network: tcp
+  port: 13813
+  server: 34.146.10.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🏴‍☠_12🏴‍☠_7🏴‍☠_4🏴‍☠_7x3|cf-workers-sub|Succeed|Succeed|Succeed
+  network: ws
+  port: 10896
+  server: x3.ownstack.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: c86c7c02-ae71-41b0-a8d5-a2654aefb694
+  ws-opts:
+    headers:
+      Host: x3.ownstack.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /d5be78d?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  name: 🏴‍☠_13🏴‍☠_8🏴‍☠_9x3|cf-workers-sub|Succeed|Succeed
+  network: ws
+  port: 15438
+  server: x3.ownstack.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: c86c7c02-ae71-41b0-a8d5-a2654aefb694
+  ws-opts:
+    headers:
+      Host: x3.ownstack.cn
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /d5be78d?ed=2048
+  xudp: true
+- cipher: rc4-md5
+  name: 🏴‍☠_14🏴‍☠_14🏴‍☠_13🏴‍☠_14海外用户专用-日本-01|cf-workers-sub|Succeed|Succeed|Succeed
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 055a6295181.microsoft.com
+    mode: http
+  port: 63257
+  server: f-jp-01.ninjanode.pro
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 🏴‍☠_15🏴‍☠_15🏴‍☠_12🏴‍☠_11海外用户专用-日本|cf-workers-sub|Succeed|Succeed|Succeed
+  obfs: plain
+  obfs-param: 055a6295181.microsoft.com
+  password: renzhecloud
+  port: 1063
+  protocol: auth_aes128_sha1
+  protocol-param: 295181:35pIQ3
+  server: f-jp-01.ninjanode.pro
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏴‍☠_16🏴‍☠_3🏴‍☠_11🏴‍☠_5x4|cf-workers-sub|Succeed|Succeed|Succeed
+  network: tcp
+  port: 11363
+  reality-opts:
+    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
+    short-id: ""
+  server: 43.155.109.184
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏴‍☠_17🏴‍☠_10🏴‍☠_1x4|cf-workers-sub|Succeed|Succeed
+  network: tcp
+  port: 10835
+  reality-opts:
+    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
+    short-id: ""
+  server: 43.155.109.184
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
+  xudp: true
+- cipher: chacha20-ietf
+  name: 🏴‍☠_18🏴‍☠_17🏴‍☠_16🏴‍☠_13海外用户专用-美国|cf-workers-sub|Succeed|Succeed|Succeed
+  obfs: plain
+  obfs-param: 055a6295181.microsoft.com
+  password: renzhecloud
+  port: 1063
+  protocol: auth_aes128_sha1
+  protocol-param: 295181:35pIQ3
+  server: f-us-01.ninjanode.pro
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 🏴‍☠_19🏴‍☠_16🏴‍☠_15🏴‍☠_12海外用户专用-美国-01|cf-workers-sub|Succeed|Succeed|Succeed
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 055a6295181.microsoft.com
+    mode: http
+  port: 63257
+  server: f-us-01.ninjanode.pro
+  type: ss
+  udp: true
+proxy-groups:
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Static.png
+  include-all: false
+  name: PROXY
+  proxies:
+  - AUTO
+  - HK AUTO
+  - JP AUTO
+  - TW AUTO
+  - SG AUTO
+  - US AUTO
+  - AI
+  - TikTok
+  - Youtube
+  - Gemini
+  - Copilot
+  - Twitter优选
+  - 手动选择
+  type: select
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TikTok.png
+  include-all: false
+  name: TikTok
+  proxies:
+  - TIKTOK-VN
+  - TIKTOK-US
+  - TIKTOK-JP
+  - TIKTOK-SG
+  - TIKTOK-TW
+  type: select
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Available.png
+  include-all: true
+  name: 手动选择
+  proxies:
+  - AUTO
+  type: select
+- exclude-filter: (?i)Traffic|Expire|Premium|⁻|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png
+  include-all: true
+  interval: 600
+  lazy: false
+  max-failed-times: 3
+  name: AUTO
+  tolerance: 100
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+- icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
+  name: Google
+  proxies:
+  - PROXY
+  - Youtube
+  - Gemini
+  - AUTO
+  - HK AUTO
+  - JP AUTO
+  - US AUTO
+  - TW AUTO
+  - SG AUTO
+  type: select
+- icon: https://cdn.jsdelivr.net/gh/sinspired/proxy-rules@main/ico/AI.png
+  name: AI
+  proxies:
+  - OpenAI
+  - Gemini
+  - Copilot
+  - AUTO
+  type: select
+- icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Twitter.png
+  name: Twitter
+  proxies:
+  - Twitter优选
+  - OpenAI
+  - Gemini
+  - Copilot
+  - PROXY
+  - AUTO
+  - HK AUTO
+  - JP AUTO
+  - US AUTO
+  - TW AUTO
+  - SG AUTO
+  type: select
+- icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Bing.png
+  name: Bing
+  proxies:
+  - DIRECT
+  - Copilot
+  - PROXY
+  - AI
+  - AUTO
+  type: select
+- icon: https://cdn.jsdelivr.net/gh/sinspired/proxy-rules@main/ico/Spotify.png
+  name: Spotify
+  proxies:
+  - US AUTO
+  - HK AUTO
+  - JP AUTO
+  - TW AUTO
+  - SG AUTO
+  - PROXY
+  - DIRECT
+  type: select
+- icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png
+  name: Telegram
+  proxies:
+  - HK AUTO
+  - JP AUTO
+  - US AUTO
+  - TW AUTO
+  - SG AUTO
+  - AUTO
+  - PROXY
+  type: select
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?i)(?=.*\\bOpenai\\b|openai|chatgpt|gpt|GPT)"
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png
+  include-all: true
+  interval: 600
+  lazy: false
+  max-failed-times: 3
+  name: OpenAI
+  tolerance: 100
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?i)(?=.*\\bGemini\\b|gemini|GEMINI|\\bGM\\b)"
+  icon: https://cdn.jsdelivr.net/gh/sinspired/proxy-rules@main/ico/Gemini.png
+  include-all: true
+  interval: 600
+  lazy: false
+  max-failed-times: 3
+  name: Gemini
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Bing.png
+  name: Copilot Select
+  proxies:
+  - OpenAI
+  - Gemini
+  - Copilot
+  - AUTO
+  type: select
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?i)(?=.*\\bCopilot\\b|copilot|\\bCP\\b)"
+  icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Copilot.png
+  include-all: true
+  interval: 600
+  lazy: false
+  max-failed-times: 3
+  name: Copilot
+  tolerance: 100
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?i)(?=.*\\bYoutube\\b|youtube|YT|YouTube|流媒体)"
+  icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+  include-all: true
+  interval: 600
+  lazy: false
+  max-failed-times: 3
+  name: Youtube
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)Traffic|Expire|Premium|⁻|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?i)(?=.*\\bX\\b|twitter)"
+  icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Twitter.png
+  include-all: true
+  interval: 600
+  lazy: false
+  max-failed-times: 3
+  name: Twitter优选
+  tolerance: 100
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: (?i)^(?=.*TK|tiktok)(?=.*(?:(?:^|[^-])US|TK-US))
+  icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: TIKTOK-US
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: (?i)^(?=.*TK|tiktok)(?=.*(?:(?:^|[^-])JP|TK-JP))
+  icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: TIKTOK-JP
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: (?i)^(?=.*TK|tiktok)(?=.*(?:(?:^|[^-])VN|TK-VN))
+  icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: TIKTOK-VN
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: (?i)^(?=.*TK|tiktok)(?=.*(?:(?:^|[^-])SG|TK-SG))
+  icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: TIKTOK-SG
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: (?i)^(?=.*TK|tiktok)(?=.*(?:(?:^|[^-])TW|TK-TW))
+  icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: TIKTOK-TW
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?<!-)\\b(?:HK(?!⁻)|香港|港|Hong\\s?Kong)\\b"
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: HK AUTO
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?<!-)\\b(?:TW(?!⁻)|台湾|台|tai)\\b"
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: TW AUTO
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?<!-)\\b(?:SG(?!⁻)|新加坡|新|sin)\\b"
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: SG AUTO
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?<!-)\\b(?:JP(?!⁻)|日本|日|JAPAN)\\b"
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: JP AUTO
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?<!-)\\b(?:US(?!⁻)|美国|美|American)\\b"
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: US AUTO
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+- exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  expected-status: 204
+  filter: "(?<!-)\\b(?:KR(?!⁻)|韩国|韩|首尔)\\b"
+  icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
+  include-all: true
+  interval: 600
+  lazy: true
+  max-failed-times: 3
+  name: KR AUTO
+  tolerance: 100
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+rule-providers:
+  Download:
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./ruleset/Download.list
+    type: http
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
+  NetEaseMusic:
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./ruleset/NetEaseMusic.list
+    type: http
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
+  OneDrive:
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./ruleset/OneDrive.list
+    type: http
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+  ban_ad:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/ban_ad.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.yaml
+  ban_program_ad:
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./ruleset/ban_program_ad.list
+    type: http
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
+  bing:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/bing.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bing/Bing.yaml
+  claude:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/claude.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Claude/Claude.yaml
+  cloudflare:
+    behavior: domain
+    format: yaml
+    interval: 86400
+    path: ./ruleset/cloudflare.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cloudflare.yaml
+  cloudflare-cn:
+    behavior: domain
+    format: yaml
+    interval: 86400
+    path: ./ruleset/cloudflare-cn.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cloudflare-cn.yaml
+  cn_domain:
+    behavior: domain
+    format: yaml
+    interval: 86400
+    path: ./ruleset/cn_domain.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.yaml
+  cn_ip:
+    behavior: ipcidr
+    format: yaml
+    interval: 86400
+    path: ./ruleset/cn_ip.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.yaml
+  copilot:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/copilot.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot.yaml
+  gemini:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/gemini.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Gemini/Gemini.yaml
+  geolocation-!cn:
+    behavior: domain
+    format: yaml
+    interval: 86400
+    path: ./ruleset/geolocation-!cn.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.yaml
+  google_domain:
+    behavior: domain
+    format: yaml
+    interval: 86400
+    path: ./ruleset/google_domain.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.yaml
+  google_ip:
+    behavior: ipcidr
+    format: yaml
+    interval: 86400
+    path: ./ruleset/google_ip.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/google.yaml
+  lan:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/lan.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
+  openai:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/openai.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+  private:
+    behavior: domain
+    format: yaml
+    interval: 86400
+    path: ./ruleset/private.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml
+  spotify:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/spotify.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml
+  steam:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/steam.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+  telegram_domain:
+    behavior: domain
+    format: yaml
+    interval: 86400
+    path: ./ruleset/telegram_domain.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/telegram.yaml
+  telegram_ip:
+    behavior: ipcidr
+    format: yaml
+    interval: 86400
+    path: ./ruleset/telegram_ip.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.yaml
+  tiktok:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/tiktok.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/tiktok.yaml
+  tiktok_external:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/tiktok_external.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok.yaml
+  twitter:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/twitter.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Twitter/Twitter.yaml
+  unBanAD:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/direct.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml
+  youtube:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/youtube.yaml
+    type: http
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
+rules:
+- RULE-SET,lan,DIRECT
+- RULE-SET,private,DIRECT
+- RULE-SET,unBanAD,DIRECT
+- RULE-SET,ban_ad,REJECT
+- RULE-SET,ban_program_ad,REJECT
+- RULE-SET,tiktok,TikTok
+- RULE-SET,tiktok_external,TikTok
+- RULE-SET,youtube,Youtube
+- RULE-SET,gemini,Gemini
+- RULE-SET,openai,OpenAI
+- RULE-SET,copilot,Copilot Select
+- RULE-SET,claude,AI
+- RULE-SET,bing,Bing
+- RULE-SET,cloudflare-cn,DIRECT
+- RULE-SET,cloudflare,OpenAI
+- RULE-SET,twitter,Twitter
+- RULE-SET,steam,PROXY
+- RULE-SET,spotify,Spotify
+- RULE-SET,OneDrive,PROXY
+- RULE-SET,telegram_domain,Telegram
+- RULE-SET,google_domain,Google
+- RULE-SET,geolocation-!cn,PROXY
+- RULE-SET,cn_domain,DIRECT
+- RULE-SET,NetEaseMusic,DIRECT
+- RULE-SET,Download,DIRECT
+- RULE-SET,telegram_ip,Telegram
+- RULE-SET,google_ip,Google
+- RULE-SET,cn_ip,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,PROXY
+tcp-concurrent: true
+unified-delay: true

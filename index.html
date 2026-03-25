@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cn-auto-sub</title>
+  <style>
+    :root {
+      --bg: #f5f3ee;
+      --panel: #ffffff;
+      --ink: #1f2328;
+      --muted: #5b6470;
+      --line: #d7d1c7;
+      --accent: #0d6b5d;
+      --accent-2: #d15b2f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(13,107,93,0.12), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(209,91,47,0.12), transparent 28%),
+        var(--bg);
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+    .hero {
+      padding: 28px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.85);
+      backdrop-filter: blur(8px);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(32px, 6vw, 56px);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+    p {
+      margin: 0;
+      max-width: 680px;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+    a.card {
+      display: block;
+      padding: 18px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: inherit;
+      text-decoration: none;
+    }
+    a.card strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--accent);
+      font-size: 18px;
+    }
+    a.card span {
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .meta {
+      margin-top: 22px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    code {
+      font-family: "IBM Plex Mono", "SFMono-Regular", monospace;
+      color: var(--accent-2);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>CN Auto Sub</h1>
+      <p>自动拉取、验活、清洗后发布的统一订阅。仓库内容由本机定时检测后自动更新，Cloudflare Pages 负责公开分发。</p>
+      <div class="grid">
+        <a class="card" href="/all.yaml">
+          <strong>all.yaml</strong>
+          <span>纯节点列表，适合继续做二次转换或汇聚。</span>
+        </a>
+        <a class="card" href="/mihomo.yaml">
+          <strong>mihomo.yaml</strong>
+          <span>Mihomo/Clash Meta 可直接使用的订阅。</span>
+        </a>
+        <a class="card" href="/history.yaml">
+          <strong>history.yaml</strong>
+          <span>历次检测保留下来的成功节点集合。</span>
+        </a>
+        <a class="card" href="/stats/subs-analysis.yaml">
+          <strong>分析报告</strong>
+          <span>查看这轮检测的节点数量、成功率和来源统计。</span>
+        </a>
+      </div>
+      <div class="meta">Published by <code>subs-check-pro</code> and synced to GitHub automatically.</div>
+    </section>
+  </main>
+</body>
+</html>

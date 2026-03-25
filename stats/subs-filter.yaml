@@ -1,0 +1,12 @@
+# 订阅质量统计报告
+# 生成时间: 2026-03-25 21:46:03
+
+# 达标订阅列表 (>=0%)
+sub-urls:
+  - http://127.0.0.1:18199/all.yaml#Succeed # 94.4444% (17/18)[vless: 6; vmess: 5; ss: 3; ssr: 3]
+  - https://a.ak.cloudns.be/be?b64#cf-workers-sub # 0.6623% (2/302)[vless: 2]
+
+# 成功率为 0 的订阅
+sub-urls-bad:
+  - http://127.0.0.1:18199/history.yaml#History # 0.0000% (0/18)
+  - https://workervless2sub-2a3.pages.dev/auto?b64#workervless2sub # 0.0000% (0/3)
