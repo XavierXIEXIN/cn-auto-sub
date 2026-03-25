@@ -48,12 +48,18 @@ jobs:
           chmod +x subs-check-pro
 
       - name: Prepare config
+        env:
+          PRIVATE_SUB_URLS: ${{ secrets.PRIVATE_SUB_URLS }}
+          PRIVATE_SUB_CONTENT: ${{ secrets.PRIVATE_SUB_CONTENT }}
+          PRIVATE_REMOTE_LISTS: ${{ secrets.PRIVATE_REMOTE_LISTS }}
         shell: bash
         run: |
           set -euo pipefail
           WORK_DIR="${GITHUB_WORKSPACE}/.ci-runtime"
           OUTPUT_DIR="${WORK_DIR}/output"
           mkdir -p "${OUTPUT_DIR}/sub" "${OUTPUT_DIR}/stats"
+          mkdir -p "${WORK_DIR}/private-http"
+          mkdir -p "${GITHUB_WORKSPACE}/sources"
 
           if [[ -f "${GITHUB_WORKSPACE}/all.yaml" ]]; then
             cp "${GITHUB_WORKSPACE}/all.yaml" "${OUTPUT_DIR}/sub/all.yaml"
@@ -62,86 +68,149 @@ jobs:
             cp "${GITHUB_WORKSPACE}/history.yaml" "${OUTPUT_DIR}/sub/history.yaml"
           fi
 
-          cat > "${WORK_DIR}/config.yaml" <<EOF
-          print-progress: true
-          progress-mode: "stage"
+          export GITHUB_WORKSPACE WORK_DIR OUTPUT_DIR PRIVATE_SUB_URLS PRIVATE_SUB_CONTENT PRIVATE_REMOTE_LISTS
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
 
-          cron-expression: ""
-          check-interval: 720
+          root = Path(os.environ["GITHUB_WORKSPACE"])
+          work_dir = Path(os.environ["WORK_DIR"])
+          output_dir = os.environ["OUTPUT_DIR"]
 
-          alive-concurrent: 60
-          speed-concurrent: 0
-          media-concurrent: 0
-          ipv6: false
-          timeout: 7000
-          concurrent: 24
-          success-limit: 300
-          keep-success-proxies: true
+          def load_file_lines(path: Path):
+              if not path.exists():
+                  return []
+              lines = []
+              for raw in path.read_text().splitlines():
+                  line = raw.strip()
+                  if not line or line.startswith("#"):
+                      continue
+                  lines.append(line)
+              return lines
 
-          min-speed: 128
-          download-timeout: 10
-          download-mb: 10
-          total-speed-limit: 0
-          speed-test-url: ""
-          threshold: 0.75
+          def load_env_lines(name: str):
+              value = os.environ.get(name, "")
+              return [line.strip() for line in value.splitlines() if line.strip()]
 
-          update: false
-          update-on-startup: false
-          cron-check-update: ""
-          prerelease: false
-          update-timeout: 2
+          def dedupe(items):
+              seen = set()
+              result = []
+              for item in items:
+                  if item in seen:
+                      continue
+                  seen.add(item)
+                  result.append(item)
+              return result
 
-          listen-port: ":18199"
-          enable-web-ui: false
-          api-key: ""
-          share-password: ""
+          def yaml_list(key: str, items):
+              if not items:
+                  return f"{key}: []"
+              escaped = [item.replace("\\", "\\\\").replace('"', '\\"') for item in items]
+              lines = [f'{key}:']
+              lines.extend(f'  - "{item}"' for item in escaped)
+              return "\n".join(lines)
 
-          sub-store-port: ""
-          sub-store-path: ""
-          mihomo-overwrite-url: "https://raw.githubusercontent.com/sinspired/proxy-rules/main/Sinspired_Rules_CDN.yaml"
+          public_subs = load_file_lines(root / "sources" / "public-subs.txt")
+          private_subs = load_env_lines("PRIVATE_SUB_URLS")
+          private_sub_content = os.environ.get("PRIVATE_SUB_CONTENT", "").strip()
+          public_remote_lists = load_file_lines(root / "sources" / "public-remote-lists.txt")
+          private_remote_lists = load_env_lines("PRIVATE_REMOTE_LISTS")
 
-          rename-node: true
-          node-prefix: ""
-          drop-bad-cf-nodes: false
-          isp-check: false
-          media-check: false
-          platforms:
-            - iprisk
-          enhanced-tag: true
-          maxmind-db-path: ""
+          sub_urls = dedupe(public_subs + private_subs)
+          remote_lists = dedupe(public_remote_lists + private_remote_lists)
 
-          callback-script: ""
+          if private_sub_content:
+              private_http_dir = work_dir / "private-http"
+              private_http_dir.mkdir(parents=True, exist_ok=True)
+              (private_http_dir / "private-sub.txt").write_text(private_sub_content + "\n")
+              sub_urls.append("http://127.0.0.1:18080/private-sub.txt#cf-workers-sub-legacy")
+              sub_urls = dedupe(sub_urls)
 
-          output-dir: "${OUTPUT_DIR}"
-          save-method: "local"
+          if not sub_urls and not remote_lists:
+              raise SystemExit("No subscription sources configured")
 
-          system-proxy: ""
-          github-proxy: ""
-          ghproxy-group: []
+          config_lines = [
+              'print-progress: true',
+              'progress-mode: "stage"',
+              '',
+              'cron-expression: ""',
+              'check-interval: 720',
+              '',
+              'alive-concurrent: 60',
+              'speed-concurrent: 0',
+              'media-concurrent: 0',
+              'ipv6: false',
+              'timeout: 7000',
+              'concurrent: 24',
+              'success-limit: 500',
+              'keep-success-proxies: true',
+              '',
+              'min-speed: 128',
+              'download-timeout: 10',
+              'download-mb: 10',
+              'total-speed-limit: 0',
+              'speed-test-url: ""',
+              'threshold: 0.75',
+              '',
+              'update: false',
+              'update-on-startup: false',
+              'cron-check-update: ""',
+              'prerelease: false',
+              'update-timeout: 2',
+              '',
+              'listen-port: ":18199"',
+              'enable-web-ui: false',
+              'api-key: ""',
+              'share-password: ""',
+              '',
+              'sub-store-port: ""',
+              'sub-store-path: ""',
+              'mihomo-overwrite-url: "https://raw.githubusercontent.com/sinspired/proxy-rules/main/Sinspired_Rules_CDN.yaml"',
+              '',
+              'rename-node: true',
+              'node-prefix: ""',
+              'drop-bad-cf-nodes: false',
+              'isp-check: false',
+              'media-check: false',
+              'platforms:',
+              '  - iprisk',
+              'enhanced-tag: true',
+              'maxmind-db-path: ""',
+              '',
+              'callback-script: ""',
+              '',
+              f'output-dir: "{output_dir}"',
+              'save-method: "local"',
+              '',
+              'system-proxy: ""',
+              'github-proxy: ""',
+              'ghproxy-group: []',
+              '',
+              'sub-urls-retry: 2',
+              'sub-urls-timeout: 25',
+              'success-rate: 0',
+          ]
 
-          sub-urls-retry: 2
-          sub-urls-timeout: 25
-          success-rate: 0
-          sub-urls-remote:
-            - "https://raw.githubusercontent.com/sinspired/airport/main/subs/merged/col.txt"
-            - "https://raw.githubusercontent.com/sinspired/airport/main/subs/merged/cm.txt"
-            - "https://raw.githubusercontent.com/sinspired/airport/main/subs/merged/scan.txt"
-          sub-urls:
-            - "https://a.ak.cloudns.be/be?b64#cf-workers-sub"
-            - "https://workervless2sub-2a3.pages.dev/auto?b64#workervless2sub"
+          config_lines.extend(yaml_list("sub-urls-remote", remote_lists).splitlines())
+          config_lines.extend(yaml_list("sub-urls", sub_urls).splitlines())
+          config_lines.extend([
+              '',
+              'sub-process:',
+              '  resolve-domain: false',
+              '  node-split: false',
+              '  sub-info: false',
+              '  regex-filter-keep: true',
+              '  regex-filter: []',
+              '  regex-sort:',
+              '    - ".*\\\\bHK\\\\b.*"',
+              '    - ".*\\\\bJP\\\\b.*"',
+              '    - ".*\\\\bSG\\\\b.*"',
+              '    - ".*\\\\bUS\\\\b.*"',
+          ])
 
-          sub-process:
-            resolve-domain: false
-            node-split: false
-            sub-info: false
-            regex-filter-keep: true
-            regex-filter: []
-            regex-sort:
-              - ".*\\bHK\\b.*"
-              - ".*\\bJP\\b.*"
-              - ".*\\bSG\\b.*"
-              - ".*\\bUS\\b.*"
-          EOF
+          (work_dir / "config.yaml").write_text("\n".join(config_lines) + "\n")
+          print(f"Configured {len(sub_urls)} direct sources and {len(remote_lists)} remote lists")
+          PY
 
       - name: Run checker
         shell: bash
@@ -149,11 +218,21 @@ jobs:
           set -euo pipefail
           WORK_DIR="${GITHUB_WORKSPACE}/.ci-runtime"
           LOG_FILE="${WORK_DIR}/run.log"
+          PRIVATE_HTTP_PID=""
+
+          if [[ -f "${WORK_DIR}/private-http/private-sub.txt" ]]; then
+            python3 -m http.server 18080 --bind 127.0.0.1 --directory "${WORK_DIR}/private-http" > "${WORK_DIR}/private-http.log" 2>&1 &
+            PRIVATE_HTTP_PID=$!
+          fi
+
           ./subs-check-pro -f "${WORK_DIR}/config.yaml" > "${LOG_FILE}" 2>&1 &
           PID=$!
 
           cleanup() {
             kill "${PID}" 2>/dev/null || true
+            if [[ -n "${PRIVATE_HTTP_PID}" ]]; then
+              kill "${PRIVATE_HTTP_PID}" 2>/dev/null || true
+            fi
           }
           trap cleanup EXIT
 
@@ -191,7 +270,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add all.yaml mihomo.yaml history.yaml stats/sub-urls.yaml stats/subs-analysis.yaml stats/subs-filter.yaml
+          git add all.yaml mihomo.yaml history.yaml stats/sub-urls.yaml stats/subs-analysis.yaml stats/subs-filter.yaml sources/public-subs.txt sources/public-remote-lists.txt sources/README.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0

@@ -1,0 +1,5 @@
+# Public remote source lists managed in git.
+
+https://raw.githubusercontent.com/sinspired/airport/main/subs/merged/col.txt
+https://raw.githubusercontent.com/sinspired/airport/main/subs/merged/cm.txt
+https://raw.githubusercontent.com/sinspired/airport/main/subs/merged/scan.txt
