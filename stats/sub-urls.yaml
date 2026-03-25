@@ -5,7 +5,7 @@ sub-urls:
   - "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-14.txt" # nodes: 9801
   - "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/clash.yaml" # nodes: 6519
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/hkaa0.yaml" # nodes: 6342
-  - "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/All_proxies.txt" # nodes: 5391
+  - "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/All_proxies.txt" # nodes: 5315
   - "https://raw.githubusercontent.com/liMilCo/v2r/main/configs.txt" # nodes: 4735
   - "https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/all.txt" # nodes: 4685
   - "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless" # nodes: 4582
@@ -21,9 +21,11 @@ sub-urls:
   - "https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/old-data/RAW.txt" # nodes: 1433
   - "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix" # nodes: 1346
   - "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-19.txt" # nodes: 1174
+  - "http://127.0.0.1:18199/history.yaml#History" # nodes: 796
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/trial.yaml" # nodes: 786
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/aiboboxx.yaml" # nodes: 716
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/_previous.yaml" # nodes: 687
+  - "http://127.0.0.1:18199/all.yaml#Succeed" # nodes: 500
   - "https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt" # nodes: 500
   - "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/Ruk1ng001.yaml" # nodes: 499
   - "https://raw.githubusercontent.com/liMilCo/v2r/main/base64/2.txt" # nodes: 487
@@ -31,9 +33,7 @@ sub-urls:
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/clashfree.yaml" # nodes: 423
   - "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Ruk1ng001.yaml" # nodes: 369
   - "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/mixed/Leon406/SubCrawler/sub/share/a11.yaml" # nodes: 336
-  - "http://127.0.0.1:18199/history.yaml#History" # nodes: 319
   - "https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml" # nodes: 316
-  - "http://127.0.0.1:18199/all.yaml#Succeed" # nodes: 300
   - "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt" # nodes: 293
   - "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_SS+All_RUS_base64.txt" # nodes: 293
   - "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt" # nodes: 242
@@ -67,6 +67,7 @@ sub-urls:
   - "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt" # nodes: 23
   - "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_base64.txt" # nodes: 23
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/ermaozi.yaml" # nodes: 21
+  - "https://seedlink.xiexingk.workers.dev/452ff73f-6875-440e-bc0a-36b4a45a6187#seedlink" # nodes: 20
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/ttvg.yaml" # nodes: 18
   - "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt" # nodes: 16
   - "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Barabama_ndnode.yaml" # nodes: 15
@@ -80,5 +81,4 @@ sub-urls:
   - "https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt" # nodes: 3
   - "https://workervless2sub-2a3.pages.dev/auto?b64#workervless2sub" # nodes: 3
 
-# 已剔除以下失效订阅链接：
-# - "https://g.ak.cloudns.be/452ff73f-6875-440e-bc0a-36b4a45a6187#ak-autogen"
+# 所有订阅链接均可用，已按照节点数量排序
