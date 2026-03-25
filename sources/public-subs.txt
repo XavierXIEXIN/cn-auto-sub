@@ -2,4 +2,4 @@
 # Keep private or authenticated sources in the PRIVATE_SUB_URLS GitHub secret.
 
 https://workervless2sub-2a3.pages.dev/auto?b64#workervless2sub
-https://g.ak.cloudns.be/452ff73f-6875-440e-bc0a-36b4a45a6187#ak-autogen
+https://seedlink.xiexingk.workers.dev/452ff73f-6875-440e-bc0a-36b4a45a6187#seedlink
