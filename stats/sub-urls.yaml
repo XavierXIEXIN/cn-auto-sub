@@ -1,8 +1,8 @@
 # 可直接替换 config.yaml 中的 subs-urls 字段
 sub-urls:
   - "https://a.ak.cloudns.be/be?b64#cf-workers-sub" # nodes: 302
-  - "http://127.0.0.1:18199/all.yaml#Succeed" # nodes: 18
-  - "http://127.0.0.1:18199/history.yaml#History" # nodes: 18
+  - "http://127.0.0.1:18199/history.yaml#History" # nodes: 20
+  - "http://127.0.0.1:18199/all.yaml#Succeed" # nodes: 19
   - "https://workervless2sub-2a3.pages.dev/auto?b64#workervless2sub" # nodes: 3
 
 # 所有订阅链接均可用，已按照节点数量排序

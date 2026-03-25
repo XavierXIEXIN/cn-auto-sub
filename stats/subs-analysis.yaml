@@ -1,26 +1,26 @@
 # 检测结果分析报告
-# 生成时间: 2026-03-25 21:46:03
+# 生成时间: 2026-03-25 21:57:54
 
 summary: |
-  用时 7 秒,消耗流量 252.76 KB, 检测到 19 个可用节点，未开启下载测速。覆盖 0 个国家/地区 [Top: ]; 线路分布多样 [CF 中转 0.0%, VPS 0.0%]; 流媒体解锁: [无]; AI 解锁[无]; 代理协议: vless|vmess|ss|ssr。
+  用时 7 秒,消耗流量 264.64 KB, 检测到 21 个可用节点，未开启下载测速。覆盖 0 个国家/地区 [Top: ]; 线路分布多样 [CF 中转 0.0%, VPS 0.0%]; 流媒体解锁: [无]; AI 解锁[无]; 代理协议: vless|vmess|ssr|ss。
 
 check_info:
-  check_time: 03-25 21:45
-  check_time_raw: 2026-03-25T21:45:56+08:00
-  check_end_time_raw: 2026-03-25T21:46:03+08:00
+  check_time: 03-25 21:57
+  check_time_raw: 2026-03-25T21:57:47+08:00
+  check_end_time_raw: 2026-03-25T21:57:54+08:00
   check_duration: 7 秒
   check_duration_raw: 7
   check_count: 0
   check_count_raw: 0
-  check_traffic: 252.76 KB
-  check_traffic_raw: 258826
+  check_traffic: 264.64 KB
+  check_traffic_raw: 270996
   check_min_speed: 0
 
 global_analysis:
-  alive_count: 19
+  alive_count: 21
   geography_distribution: {}
   protocol_distribution:
-    vless: 8
+    vless: 10
     vmess: 5
     ss: 3
     ssr: 3
@@ -34,8 +34,8 @@ global_analysis:
 
 subs_ranking:
   - url: http://127.0.0.1:18199/all.yaml#Succeed
-    stats: { rate: 94.4444%, success: 17, total: 18 }
-    protocols: { vless: 6, vmess: 5, ss: 3, ssr: 3 }
+    stats: { rate: 100.0000%, success: 19, total: 19 }
+    protocols: { vless: 8, vmess: 5, ssr: 3, ss: 3 }
     top_locations: []
   - url: https://a.ak.cloudns.be/be?b64#cf-workers-sub
     stats: { rate: 0.6623%, success: 2, total: 302 }
@@ -44,6 +44,6 @@ subs_ranking:
 
 subs_ranking_bad:
   - url: http://127.0.0.1:18199/history.yaml#History
-    stats: { rate: 0.0000%, success: 0, total: 18 }
+    stats: { rate: 0.0000%, success: 0, total: 20 }
   - url: https://workervless2sub-2a3.pages.dev/auto?b64#workervless2sub
     stats: { rate: 0.0000%, success: 0, total: 3 }

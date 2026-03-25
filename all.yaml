@@ -1,41 +1,21 @@
 proxies:
-- alterId: "0"
-  cipher: auto
-  name: 🏴‍☠_1🏴‍☠_6🏴‍☠_7🏴‍☠_6202404|cf-workers-sub|Succeed|Succeed|Succeed
-  network: tcp
-  port: 13813
-  server: 35.220.192.63
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  name: 🏴‍☠_1x3|cf-workers-sub
+  network: ws
+  port: 17743
+  server: x3.ownstack.cn
+  tls: true
+  type: vless
   udp: true
-  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  uuid: c86c7c02-ae71-41b0-a8d5-a2654aefb694
+  ws-opts:
+    headers:
+      Host: x3.ownstack.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /d5be78d?ed=2048
   xudp: true
-- alterId: "0"
-  cipher: auto
-  name: 🏴‍☠_2🏴‍☠_1🏴‍☠_3🏴‍☠_4202402|cf-workers-sub|Succeed|Succeed|Succeed
-  network: tcp
-  port: 13813
-  server: 34.80.191.80
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
-  xudp: true
-- cipher: rc4-md5
-  name: 🏴‍☠_3🏴‍☠_2🏴‍☠_2🏴‍☠_3海外用户专用-新加坡-01|cf-workers-sub|Succeed|Succeed|Succeed
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 055a6295181.microsoft.com
-    mode: http
-  port: 63257
-  server: f-sg-01.ninjanode.pro
-  type: ss
-  udp: true
 - cipher: chacha20-ietf
-  name: 🏴‍☠_4🏴‍☠_11🏴‍☠_6🏴‍☠_2海外用户专用-新加坡|cf-workers-sub|Succeed|Succeed|Succeed
+  name: 🏴‍☠_2🏴‍☠_4🏴‍☠_11🏴‍☠_6🏴‍☠_2海外用户专用-新加坡|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
   obfs: plain
   obfs-param: 055a6295181.microsoft.com
   password: renzhecloud
@@ -47,10 +27,10 @@ proxies:
   udp: true
 - alterId: "0"
   cipher: auto
-  name: 🏴‍☠_5🏴‍☠_12🏴‍☠_8🏴‍☠_10202405|cf-workers-sub|Succeed|Succeed|Succeed
+  name: 🏴‍☠_3🏴‍☠_9🏴‍☠_5🏴‍☠_5🏴‍☠_8202403|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
   network: tcp
   port: 13813
-  server: 35.187.210.126
+  server: 35.229.146.227
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -58,37 +38,7 @@ proxies:
   uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
   xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🏴‍☠_6🏴‍☠_13x4|cf-workers-sub|Succeed
-  network: tcp
-  port: 14915
-  reality-opts:
-    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
-    short-id: ""
-  server: 43.155.109.184
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
-  xudp: true
-- client-fingerprint: chrome
-  name: 🏴‍☠_7🏴‍☠_9x3|cf-workers-sub|Succeed
-  network: ws
-  port: 16059
-  server: x3.ownstack.cn
-  tls: true
-  type: vless
-  udp: true
-  uuid: c86c7c02-ae71-41b0-a8d5-a2654aefb694
-  ws-opts:
-    headers:
-      Host: x3.ownstack.cn
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /d5be78d?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  name: 🏴‍☠_8x3|cf-workers-sub
+  name: 🏴‍☠_4🏴‍☠_8x3|cf-workers-sub|Succeed
   network: ws
   port: 13946
   server: x3.ownstack.cn
@@ -102,47 +52,8 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /d5be78d?ed=2048
   xudp: true
-- alterId: "0"
-  cipher: auto
-  name: 🏴‍☠_9🏴‍☠_5🏴‍☠_5🏴‍☠_8202403|cf-workers-sub|Succeed|Succeed|Succeed
-  network: tcp
-  port: 13813
-  server: 35.229.146.227
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
-  xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🏴‍☠_10x4|cf-workers-sub
-  network: tcp
-  port: 19546
-  reality-opts:
-    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
-    short-id: ""
-  server: 43.155.109.184
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
-  xudp: true
-- alterId: "0"
-  cipher: auto
-  name: 🏴‍☠_11🏴‍☠_4🏴‍☠_10🏴‍☠_9202406|cf-workers-sub|Succeed|Succeed|Succeed
-  network: tcp
-  port: 13813
-  server: 34.146.10.14
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
-  xudp: true
-- client-fingerprint: chrome
-  name: 🏴‍☠_12🏴‍☠_7🏴‍☠_4🏴‍☠_7x3|cf-workers-sub|Succeed|Succeed|Succeed
+  name: 🏴‍☠_5🏴‍☠_12🏴‍☠_7🏴‍☠_4🏴‍☠_7x3|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
   network: ws
   port: 10896
   server: x3.ownstack.cn
@@ -157,7 +68,145 @@ proxies:
     path: /d5be78d?ed=2048
   xudp: true
 - client-fingerprint: chrome
-  name: 🏴‍☠_13🏴‍☠_8🏴‍☠_9x3|cf-workers-sub|Succeed|Succeed
+  name: 🏴‍☠_6🏴‍☠_7🏴‍☠_9x3|cf-workers-sub|Succeed|Succeed
+  network: ws
+  port: 16059
+  server: x3.ownstack.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: c86c7c02-ae71-41b0-a8d5-a2654aefb694
+  ws-opts:
+    headers:
+      Host: x3.ownstack.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /d5be78d?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏴‍☠_7🏴‍☠_10x4|cf-workers-sub|Succeed
+  network: tcp
+  port: 19546
+  reality-opts:
+    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
+    short-id: ""
+  server: 43.155.109.184
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
+  xudp: true
+- alterId: "0"
+  cipher: auto
+  name: 🏴‍☠_8🏴‍☠_1🏴‍☠_6🏴‍☠_7🏴‍☠_6202404|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
+  network: tcp
+  port: 13813
+  server: 35.220.192.63
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏴‍☠_9🏴‍☠_6🏴‍☠_13x4|cf-workers-sub|Succeed|Succeed
+  network: tcp
+  port: 14915
+  reality-opts:
+    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
+    short-id: ""
+  server: 43.155.109.184
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏴‍☠_10x4|cf-workers-sub
+  network: tcp
+  port: 12652
+  reality-opts:
+    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
+    short-id: ""
+  server: 43.155.109.184
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
+  xudp: true
+- alterId: "0"
+  cipher: auto
+  name: 🏴‍☠_11🏴‍☠_11🏴‍☠_4🏴‍☠_10🏴‍☠_9202406|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
+  network: tcp
+  port: 13813
+  server: 34.146.10.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- alterId: "0"
+  cipher: auto
+  name: 🏴‍☠_12🏴‍☠_5🏴‍☠_12🏴‍☠_8🏴‍☠_10202405|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
+  network: tcp
+  port: 13813
+  server: 35.187.210.126
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏴‍☠_13🏴‍☠_17🏴‍☠_10🏴‍☠_1x4|cf-workers-sub|Succeed|Succeed|Succeed
+  network: tcp
+  port: 10835
+  reality-opts:
+    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
+    short-id: ""
+  server: 43.155.109.184
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
+  xudp: true
+- alterId: "0"
+  cipher: auto
+  name: 🏴‍☠_14🏴‍☠_2🏴‍☠_1🏴‍☠_3🏴‍☠_4202402|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
+  network: tcp
+  port: 13813
+  server: 34.80.191.80
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏴‍☠_15🏴‍☠_16🏴‍☠_3🏴‍☠_11🏴‍☠_5x4|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
+  network: tcp
+  port: 11363
+  reality-opts:
+    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
+    short-id: ""
+  server: 43.155.109.184
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
+  xudp: true
+- client-fingerprint: chrome
+  name: 🏴‍☠_16🏴‍☠_13🏴‍☠_8🏴‍☠_9x3|cf-workers-sub|Succeed|Succeed|Succeed
   network: ws
   port: 15438
   server: x3.ownstack.cn
@@ -172,7 +221,7 @@ proxies:
     path: /d5be78d?ed=2048
   xudp: true
 - cipher: rc4-md5
-  name: 🏴‍☠_14🏴‍☠_14🏴‍☠_13🏴‍☠_14海外用户专用-日本-01|cf-workers-sub|Succeed|Succeed|Succeed
+  name: 🏴‍☠_17🏴‍☠_14🏴‍☠_14🏴‍☠_13🏴‍☠_14海外用户专用-日本-01|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
@@ -182,8 +231,19 @@ proxies:
   server: f-jp-01.ninjanode.pro
   type: ss
   udp: true
+- cipher: rc4-md5
+  name: 🏴‍☠_18🏴‍☠_19🏴‍☠_16🏴‍☠_15🏴‍☠_12海外用户专用-美国-01|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 055a6295181.microsoft.com
+    mode: http
+  port: 63257
+  server: f-us-01.ninjanode.pro
+  type: ss
+  udp: true
 - cipher: chacha20-ietf
-  name: 🏴‍☠_15🏴‍☠_15🏴‍☠_12🏴‍☠_11海外用户专用-日本|cf-workers-sub|Succeed|Succeed|Succeed
+  name: 🏴‍☠_19🏴‍☠_15🏴‍☠_15🏴‍☠_12🏴‍☠_11海外用户专用-日本|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
   obfs: plain
   obfs-param: 055a6295181.microsoft.com
   password: renzhecloud
@@ -193,38 +253,8 @@ proxies:
   server: f-jp-01.ninjanode.pro
   type: ssr
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🏴‍☠_16🏴‍☠_3🏴‍☠_11🏴‍☠_5x4|cf-workers-sub|Succeed|Succeed|Succeed
-  network: tcp
-  port: 11363
-  reality-opts:
-    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
-    short-id: ""
-  server: 43.155.109.184
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🏴‍☠_17🏴‍☠_10🏴‍☠_1x4|cf-workers-sub|Succeed|Succeed
-  network: tcp
-  port: 10835
-  reality-opts:
-    public-key: Ztypta6S1QOpzS-N9SLYZGu4epnmrdfh8b8v5pDDtVM
-    short-id: ""
-  server: 43.155.109.184
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9500fd4-e869-4079-974c-166e5fc8bb16
-  xudp: true
 - cipher: chacha20-ietf
-  name: 🏴‍☠_18🏴‍☠_17🏴‍☠_16🏴‍☠_13海外用户专用-美国|cf-workers-sub|Succeed|Succeed|Succeed
+  name: 🏴‍☠_20🏴‍☠_18🏴‍☠_17🏴‍☠_16🏴‍☠_13海外用户专用-美国|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
   obfs: plain
   obfs-param: 055a6295181.microsoft.com
   password: renzhecloud
@@ -235,13 +265,13 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 🏴‍☠_19🏴‍☠_16🏴‍☠_15🏴‍☠_12海外用户专用-美国-01|cf-workers-sub|Succeed|Succeed|Succeed
+  name: 🏴‍☠_21🏴‍☠_3🏴‍☠_2🏴‍☠_2🏴‍☠_3海外用户专用-新加坡-01|cf-workers-sub|Succeed|Succeed|Succeed|Succeed
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
     host: 055a6295181.microsoft.com
     mode: http
   port: 63257
-  server: f-us-01.ninjanode.pro
+  server: f-sg-01.ninjanode.pro
   type: ss
   udp: true
