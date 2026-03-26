@@ -1,88 +1,88 @@
 # 订阅质量统计报告
-# 生成时间: 2026-03-25 19:18:14
+# 生成时间: 2026-03-26 03:29:47
 
 # 达标订阅列表 (>=0%)
 sub-urls:
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/Pawdroid.yaml # 16.7% (1/6)[vmess: 1]
-  - https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt # 12.5% (2/16)[vless: 2]
-  - http://127.0.0.1:18199/all.yaml#Succeed # 9.6% (67/699)[vless: 48; ss: 8; trojan: 5; http: 3; vmess: 2; socks5: 1]
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/mahdibland.yaml # 6.2% (12/195)[ss: 11; trojan: 1]
-  - https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/mixed/Leon406/SubCrawler/sub/share/a11.yaml # 6.1% (22/359)[trojan: 11; ss: 8; vmess: 3]
-  - http://127.0.0.1:18199/history.yaml#History # 6.0% (143/2394)[vless: 97; ss: 21; trojan: 17; vmess: 6; http: 1; socks5: 1]
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/_previous.yaml # 5.4% (37/686)[vless: 19; trojan: 12; ss: 4; anytls: 1; vmess: 1]
-  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt # 3.3% (1/30)[vless: 1]
-  - https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/all_valid_proxies.txt # 2.8% (111/3933)[vless: 98; trojan: 10; vmess: 3]
-  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt # 2.5% (4/161)[ss: 4]
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/snakem982.yaml # 2.3% (3/132)[vless: 2; ss: 1]
-  - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/clash.yaml # 1.9% (126/6519)[vless: 96; vmess: 11; ss: 10; trojan: 9]
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/yudou.yaml # 1.9% (2/106)[vless: 2]
-  - https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/RAW.txt # 1.5% (19/1271)[socks5: 10; http: 9]
+  - http://127.0.0.1:18199/all.yaml#Succeed # 7.7% (54/700)[vless: 31; ss: 11; trojan: 9; vmess: 2; http: 1]
+  - http://127.0.0.1:18199/history.yaml#History # 6.3% (181/2884)[vless: 121; trojan: 26; ss: 25; socks5: 4; ssr: 2; http: 2; vmess: 1]
+  - https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt # 6.2% (1/16)[vless: 1]
+  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_SS+All_RUS_base64.txt # 4.6% (18/392)[ss: 18]
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/peasoft.yaml # 4.3% (2/47)[trojan: 2]
+  - https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc3.yaml # 3.8% (1/26)[vless: 1]
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/_previous.yaml # 3.8% (26/693)[trojan: 12; vless: 11; ss: 3]
+  - https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/mixed/Leon406/SubCrawler/sub/share/a11.yaml # 3.6% (13/359)[ss: 8; trojan: 5]
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/mahdibland.yaml # 3.1% (6/195)[ss: 5; trojan: 1]
+  - https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/all_valid_proxies.txt # 2.7% (110/4012)[vless: 103; trojan: 6; ss: 1]
+  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_mobile_base64.txt # 2.7% (4/150)[vless: 4]
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/snakem982.yaml # 2.0% (2/98)[ss: 1; vless: 1]
+  - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/clash.yaml # 1.5% (101/6519)[vless: 86; trojan: 6; ss: 6; vmess: 3]
   - https://raw.githubusercontent.com/sinspired/airport/main/subs/tssf.yaml # 1.5% (1/68)[ss: 1]
-  - https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml # 1.3% (4/312)[ss: 3; vmess: 1]
-  - https://raw.githubusercontent.com/liMilCo/v2r/main/base64/2.txt # 1.2% (6/487)[ss: 3; vless: 2; vmess: 1]
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/trial.yaml # 1.1% (9/786)[vless: 6; ss: 2; trojan: 1]
-  - https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless # 0.9% (47/4980)[vless: 47]
-  - https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/Ruk1ng001.yaml # 0.8% (4/499)[vless: 2; http: 2]
-  - https://raw.githubusercontent.com/ovmvo/SubShare/main/sub/permanent/mihomo.yaml # 0.5% (3/551)[ss: 2; trojan: 1]
-  - https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Ruk1ng001.yaml # 0.5% (2/374)[ss: 2]
-  - https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/All_proxies.txt # 0.5% (35/6645)[socks5: 20; http: 15]
-  - https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/all.txt # 0.4% (20/4685)[socks5: 17; http: 3]
+  - https://raw.githubusercontent.com/ts-sf/fly/main/clash # 1.4% (1/72)[trojan: 1]
+  - https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/RAW.txt # 1.2% (48/3854)[socks5: 38; http: 10]
+  - https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt # 1.2% (6/500)[vless: 6]
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/yudou.yaml # 0.9% (1/106)[vless: 1]
+  - https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless # 0.7% (37/5178)[vless: 37]
+  - https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml # 0.7% (1/150)[ss: 1]
+  - https://raw.githubusercontent.com/liMilCo/v2r/main/base64/2.txt # 0.6% (3/493)[ss: 2; vless: 1]
+  - https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/Ruk1ng001.yaml # 0.6% (3/499)[ss: 2; vless: 1]
+  - https://raw.githubusercontent.com/ovmvo/SubShare/main/sub/permanent/mihomo.yaml # 0.5% (3/551)[ss: 2; vless: 1]
+  - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml # 0.5% (1/201)[trojan: 1]
+  - https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/all.txt # 0.5% (25/5428)[socks5: 25]
+  - https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/All_proxies.txt # 0.4% (30/6707)[socks5: 28; http: 2]
   - https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/all.yaml # 0.4% (1/237)[vless: 1]
-  - https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt # 0.4% (2/500)[vless: 2]
-  - https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-19.txt # 0.2% (2/1174)[ss: 2]
-  - https://raw.githubusercontent.com/Arefgh72/v2ray-proxy-pars-tester/main/output/github_all.txt # 0.1% (11/19605)[ss: 11]
-  - https://raw.githubusercontent.com/liMilCo/v2r/main/configs.txt # 0.0% (2/4735)[ss: 1; trojan: 1]
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/soroushmirzaei.yaml # 0.0% (1/42241)[trojan: 1]
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/trial.yaml # 0.4% (3/786)[vless: 2; ss: 1]
+  - https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml # 0.3% (1/323)[ss: 1]
+  - https://raw.githubusercontent.com/liMilCo/v2r/main/configs.txt # 0.1% (7/5239)[vless: 4; ss: 1; trojan: 1; vmess: 1]
+  - https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/TrinityBase # 0.1% (2/2029)[ss: 2]
+  - https://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt # 0.1% (2/2127)[http: 2]
+  - https://raw.githubusercontent.com/Arefgh72/v2ray-proxy-pars-tester/main/output/github_all.txt # 0.0% (5/20717)[vless: 2; trojan: 2; ss: 1]
 
 # 成功率为 0 的订阅
 sub-urls-bad:
-  - https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml # 0.0% (0/3)
-  - https://raw.githubusercontent.com/yorkLiu/FreeV2RayNode/main/v2ray.txt # 0.0% (0/50)
-  - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml # 0.0% (0/201)
-  - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml # 0.0% (0/75)
-  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_base64.txt # 0.0% (0/30)
-  - https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix # 0.0% (0/1346)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/coldwater-10.yaml # 0.0% (0/4171)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/changfengoss.yaml # 0.0% (0/4)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/_pool.yaml # 0.0% (0/232)
-  - https://raw.githubusercontent.com/shahidbhutta/Clash/main/Router # 0.0% (0/5)
-  - https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/VM_TrinityBase # 0.0% (0/2222)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/anaer.yaml # 0.0% (0/2157)
-  - https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub2.txt # 0.0% (0/138)
-  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt # 0.0% (0/150)
-  - https://workervless2sub-2a3.pages.dev/auto?b64#workervless2sub # 0.0% (0/3)
-  - https://raw.githubusercontent.com/mgit0001/test_clash/main/heima.txt # 0.0% (0/25)
-  - https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc1.yaml # 0.0% (0/165)
-  - https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Barabama_ndnode.yaml # 0.0% (0/15)
-  - https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-14.txt # 0.0% (0/9803)
-  - https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.txt # 0.0% (0/135)
-  - https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml # 0.0% (0/150)
-  - https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml # 0.0% (0/118)
-  - https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/TrinityBase # 0.0% (0/2029)
-  - https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/old-data/RAW.txt # 0.0% (0/1271)
-  - https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/utils/pool/output.yaml # 0.0% (0/3730)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/xrayvip.yaml # 0.0% (0/24)
-  - https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc3.yaml # 0.0% (0/26)
-  - https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml # 0.0% (0/28)
-  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_SS+All_RUS_base64.txt # 0.0% (0/161)
-  - https://edge-seed-pages.pages.dev/00d6a6ada8d2?b64#edge-seed-pages # 0.0% (0/3)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/SFZY666.yaml # 0.0% (0/12)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/ttvg.yaml # 0.0% (0/18)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/blue-Youtube.yaml # 0.0% (0/47)
-  - https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc0.yaml # 0.0% (0/139)
-  - https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt # 0.0% (0/242)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/aiboboxx.yaml # 0.0% (0/716)
-  - https://raw.githubusercontent.com/ts-sf/fly/main/clash # 0.0% (0/68)
-  - http://127.0.0.1:18080/private-sub.txt#cf-workers-sub-legacy # 0.0% (0/148)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/zhangkaiitugithub.yaml # 0.0% (0/61)
-  - https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt # 0.0% (0/3)
-  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_mobile_base64.txt # 0.0% (0/150)
-  - https://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt # 0.0% (0/2469)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/hkaa0.yaml # 0.0% (0/6342)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/chengaopan.yaml # 0.0% (0/25)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/ripaojiedian.yaml # 0.0% (0/14)
-  - https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc2.yaml # 0.0% (0/14)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/clashfree.yaml # 0.0% (0/423)
   - https://raw.githubusercontent.com/sinspired/airport/main/subs/ermaozi.yaml # 0.0% (0/21)
-  - https://raw.githubusercontent.com/sinspired/airport/main/subs/peasoft.yaml # 0.0% (0/35)
+  - https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Barabama_ndnode.yaml # 0.0% (0/15)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/_pool.yaml # 0.0% (0/232)
+  - https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc0.yaml # 0.0% (0/139)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/chengaopan.yaml # 0.0% (0/25)
+  - https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt # 0.0% (0/3)
+  - https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/old-data/RAW.txt # 0.0% (0/3854)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/anaer.yaml # 0.0% (0/2157)
+  - https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/utils/pool/output.yaml # 0.0% (0/3730)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/SFZY666.yaml # 0.0% (0/12)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/xrayvip.yaml # 0.0% (0/24)
+  - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml # 0.0% (0/37)
+  - https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml # 0.0% (0/3)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/blue-Youtube.yaml # 0.0% (0/47)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/changfengoss.yaml # 0.0% (0/4)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/soroushmirzaei.yaml # 0.0% (0/42241)
+  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt # 0.0% (0/150)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/clashfree.yaml # 0.0% (0/423)
+  - https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.txt # 0.0% (0/135)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/aiboboxx.yaml # 0.0% (0/716)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/ttvg.yaml # 0.0% (0/18)
+  - https://workervless2sub-2a3.pages.dev/auto?b64#workervless2sub # 0.0% (0/3)
+  - https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc1.yaml # 0.0% (0/165)
+  - https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt # 0.0% (0/242)
+  - https://raw.githubusercontent.com/yorkLiu/FreeV2RayNode/main/v2ray.txt # 0.0% (0/50)
+  - https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Ruk1ng001.yaml # 0.0% (0/374)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/Pawdroid.yaml # 0.0% (0/9)
+  - https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml # 0.0% (0/118)
+  - https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml # 0.0% (0/28)
+  - https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc2.yaml # 0.0% (0/14)
+  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt # 0.0% (0/392)
+  - https://raw.githubusercontent.com/mgit0001/test_clash/main/heima.txt # 0.0% (0/25)
+  - https://raw.githubusercontent.com/shahidbhutta/Clash/main/Router # 0.0% (0/5)
   - https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml # 0.0% (0/3646)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/ripaojiedian.yaml # 0.0% (0/14)
+  - https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix # 0.0% (0/1346)
+  - https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-14.txt # 0.0% (0/9790)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/hkaa0.yaml # 0.0% (0/6342)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/coldwater-10.yaml # 0.0% (0/4171)
+  - http://127.0.0.1:18080/private-sub.txt#cf-workers-sub-legacy # 0.0% (0/148)
+  - https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-19.txt # 0.0% (0/1174)
+  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt # 0.0% (0/120)
+  - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_base64.txt # 0.0% (0/120)
+  - https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/VM_TrinityBase # 0.0% (0/2222)
+  - https://raw.githubusercontent.com/sinspired/airport/main/subs/zhangkaiitugithub.yaml # 0.0% (0/61)
+  - https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub2.txt # 0.0% (0/138)
+  - https://edge-seed-pages.pages.dev/00d6a6ada8d2?b64#edge-seed-pages # 0.0% (0/3)
