@@ -7,7 +7,7 @@ sub-urls:
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/hkaa0.yaml" # nodes: 6148
   - "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless" # nodes: 5270
   - "https://raw.githubusercontent.com/liMilCo/v2r/main/configs.txt" # nodes: 4987
-  - "http://127.0.0.1:18199/history.yaml#History" # nodes: 4437
+  - "http://127.0.0.1:18199/history.yaml#History" # nodes: 4500
   - "https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/all_valid_proxies.txt" # nodes: 3845
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/coldwater-10.yaml" # nodes: 3815
   - "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/utils/pool/output.yaml" # nodes: 3727
@@ -21,7 +21,6 @@ sub-urls:
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/aiboboxx.yaml" # nodes: 716
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/_previous.yaml" # nodes: 705
   - "https://raw.githubusercontent.com/ovmvo/SubShare/main/sub/permanent/mihomo.yaml" # nodes: 665
-  - "http://127.0.0.1:18199/all.yaml#Succeed" # nodes: 605
   - "https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt" # nodes: 500
   - "https://raw.githubusercontent.com/liMilCo/v2r/main/base64/2.txt" # nodes: 492
   - "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/Ruk1ng001.yaml" # nodes: 424
@@ -29,13 +28,14 @@ sub-urls:
   - "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/mixed/Leon406/SubCrawler/sub/share/a11.yaml" # nodes: 402
   - "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt" # nodes: 353
   - "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_SS+All_RUS_base64.txt" # nodes: 353
-  - "https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml" # nodes: 325
+  - "https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml" # nodes: 328
   - "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Ruk1ng001.yaml" # nodes: 278
   - "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt" # nodes: 248
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/_pool.yaml" # nodes: 206
   - "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml" # nodes: 201
   - "https://raw.githubusercontent.com/sinspired/airport/main/subs/mahdibland.yaml" # nodes: 199
   - "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt" # nodes: 184
+  - "http://127.0.0.1:18199/all.yaml#Succeed" # nodes: 180
   - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc1.yaml" # nodes: 165
   - "https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml" # nodes: 150
   - "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt" # nodes: 140
