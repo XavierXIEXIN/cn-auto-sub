@@ -376,26 +376,740 @@ profile:
   store-fake-ip: true
   store-selected: true
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦CA²_1|2.6MB/s|36%|GPT⁺|GM|YT-EG|X|History
-  network: ws
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸US²_1|12.3MB/s|GPT⁺|GM|YT|TK|X
+  network: tcp
+  port: 36925
+  reality-opts:
+    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
+    short-id: ""
+  server: 137.184.218.169
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US²_2|3.7MB/s|0%|GPT⁺|GM|YT|TK|X|History
+  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
   port: 443
-  server: 134.195.198.147
+  server: n1.chateditimage.com
+  skip-cert-verify: true
+  sni: n1.chateditimage.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇨🇭CH²_1|3.5MB/s|0%|GPT⁺|YT|TK|X
+  network: ws
+  port: 2053
+  server: 172.64.146.211
+  servername: fz3.sellink.ir
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  type: vless
+  udp: true
+  uuid: 9caafed4-04ba-41b2-9c64-e4ce39a985d6
   ws-opts:
-    path: /linkvws
+    headers:
+      Host: fz3.sellink.ir
+    path: /
 - client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_1|10.1MB/s|GPT⁺|GM|YT|TK|X|History
+  fingerprint: ""
+  name: 🇩🇪DE²_1|1.0MB/s|29%|GPT⁺|YT|TK|X|History
   network: ws
   port: 443
-  server: 198.71.189.51
+  server: 172.64.147.236
+  servername: octopusss5.info
+  tls: true
+  type: vless
+  udp: false
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      host: octopusss5.info
+    path: /udfyfws
+- client-fingerprint: chrome
+  name: 🇩🇪DE¹-CA⁰_1|1.6MB/s|GPT⁺|YT|TK|X
+  network: ws
+  port: 443
+  server: 51.77.140.254
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🎖@AliXTso
+- client-fingerprint: chrome
+  name: 🇯🇵JP²_1|1.2MB/s|4%|GPT⁺|YT|X|History
+  password: WF42809561
+  port: 443
+  server: pet-ghost.rooster465.autos
+  skip-cert-verify: false
+  sni: pet-ghost.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_1|1.2MB/s|GPT⁺|GM|YT|TK|X|Succeed
+  network: ws
+  port: 2096
+  server: 89.116.250.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_2|7.1MB/s|GPT|GM|YT|TK|X
+  network: ws
+  port: 2096
+  server: 172.64.147.165
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US¹-CA⁰_3|1.4MB/s|8%|GPT|GM|YT|TK|X
+  network: ws
+  port: 2096
+  server: 14.102.228.191
+  servername: sni.my111000.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL¹-CA⁰_1|3.0MB/s|GPT⁺|YT|TK|X|History
+  network: ws
+  port: 8443
+  server: 91.84.103.10
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    max-early-data: 2560
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇦🇪AE²_1|2.1MB/s|17%|GPT⁺|YT-RU|TK-SE|X
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: d82fb387
+  server: 89.125.37.114
+  servername: chat.deepseek.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4ab1088a-9f8a-4fcc-8805-8353a8b3cf44
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP¹-CA⁰_1|1.2MB/s|8%|GPT⁺|GM|YT|X|History
+  network: ws
+  port: 443
+  server: 138.2.5.136
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇾CY²_1|1.3MB/s|GPT⁺|YT-NL|TK|X
+  network: ws
+  port: 443
+  server: 172.64.32.75
+  servername: 639073677251729790.corolla-perma.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 130e98f6-18ad-4505-9a6e-6e00424bd058
+  ws-opts:
+    headers:
+      Host: 639073677251729790.corolla-perma.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /jsdrzrws
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB²_1|1.5MB/s|8%|GPT⁺|GM|YT-US|TK|X
+  port: 443
+  reality-opts:
+    public-key: awRzAyi5UF-DMXzlOLRZvKPaBt50Z0yZiaLeuSMbtFQ
+    short-id: ae6775f14ccefa03
+  server: dex6.braidpro.online
+  servername: dex6.braidpro.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 051a7ea0-11f4-41bb-8b1b-206761e0640f
+- client-fingerprint: chrome
+  delay: 1456
+  name: 🇩🇪DE⁻¹_1|2.3MB/s|YT|TK|History
+  network: ws
+  password: trojan
+  port: 2052
+  server: 91.107.250.73
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_4|1.5MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 2096
+  server: 185.207.199.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇬🇧GB²_2|3.7MB/s|GPT⁺|YT-RU|TK|X|History
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: iCY6H8CpnIfqmIkEABduJEAeJrnYS089R1-jKEyVp3w
+    short-id: 5589c1
+  server: 45.150.65.43
+  servername: us1.frostbot.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇬🇧GB¹-CA⁰_1|1.4MB/s|GPT|YT|TK|X|History
+  network: ws
+  port: 8443
+  server: 57.128.177.203
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US¹-CA⁰_5|7.0MB/s|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 2096
+  server: 31.185.108.191
+  servername: sni.my111000.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US¹⁺_1|1.5MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 2083
+  server: 27.50.48.114
+  servername: b577c283.sfree.cn.mt
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69c4f82f-ad75-a1be-51ef-8e8af76452f8
+  ws-opts:
+    headers:
+      Host: b577c283.sfree.cn.mt
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE²_2|1.5MB/s|29%|GPT⁺|YT|TK|X
+  network: ws
+  port: 443
+  server: 108.162.195.45
+  servername: picassooo.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7270612b-49f6-4b04-999c-34d8263da767
+  ws-opts:
+    headers:
+      Host: picassooo.info
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /aymdlws
+  xudp: true
+- name: 🇬🇧GB¹-CA⁰_2|2.6MB/s|8%|GPT⁺|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 57.128.176.149
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 🇩🇪DE¹-CA⁰_2|1.4MB/s|GPT⁺|YT|TK|X|Succeed
+  network: ws
+  port: 443
+  server: 135.181.210.228
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- name: 🇯🇵JP¹-CA⁰_2|1.2MB/s|GPT|GM|YT|X|History
+  network: ws
+  port: 587
+  server: 140.238.38.81
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE²_3|1.7MB/s|15%|GPT⁺|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 108.162.192.75
+  servername: octopusss4.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  ws-opts:
+    headers:
+      Host: octopusss4.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /tsghdws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US¹⁺_2|6.0MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 172.66.46.239
+  servername: edge-seed-pages.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc
+  ws-opts:
+    headers:
+      Host: edge-seed-pages.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW²_1|1.0MB/s|GPT⁺|YT|X
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001121x36.cybervena.com
+  type: ss
+  udp: true
+- alterId: "0"
+  cipher: auto
+  name: 🇹🇼TW²_2|1.0MB/s|1%|GPT⁺|GM|YT|X|History
+  network: tcp
+  port: 13813
+  server: 34.80.191.80
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef9feaff-685a-49b3-8013-9665a212a4d2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR¹-CA⁰_1|2.0MB/s|8%|GPT⁺|YT|TK|X|History
+  network: ws
+  port: 2053
+  server: 146.59.229.78
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_6|1.4MB/s|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 2096
+  server: 160.153.1.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL²_1|1.5MB/s|100%|GPT⁺|YT-CN|TK|X
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US²_3|3.4MB/s|25%|GPT⁺|YT|TK|X|History
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: 2da72ce6
+  server: 174.136.205.68
+  servername: navi.bankrate.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6555576f-3ae2-4d62-9cfb-50701bad1893
+- client-fingerprint: chrome
+  name: 🇩🇪DE¹-CA⁰_3|2.6MB/s|GPT|YT|TK|X|History
+  network: ws
+  port: 8443
+  server: 64.238.203.104
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK²_1|0.9MB/s|44%|YT|X|History
+  network: raw
+  password: IL37892054
+  port: 443
+  server: growing-tuna.rooster465.autos
+  skip-cert-verify: false
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE²_4|0.5MB/s|100%|GPT⁺|YT|TK|X|History
+  password: 94aae0510188e8c5
+  port: 11201
+  server: 141.95.106.127
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE¹-CA⁰_4|2.5MB/s|GPT⁺|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 94.141.123.231
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸US²_4|0.9MB/s|0%|GPT⁺|YT-RU|TK|X
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: 60e104f7126798c4
+  server: 176.109.110.120
+  servername: tradingview.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 558dc0ac-8907-4485-817b-9479a1222e5b
+  xudp: true
+- name: 🇺🇸US²_5|3.9MB/s|62%|GPT⁺|YT-RU|TK|X|History
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.117
+  skip-cert-verify: true
+  sni: static.rutube.ru
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇬🇧GB¹-CA⁰_3|2.0MB/s|GPT|YT|TK|X
+  network: ws
+  port: 443
+  server: 57.128.183.3
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG¹-CA⁰_1|1.0MB/s|8%|GPT⁺|GM|YT|X|History
+  network: ws
+  port: 8443
+  server: 194.36.178.36
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_7|2.2MB/s|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 135.84.72.42
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_8|3.4MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 8443
+  server: 74.48.141.167
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU²_1|1.1MB/s|YT|X|History
+  port: 52006
+  reality-opts:
+    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+    short-id: d8c6b58bcbb0c323
+  server: 5.42.116.74
+  servername: max.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f0a8364-ae34-07d0-b999-34a723111ebd
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇭CH²_2|2.6MB/s|0%|GPT⁺|YT|TK|X|History
+  network: ws
+  port: 2053
+  server: 172.64.152.23
+  servername: fz3.sellink.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9caafed4-04ba-41b2-9c64-e4ce39a985d6
+  ws-opts:
+    headers:
+      Host: fz3.sellink.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹⁺_3|1.1MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 172.66.139.115
+  servername: xn--cz8h.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
+  ws-opts:
+    headers:
+      Host: xn--cz8h.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: pyip=proxyip.cmliussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_9|1.2MB/s|8%|GPT⁺|GM|YT|TK|X
+  network: ws
+  port: 443
+  server: 135.84.74.90
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE¹-CA⁰_5|2.6MB/s|100%|GPT⁺|YT|TK|X|History
+  network: ws
+  port: 8443
+  server: 49.13.154.236
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US²_6|1.0MB/s|0%|GPT|YT-CN|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: 96e03e0f184639ef
+  server: 209.248.4.3
+  servername: peer.pan.baidu.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45838e8e58c44a21b229c2e43347934a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE¹-CA⁰_6|1.6MB/s|GPT⁺|YT|TK|X
+  network: ws
+  port: 443
+  server: 134.209.246.179
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  xudp: true
+- name: 🇺🇸US¹-CA⁰_10|12.1MB/s|GPT|GM|YT|TK|X
+  network: ws
+  port: 443
+  server: 135.84.74.203
   servername: sni.111000.dynv6.net
   skip-cert-verify: true
   tls: true
@@ -405,838 +1119,85 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.dynv6.net
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 🇺🇸US¹⁺_1|8.5MB/s|8%|GPT|GM|YT|TK|X
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US¹-CA⁰_11|1.4MB/s|8%|GPT⁺|GM|YT|TK|X
   network: ws
   port: 443
-  server: 104.16.122.206
-  servername: xn--cz8h.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
-  ws-opts:
-    headers:
-      Host: xn--cz8h.pages.dev
-    path: pyip=proxyip.cmliussss.net
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_1|1.0MB/s|GPT⁺|GM|YT|TK|X|History
-  network: tcp
-  port: 14102
-  server: 172.233.229.91
-  skip-cert-verify: true
-  type: vmess
-  uuid: 27ba87fc-583f-4763-9060-83cf0b9264db
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW²_1|1.5MB/s|GPT⁺|GM|YT|X|History
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: namrcg001655hvm.cybervena.com
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US²_2|3.7MB/s|GPT⁺|GM|YT|TK|X|History
-  port: 443
-  reality-opts:
-    public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-  server: 47.251.25.74
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18805ff3-b420-45de-af18-93be14024ae8
-- cipher: aes-256-cfb
-  name: 🇵🇱PL²_1|2.2MB/s|26%|GPT⁺|YT|TK|X
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇫🇷FR²_1|2.0MB/s|8%|GPT⁺|YT-RU|TK|X|History
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: efd2bFhSqc59GGeKrNgIMtP6WNqUnrS3jzeh4Kcy4yQ
-    short-id: 83febdcc41a749
-  server: fr.vpn-club-service.ru
-  servername: fonts.gstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15041021-33ff-447e-bdd2-5a6f226f5ba2
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇳🇱NL²_1|1.4MB/s|GPT⁺|YT|TK|X|History
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.180.92
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /assignment
-- name: 🇸🇬SG²_1|1.8MB/s|24%|GPT⁺|GM|YT|X|History
-  port: 22539
-  server: node1.nanonet.host
-  servername: node1.nanonet.host
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6d7e024-0a49-483d-bcd7-048c4d30eca6
-- name: 🇺🇸US²_3|2.7MB/s|2%|GPT⁺|GM|YT|TK|X
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: wired-tick.rooster465.autos
-  sni: wired-tick.rooster465.autos
-  tls: true
-  type: trojan
-- name: 🇺🇸US¹-CA⁰_2|5.5MB/s|GPT⁺|GM|YT|TK|X
-  network: ws
-  port: 443
-  server: 166.62.114.250
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
+  server: 172.67.187.251
+  servername: sant.atira-40.workers.dev
   tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🇨🇾CY²_1|2.0MB/s|GPT⁺|GM|YT-JP|X|History
-  port: 443
-  reality-opts:
-    public-key: rjE8nekciQ8vkzooBJVwOIqV5tMS0soqdq1AysukY2Q
-    short-id: 5bfa0c
-  server: jp1.cyphervpn.pro
-  servername: jp1.cyphervpn.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f7bae22e-20ab-11f1-835c-0242ac110002
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹-CA⁰_3|4.6MB/s|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 2096
-  server: chatgpt.com
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /?ed
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP²_1|2.4MB/s|5%|GPT⁺|GM|YT|X|History
-  network: raw
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 34818
-  server: 160.16.124.17
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹-CA⁰_4|1.6MB/s|GPT⁺|GM|YT|TK|X
-  network: ws
-  port: 2096
-  server: 45.194.11.191
-  servername: sni.my111000.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇻🇳VN²_1|2.0MB/s|GPT⁺|YT-RU|X
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.130
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇵🇱PL²_2|2.6MB/s|26%|GPT⁺|YT|TK|X
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE¹-CA⁰_1|1.6MB/s|GPT|YT|TK|X
-  network: ws
-  port: 443
-  server: 94.159.109.190
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇪🇸ES²_1|0.8MB/s|60%|GPT⁺|YT-RU|TK|X
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: 04bf0403f96e5b4b
-  server: 83.166.254.49
-  servername: rbc.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40cc8de3-45f3-46d4-ac67-45b6d6d88a00
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR²_2|1.9MB/s|GPT⁺|YT|TK|X|Succeed
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  server: 62.210.91.2
-  servername: fuck.rkn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹-CA⁰_5|3.1MB/s|GPT|GM|YT|TK|X
-  network: ws
-  port: 443
-  server: 172.67.192.0
-  servername: nameless-heart-02e4.ariya-696.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: nameless-heart-02e4.ariya-696.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      Host: sant.atira-40.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
     path: /sni.111000.dynv6.net/
   xudp: true
-- encryption: none
-  name: 🇦🇹AT²_1|1.0MB/s|29%|GPT⁺|YT-DE|TK|X|History
-  network: ws
-  port: 443
-  server: 172.64.34.176
-  servername: terazhediii.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
-  ws-opts:
-    headers:
-      Host: terazhediii.info
-    path: /sghiyws
-- client-fingerprint: chrome
-  name: 🇲🇩MD²_1|1.4MB/s|GPT⁺|YT-RU|TK|X|Succeed
-  port: 443
-  reality-opts:
-    public-key: FfpoYFgT2DmVE8wpXv0ncw9YTdVduwH3qetnke0LMDU
-    short-id: 5bfa0c
-  server: 2.56.126.244
-  servername: fr1.cyphervpn.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3cc7c3a4-03a7-11f1-9bc0-0242ac110002
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_6|1.7MB/s|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 2096
-  server: 92.243.74.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇹🇼TW²_2|1.2MB/s|GPT⁺|GM|YT|X
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-    short-id: 96e03e0f184639ef
-  server: 220.130.75.217
-  servername: peer.pan.baidu.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 45838e8e58c44a21b229c2e43347934a
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵JP²_2|3.1MB/s|5%|GPT⁺|GM|YT|X|History
-  port: 39975
+  name: 🇷🇺RU²_2|1.5MB/s|YT|X
+  port: 443
   reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: 116.80.58.239
-  servername: cloudcircus.jp
+    public-key: j0Ddyp0DuJqPWWLuDkUzbf3sxY63aSVUOYMMuvBNsgQ
+    short-id: e2117a
+  server: 89.23.117.204
+  servername: spb2.frostbot.ru
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇾CY²_2|1.5MB/s|GPT⁺|YT-NL|X|History
-  port: 443
-  reality-opts:
-    public-key: eAYRUxYWFPrYyI5iVXTYSeQHBEW6yvv1__GAtGIlglA
-    short-id: "68"
-  server: 5.180.45.245
-  servername: www.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: id8114764549
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP²_3|1.9MB/s|16%|GPT⁺|YT-HK|X
-  password: 303ac65e30f28b0b
-  port: 11202
-  server: 154.205.139.9
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇦🇹AT²_2|1.7MB/s|29%|GPT⁺|YT-DE|TK|X|History
-  network: ws
-  port: 443
-  server: 104.18.33.45
-  servername: octopusss4.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: /tsghdws
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇭CH²_1|1.4MB/s|0%|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 2053
-  server: v1.dabache.top
-  servername: fz3.sellink.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9caafed4-04ba-41b2-9c64-e4ce39a985d6
-  ws-opts:
-    headers:
-      Host: fz3.sellink.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-SG⁰_1|1.6MB/s|8%|GPT⁺|GM|YT|TK|X
-  network: ws
-  port: 2053
-  server: 104.18.8.122
-  servername: zu7rz41bbfz4.chinav.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: zu7rz41bbfz4.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  name: 🇳🇱NL²_2|2.9MB/s|0%|GPT⁺|YT-RU|TK|X
-  port: 443
-  reality-opts:
-    public-key: _L_eqCCzVbP0fzWTA_AqtmlyZVscCzrJ5b2nXFnq3U0
-    short-id: d020b2
-  server: 45.136.126.16
-  servername: google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 203b0744-f943-4bba-a8d2-cab635467c46
-- cipher: chacha20-ietf-poly1305
-  name: 🇦🇺AU²_1|1.9MB/s|GPT⁺|YT-RU|X|History
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 45.15.185.70
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB²_1|0.7MB/s|0%|GPT⁺|YT-RU|TK|X|History
-  port: 443
-  reality-opts:
-    public-key: siD8cZPF1zGZ7d26new2X95f22b7CV09ZgEJuJgg3xg
-    short-id: b586aebd2ada
-  server: backup.eerieperet.top
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 42ce7a2e-c147-4388-9b38-4ccfc2e47a30
-- client-fingerprint: chrome
-  name: 🇳🇱NL¹⁺_1|3.4MB/s|8%|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 2053
-  server: 194.87.219.235
-  servername: edt2.btxst.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-  ws-opts:
-    headers:
-      Host: edt2.btxst.eu.cc
-    path: /feedback
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL²_3|3.4MB/s|79%|GPT⁺|YT-US|TK|X
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.190
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇲🇩MD²_2|5.7MB/s|GPT⁺|GM|YT-US|TK|X|History
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xbbOyx0nk3ch1TczCJvSg-km5ac0NM7MgRbFSLCMXyU
-    short-id: "8397"
-  server: 103.113.70.21
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b9ff760-6b22-467b-a54f-e25a82a40908
-  xudp: true
-- client-fingerprint: chrome
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇩🇪DE²_1|3.4MB/s|0%|GPT⁺|YT|TK|X|History
-  network: tcp
-  port: 12436
-  reality-opts:
-    public-key: 8hRsFW43gU0_uB-RhXw0N4Q8gXVlNjlIAWmFnltm6gg
-    short-id: 41eccb
-  server: 91.132.160.135
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 816be889-2d68-4941-acf5-94662015811c
-  xudp: true
-- name: 🇺🇸US⁻¹_1|5.7MB/s|GM|YT|TK|History
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: 104.18.34.48
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 🇦🇹AT²_3|3.0MB/s|29%|GPT⁺|YT-DE|TK|X|History
-  network: ws
-  port: 443
-  server: 172.64.147.210
-  servername: terazhediii.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
-  ws-opts:
-    headers:
-      Host: terazhediii.info
-    path: /sghiyws
-- name: 🇺🇸US⁻¹_2|2.1MB/s|GM|YT|TK
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: 104.16.148.4
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /buy/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU²_1|1.6MB/s|YT|X
-  port: 52006
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  server: 45.10.43.86
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1f0a8364-ae34-07d0-b999-34a723111ebd
-- client-fingerprint: chrome
-  name: 🇳🇱NL¹-CA⁰_1|2.2MB/s|8%|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 46.17.101.252
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: firefox
-  name: 🇨🇾CY²_3|0.7MB/s|GPT⁺|GM|YT-JP|X|History
-  port: 443
-  reality-opts:
-    public-key: rjE8nekciQ8vkzooBJVwOIqV5tMS0soqdq1AysukY2Q
-    short-id: 5bfa0c
-  server: 5.253.41.72
-  servername: jp1.cyphervpn.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f7bae22e-20ab-11f1-835c-0242ac110002
-- client-fingerprint: chrome
-  name: 🇫🇷FR²_3|1.7MB/s|GPT⁺|GM|YT-MX|TK|X|History
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XIDvViESjfi-zRq4bdvHK7EyeT7vjJcA_MZO0QGTFhI
-    short-id: 7fb3b0
-  server: 157.173.127.228
-  servername: analytics.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d50f50ef-20ff-47a1-a922-f476c2b83eb4
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA²_2|1.9MB/s|67%|GPT⁺|YT|X|History
-  password: 7a106afc33eaa261
-  port: 46534
-  server: 148.113.139.160
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW²_3|1.1MB/s|GPT⁺|GM|YT|X|History
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 36.224.135.49
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP²_4|2.6MB/s|0%|GPT⁺|YT|X
-  network: tcp
-  password: IL37892054
-  port: 443
-  server: calm-honeybee.rooster465.autos
-  skip-cert-verify: true
-  sni: calm-honeybee.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇬🇧GB²_2|0.8MB/s|0%|GPT⁺|YT-RU|TK|X|History
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: siD8cZPF1zGZ7d26new2X95f22b7CV09ZgEJuJgg3xg
-    short-id: d4a688ac8685
-  server: backup.eerieperet.top
-  servername: www.tradingview.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e85db295-fa5a-4220-beaf-a7a71842e1a7
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US¹⁺_2|1.6MB/s|0%|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 104.25.25.76
-  servername: xn--cz8h.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
-  ws-opts:
-    headers:
-      Host: xn--cz8h.pages.dev
-    path: pyip=proxyip.cmliussss.net
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL²_4|2.1MB/s|73%|GPT⁺|GM|YT-PK|TK|X|History
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 193.29.139.227
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR¹-CA⁰_1|2.4MB/s|GPT⁺|GM|YT|X
-  network: ws
-  port: 15800
-  server: 129.154.223.89
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🇳🇱NL²_5|2.5MB/s|GPT⁺|YT|TK|X
-  network: ws
-  password: humanity
-  port: 443
-  server: v3.dabache.top
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇺🇸US⁻¹_3|1.8MB/s|GM|YT|TK
-  network: ws
-  port: 443
-  server: 172.67.150.93
-  servername: yellow-disk-0edf.diyenec996.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e73d4e2a-ac73-4948-960a-2c2dd57b7ea8
-  ws-opts:
-    headers:
-      Host: yellow-disk-0edf.diyenec996.workers.dev
-    path: /ws
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE²_2|1.5MB/s|0%|GPT|YT-RU|TK|X
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw
-    short-id: ""
-  server: 37.220.83.147
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB¹-CA⁰_1|2.4MB/s|50%|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 57.129.137.58
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇬🇧GB¹-CA⁰_2|1.9MB/s|8%|GPT⁺|YT|TK|X
-  network: ws
-  port: 443
-  server: 57.128.179.111
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- name: 🇯🇵JP¹-CA⁰_1|0.6MB/s|GPT|GM|YT|X|History
-  network: ws
-  port: 443
-  server: 210.138.37.53
-  servername: sni.jpmj.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇪🇪EE²_1|0.5MB/s|32%|GPT⁺|YT-RU|TK|X|History
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3u-RoUuzGFtfVwCbUJ4GxAhNUyR6DcyAzeyaSdNXG0A
-    short-id: 8c
-  server: 193.109.120.119
-  servername: est15.frostbot.ru
   tls: true
   type: vless
   udp: true
   uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇵🇹PT²_1|1.4MB/s|78%|GPT⁺|YT|TK|X
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.113.143.186
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇵🇰PK²_1|1.5MB/s|GPT⁺|GM|YT|X|History
-  password: fec4e6f9e954aead
-  port: 29700
-  server: 119.159.245.24
+- cipher: aes-256-cfb
+  name: 🇵🇱PL²_1|1.2MB/s|26%|GPT⁺|YT|TK|X
+  password: Lp27rqyJq72bZsqX
+  port: 9045
+  server: 217.30.10.18
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_7|7.1MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  encryption: none
+  name: 🇫🇷FR¹-CA⁰_2|1.8MB/s|GPT|YT|TK|X|History
   network: ws
-  port: 2096
-  server: 8.34.70.191
+  port: 2053
+  server: 54.36.98.30
+  servername: sni.111000.v6.navy
   tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.my111000.tech
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2/
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
   xudp: true
-- encryption: none
-  name: 🇺🇸US¹⁺_3|4.9MB/s|8%|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 80
-  server: vpnpro.eshghiabolfazl2009.workers.dev
-  type: vless
-  udp: true
-  uuid: 14e1775b-d92c-455b-8db3-e6c6d61909e0
-  ws-opts:
-    headers:
-      Host: vpnpro.eshghiabolfazl2009.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: 🔒
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇮FI²_1|2.5MB/s|13%|GPT⁺|YT-RU|TK|X|History
-  password: yKVMoB3AwiTEznpnoq2FYR
-  port: 28687
-  server: 193.47.60.186
-  type: ss
 - client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_8|2.7MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  name: 🇫🇷FR¹-CA⁰_3|2.5MB/s|8%|GPT|YT|TK|X|History
   network: ws
   port: 443
-  server: 160.153.1.113
+  server: 51.91.251.31
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE¹-CA⁰_7|2.4MB/s|GPT|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 49.13.64.206
+  servername: sni.111000.indevs.in
   tls: true
   type: vless
   udp: true
@@ -1244,42 +1205,41 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
   xudp: true
+- cipher: none
+  name: 🇺🇸US⁻¹_1|12.3MB/s|GM|YT|TK
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+    tls: true
+  port: 443
+  server: cf.130519.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US²_4|1.7MB/s|40%|GPT⁺|YT-RU|TK|X|History
-  network: tcp
-  port: 10121
-  reality-opts:
-    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
-    short-id: 9c2a7d4e5f18b6a3
-  server: 144.31.103.34
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_9|1.8MB/s|GPT⁺|GM|YT|TK|X
+  name: 🇺🇸US¹-CA⁰_12|12.8MB/s|8%|GPT|GM|YT|TK|X|History
   network: ws
   port: 2096
-  server: 45.40.150.238
-  servername: sni.jpmj.dev
+  server: 185.16.110.138
+  servername: sni.111000.indevs.in
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- name: 🇫🇷FR¹-CA⁰_1|3.5MB/s|8%|GPT|YT|TK|X|History
+- name: 🇬🇧GB¹-CA⁰_4|2.0MB/s|GPT|YT|TK|X
   network: ws
-  port: 8443
-  server: 152.228.217.69
+  port: 443
+  server: 57.128.183.138
   servername: sni.111000.v6.navy
   skip-cert-verify: true
   tls: true
@@ -1290,14 +1250,73 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- name: 🇯🇵JP²_5|3.0MB/s|0%|GPT⁺|YT|X
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: eminent-hagfish.rooster465.autos
-  sni: eminent-hagfish.rooster465.autos
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US²_7|3.7MB/s|GPT⁺|GM|YT|TK|X
+  port: 36925
+  reality-opts:
+    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
+  server: 137.184.218.169
+  servername: www.cloudflare.com
+  skip-cert-verify: false
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
+- client-fingerprint: chrome
+  name: 🇩🇪DE¹-CA⁰_8|1.4MB/s|GPT|YT|TK|X|History
+  network: ws
+  port: 555
+  server: 194.9.6.73
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹⁺_4|9.0MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 104.16.95.102
+  servername: xn--cz8h.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
+  ws-opts:
+    headers:
+      Host: xn--cz8h.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: pyip=proxyip.cmliussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_13|4.0MB/s|GPT|GM|YT|TK|X|History
+  network: ws
+  port: 2096
+  server: 45.153.7.238
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL²_2|2.1MB/s|0%|GPT⁺|YT|TK|X|History
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 193.29.139.233
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -1305,46 +1324,90 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇷🇺RU²_2|1.6MB/s|YT|X|History
+  name: 🇷🇺RU²_3|1.8MB/s|YT|X
   network: tcp
-  port: 443
+  port: 52006
   reality-opts:
-    public-key: F14RpPKCKo_qPcW7EFVu1M18JsAT8c04O08cIi0Ghg4
-    short-id: ab1cd2
-  server: 5.129.249.134
-  servername: ir.ozone.ru
+    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+    short-id: d8c6b58bcbb0c323
+  server: 5.42.116.74
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: mega2499
+  uuid: 1f0a8364-ae34-07d0-b999-34a723111ebd
   xudp: true
-- name: 🇺🇸US²_5|2.1MB/s|0%|GPT⁺|YT-RU|TK|X|History
+- client-fingerprint: chrome
+  name: 🇺🇸US¹⁺_5|1.5MB/s|8%|GPT⁺|GM|YT|TK|X|History
   network: ws
-  port: 80
-  server: 104.21.32.69
-  servername: bhy7.ae1autumn.dpdns.org
+  port: 443
+  server: 104.16.246.1
+  servername: xn--cz8h.pages.dev
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
   ws-opts:
     headers:
-      Host: bhy7.ae1autumn.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /XR8So0uqFVa3vY9ZbxgW4
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇵🇱PL²_3|2.8MB/s|26%|GPT⁺|YT|TK|X|History
-  password: ZpNDDKRu9MagNvaf
-  port: 9015
-  server: 217.30.10.70
-  type: ss
+      Host: xn--cz8h.pages.dev
+    path: pyip=proxyip.cmliussss.net
+- name: 🇺🇸US¹-CA⁰_14|4.2MB/s|GPT⁺|GM|YT|TK|X
+  network: ws
+  port: 443
+  server: 142.171.88.226
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 🇺🇸US¹-CA⁰_15|1.2MB/s|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 2096
+  server: 162.159.153.231
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed
+- name: 🇯🇵JP²_2|1.3MB/s|4%|GPT⁺|YT|X
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: magnetic-haddock.rooster465.autos
+  sni: magnetic-haddock.rooster465.autos
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR²_1|2.3MB/s|0%|GPT⁺|YT-RU|TK|X
+  port: 443
+  reality-opts:
+    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
+    short-id: 9c2378562188c3cb
+  server: fr.denditop.site
+  servername: fr.denditop.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 256c5f48-4908-4255-83d1-c86cb58f22b4
 - client-fingerprint: chrome
   encryption: none
-  name: 🇮🇳IN¹-CA⁰_1|1.6MB/s|8%|GPT⁺|GM|YT|X|History
+  name: 🇩🇪DE¹-CA⁰_9|2.2MB/s|8%|GPT⁺|YT|TK|X
   network: ws
-  port: 2053
-  server: 45.88.183.55
+  port: 8443
+  server: 195.133.65.202
   servername: sni.111000.indevs.in
   tls: true
   type: vless
@@ -1353,12 +1416,81 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /?ed=2560&Telegram🇮🇷 @ShadowProxy66
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+    path: ""
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW²_3|1.1MB/s|GPT⁺|GM|YT|X|History
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001257bhv.cybervena.com
+  type: ss
+  udp: true
+- encryption: none
+  name: 🇺🇸US¹⁺_6|1.1MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 2052
+  server: 104.26.3.125
+  type: vless
+  udp: true
+  uuid: e8d06b09-acd9-448c-9874-3c36151d36ee
+  ws-opts:
+    headers:
+      Host: icy-wildflower-2590.lihuifeng595.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE¹-CA⁰_2|1.5MB/s|GPT⁺|YT|TK|X|History
+  name: 🇩🇪DE¹-CA⁰_10|2.2MB/s|100%|GPT|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 194.233.167.252
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_16|11.0MB/s|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 2096
+  server: 45.205.0.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- cipher: aes-256-cfb
+  name: 🇻🇳VN²_1|0.8MB/s|GPT⁺|GM|YT-US|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.223
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇵🇱PL²_2|0.8MB/s|44%|GPT⁺|YT|TK|X|History
+  password: WF42809561
+  port: 443
+  server: top-goshawk.rooster465.autos
+  skip-cert-verify: false
+  sni: top-goshawk.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE¹-CA⁰_11|1.1MB/s|GPT⁺|YT|TK|X|Succeed
   network: ws
   port: 443
   server: 193.42.60.235
@@ -1374,38 +1506,130 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹-CA⁰_10|1.3MB/s|GPT⁺|GM|YT|TK|X
-  network: ws
+  name: 🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|YT|X|History
+  password: WF42809561
   port: 443
-  server: 174.138.48.29
-  servername: sni.111000.v6.navy
+  server: sterling-fowl.rooster465.autos
+  skip-cert-verify: false
+  sni: sterling-fowl.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇻🇳VN²_2|0.8MB/s|GPT⁺|GM|YT-US|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.136
+  type: ss
+  udp: true
+- name: 🇦🇺AU²_1|0.8MB/s|48%|GPT⁺|GM|YT|TK|X
+  password: IL37892054
+  port: 443
+  server: steady-lemming.rooster465.autos
+  skip-cert-verify: false
+  sni: steady-lemming.rooster465.autos
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-SG⁰_1|1.1MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 2053
+  server: docker.1panel.live
+  servername: q6x65zp4w.gfw.hidns.co
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: q6x65zp4w.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 🇫🇷FR²_2|2.1MB/s|GPT⁺|YT|TK|X|History
+  network: ws
+  password: humanity
+  port: 443
+  server: chatgpt.com
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  tls: true
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇷TR²_1|1.0MB/s|GPT⁺|YT-RU|X
+  port: 443
+  reality-opts:
+    public-key: fsQFwBuDqsc-AylhF85Yu4jI81hn7LkYtNQCT5FFyiw
+  server: 185.39.204.27
+  servername: sun1-90.userapi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7d51e3fe-a49a-4245-83b6-98a0346cdd09
+- client-fingerprint: chrome
+  name: 🇷🇺RU²_4|0.5MB/s|YT|X
+  port: 443
+  reality-opts:
+    public-key: e1zt8g2cuQ9xfJR_fSrFbvD4gYCJcI0c-WYOMgId7xY
+    short-id: 3c07801500a8
+  server: 147.45.153.236
+  servername: www.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7554bde-44d0-4466-8f87-0d68740e8951
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇫🇷FR²_3|2.5MB/s|4%|GPT⁺|YT-NL|TK-DE|X
+  network: tcp
+  port: 48004
+  reality-opts:
+    public-key: J5-ZvlY9EUESyDK6jv2gRkPLKw-HULy8bJU58o_Blmw
+    short-id: 1fbcfafa80e45b24
+  server: 82.21.150.64
+  servername: stats.vk-portal.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f623839-1e6f-36ea-aa5b-5a8d9aa16fcd
   xudp: true
+- cipher: aes-256-cfb
+  name: 🇻🇳VN²_3|0.8MB/s|GPT⁺|GM|YT-US|X
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.75
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US¹-CA⁰_11|7.8MB/s|8%|GPT|GM|YT|TK|X|History
+  name: 🇮🇳IN²_1|1.0MB/s|GPT⁺|GM|YT|X
   network: ws
-  port: 2096
-  server: 162.159.36.20
-  servername: sni.jpmj.dev
+  port: 443
+  server: 8.47.69.0
+  servername: g.sandesh.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 1027b850-de79-4a94-b337-eccdac28e141
   ws-opts:
     headers:
-      Host: sni.jpmj.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
+      Host: g.sandesh.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /vless
   xudp: true
 - client-fingerprint: random
   encryption: none
@@ -1414,251 +1638,31 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇺🇸US²_6|1.3MB/s|0%|GPT⁺|YT-RU|TK|X
+  name: 🇺🇸US²_8|1.8MB/s|0%|GPT⁺|YT-PL|TK-NL|X|History
   network: tcp
   port: 443
   reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: c76ba2c2fb172e8b
-  server: 82.202.159.239
-  servername: tradingview.com
+    public-key: oCVM_P_-0CRIrazcAWCMSb7koEeYyBaUZ5LniuSLIAM
+    short-id: 0cc901919042144d
+  server: 144.31.130.25
+  servername: nt1-2.buzzapi.space
   tls: true
   type: vless
   udp: true
-  uuid: 558dc0ac-8907-4485-817b-9479a1222e5b
+  uuid: 897f023a-7507-40c0-9a74-ab77be0a47f0
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇾CY²_4|1.3MB/s|GPT⁺|YT-NL|TK|X
+- name: 🇺🇸US¹⁺_7|6.0MB/s|8%|GPT⁺|GM|YT|TK|X|History
   network: ws
-  port: 443
-  server: 104.18.185.26
-  servername: 639073677251729790.corolla-perma.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 130e98f6-18ad-4505-9a6e-6e00424bd058
-  ws-opts:
-    headers:
-      Host: 639073677251729790.corolla-perma.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /jsdrzrws?ed=2560
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US¹-NL⁰_1|1.0MB/s|8%|GPT|GM|YT|TK|X|History
-  network: ws
-  password: A4u^p(_UR*F6
-  port: 443
-  server: irancell.buzzmuzzpanel.online
-  skip-cert-verify: false
-  sni: 027.eLECTROcelLCO-cf-027.WorKerS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /eyJqdW5rIjoidDJ0UDljR2ZIaVBQakg2byIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-- client-fingerprint: chrome
-  name: 🇫🇷FR²_4|1.8MB/s|GPT⁺|YT|TK|X|History
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: "%2Fassignment"
-- client-fingerprint: chrome
-  name: 🇺🇸US¹⁺_4|6.8MB/s|8%|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 104.17.215.13
-  servername: xn--cz8h.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
-  ws-opts:
-    headers:
-      Host: xn--cz8h.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: pyip=proxyip.cmliussss.net
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR¹-CA⁰_2|1.2MB/s|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 94.183.186.27
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇵🇱PL²_4|2.5MB/s|26%|GPT⁺|YT|TK|X|Succeed
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 217.30.10.70
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP²_6|3.0MB/s|0%|GPT⁺|GM|YT|X|History
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 154.31.114.125
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ed0c357f-64b6-499c-a3fc-712c3837f94f
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇺🇸US²_7|1.5MB/s|88%|GPT⁺|GM|YT|TK|X|History
-  network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  server: 15.204.97.206
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  xudp: true
-- name: 🇸🇬SG¹-CA⁰_1|1.8MB/s|GPT⁺|GM|YT|X|History
-  network: ws
-  port: 443
-  server: 43.160.195.223
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR²_5|3.1MB/s|GPT⁺|YT|TK|X|History
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  server: 62.210.91.10
-  servername: fuck.rkn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
-  name: 🇫🇮FI²_2|2.0MB/s|4%|GPT⁺|YT|TK|X|History
-  port: 443
-  reality-opts:
-    public-key: VMMc3QkOG66O2cD0Ki36VOEDQxpGT5aK8KAwLGklJzw
-    short-id: c2
-  server: 85.192.49.230
-  servername: www.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8de7627c-1995-41f7-93e6-7fd9715514a2
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_12|0.4MB/s|GPT⁺|YT-HK|X|History
-  network: ws
-  port: 21415
-  server: 43.132.244.52
-  servername: sni.jpmj.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_13|8.0MB/s|8%|GPT⁺|GM|YT|TK|X
-  network: ws
-  port: 2096
-  server: 104.238.71.138
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇾CY²_5|3.7MB/s|GPT⁺|YT-NL|TK|X|History
-  network: ws
-  port: 443
-  server: v2.dabache.top
-  servername: 639073677251729790.corolla-perma.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 130e98f6-18ad-4505-9a6e-6e00424bd058
-  ws-opts:
-    headers:
-      Host: 639073677251729790.corolla-perma.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /jsdrzrws?ed=2560
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB²_3|3.5MB/s|0%|GPT⁺|YT|TK|X|History
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: series-a2.samanehha.co
-  type: ss
-- client-fingerprint: chrome
-  name: 🇺🇸US¹⁺_5|2.4MB/s|8%|GPT⁺|GM|YT|TK|X
-  network: ws
-  port: 2083
+  port: 80
   server: 172.66.47.45
-  servername: wk1.f1w.de5.net
-  skip-cert-verify: true
-  tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 14e1775b-d92c-455b-8db3-e6c6d61909e0
   ws-opts:
     headers:
-      Host: wk1.f1w.de5.net
+      Host: vpnpro.eshghiabolfazl2009.workers.dev
     path: /
-- name: 🇯🇵JP²_7|3.0MB/s|0%|GPT⁺|YT|X|History
+- name: 🇯🇵JP²_3|1.5MB/s|0%|GPT⁺|YT|X|Succeed
   network: tcp
   password: WF42809561
   port: 443
@@ -1666,222 +1670,131 @@ proxies:
   sni: sharp-dogfish.rooster465.autos
   tls: true
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG²_2|1.9MB/s|0%|GPT⁺|GM|YT|X
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-    short-id: 96e03e0f184639ef
-  server: 185.151.146.40
-  servername: peer.pan.baidu.com
-  tls: true
+- encryption: none
+  name: 🇺🇸US¹⁺_8|5.2MB/s|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 80
+  server: vip3.kaixincloud.top
   type: vless
   udp: true
-  uuid: 45838e8e58c44a21b229c2e43347934a
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE²_3|1.5MB/s|100%|GPT⁺|YT|TK|X
-  password: a3027c931ae07bce
-  port: 27130
-  server: 57.129.69.122
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 🇫🇷FR⁻¹_1|0.4MB/s|YT|TK|History
-  network: ws
-  password: trojan
-  port: 445
-  server: 109.61.110.80
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+  name: 🇯🇵JP²_4|1.4MB/s|0%|GPT⁺|YT|X|History
+  password: WF42809561
+  port: 443
+  server: saving-octopus.rooster465.autos
+  skip-cert-verify: false
+  sni: saving-octopus.rooster465.autos
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL²_6|3.6MB/s|15%|GPT⁺|YT|TK|X|History
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
-  server: nll.scroogethebest.com
-  servername: nll.scroogethebest.com
-  tls: true
-  type: vless
-  uuid: e2e1ddaa-1acf-4c4c-a211-92284f6440ed
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇫🇮FI²_3|2.7MB/s|37%|GPT⁺|YT-RU|TK|X
-  network: tcp
-  port: 1888
-  reality-opts:
-    public-key: GaVpyGU5Xqyd5SYmchrCIajjTiXF69bmCnUdftmrwTM
-    short-id: 16b7f8a207cda6e3
-  server: fi.faceppm.ru
-  servername: www.kernel.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: a47fb050-8477-4d86-9332-5f687f572d94
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇺🇸US²_8|2.8MB/s|GPT⁺|YT-NL|TK-DE|X
-  network: tcp
-  port: 1443
-  reality-opts:
-    public-key: 2-PK2RY8YRcxqD01Me8ZSRK91iSgE3Zls2P0WFwxqig
-    short-id: b8a8f008c9
-  server: de19.fastlanehosting.ru
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 901bab26-b439-4706-8c00-aaf4a76d95e4
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE²_4|3.3MB/s|0%|GPT⁺|YT|TK|X
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 152.53.135.159
-  servername: us.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a9314f0-7ddf-4afe-9209-ebff797a6b3e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE²_5|2.1MB/s|0%|GPT⁺|YT|TK|X
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 152.53.135.159
-  servername: us.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: baff450a-5d96-4927-8668-e9813ecdb14f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU²_3|1.3MB/s|YT|X|History
-  port: 443
-  reality-opts:
-    public-key: F14RpPKCKo_qPcW7EFVu1M18JsAT8c04O08cIi0Ghg4
-    short-id: ab1cd2
-  server: 5.129.249.134
-  servername: ir.ozone.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: mega1849
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇦🇹AT²_4|3.2MB/s|29%|GPT⁺|YT-DE|TK|X
-  network: ws
-  port: 443
-  server: 162.159.36.20
-  servername: terazhediii.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
-  ws-opts:
-    headers:
-      Host: terazhediii.info
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /sghiyws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US⁻¹_4|2.2MB/s|GM|YT|TK
-  network: ws
-  port: 443
-  server: v1.dabache.top
-  servername: SAnYuuu.pAGeS.Dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a667767-995c-4892-9719-f52c3db2b0f2
-  ws-opts:
-    headers:
-      Host: SAnYuuu.pAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /eyJqdW5rIjoiVFo3Y0VvcXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹⁺_6|1.8MB/s|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 2083
-  server: 172.64.145.202
-  servername: newwk1.f1w.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: newwk1.f1w.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹-CA⁰_14|2.1MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  name: 🇺🇸US¹-CA⁰_17|11.8MB/s|GPT⁺|GM|YT|TK|X|History
   network: ws
   port: 2096
-  server: 45.12.30.191
-  servername: sni.my111000.tech
+  server: 45.192.222.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.my111000.tech
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-  xudp: true
-- name: 🇬🇧GB¹-CA⁰_3|2.0MB/s|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 57.129.137.59
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
+      Host: sni.jpmj.dev
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- name: 🇩🇪DE¹-CA⁰_3|3.4MB/s|0%|GPT⁺|YT|TK|X|History
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-SG⁰_2|1.4MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 2053
+  server: china.embassy.gov.au
+  servername: zu7rz41bbfz4.chinav.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: zu7rz41bbfz4.chinav.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /danfeng?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_18|3.7MB/s|100%|GPT⁺|GM|YT|TK|X|History
   network: ws
   port: 443
-  server: 18.184.55.249
+  server: 160.153.1.181
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 🇺🇸US²_9|2.0MB/s|0%|GPT⁺|GM|YT|TK|X|Succeed
+  network: raw
+  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
+  port: 443
+  server: n1.chateditimage.com
+  skip-cert-verify: false
+  sni: n1.chateditimage.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE²_5|2.6MB/s|25%|GPT⁺|YT|TK|X|History
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  server: 57.129.53.181
+  servername: fuck.rkn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- client-fingerprint: chrome
+  name: 🇭🇺HU²_1|1.2MB/s|GPT⁺|YT-NL|TK|X|History
+  port: 17267
+  reality-opts:
+    public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk
+    short-id: 4ae260
+  server: 5.182.38.91
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c7fcc38-e6be-43c5-875f-b8de2516b9f2
+- encryption: none
+  name: 🇺🇸US¹-NL⁰_1|1.2MB/s|8%|GPT|GM|YT|TK|X|History
+  network: ws
+  port: 2086
+  server: 104.21.89.4
+  type: vless
+  udp: true
+  uuid: 636de463-b509-4631-adc6-400b21733278
+  ws-opts:
+    headers:
+      Host: index.harmony610.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: 🔒
+  xudp: true
+- name: 🇺🇸US¹-CA⁰_19|1.3MB/s|GPT⁺|GM|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 160.153.1.4
   servername: sni.111000.indevs.in
   skip-cert-verify: true
   tls: true
@@ -1893,27 +1806,10 @@ proxies:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE¹-CA⁰_4|3.4MB/s|GPT|YT|TK|X
-  network: ws
-  port: 8443
-  server: 62.84.183.222
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_15|1.7MB/s|8%|GPT⁺|GM|YT|TK|X|History
+  name: 🇺🇸US¹-CA⁰_20|10.8MB/s|8%|GPT⁺|GM|YT|TK|X
   network: ws
   port: 2096
-  server: 89.116.250.238
+  server: 188.42.88.238
   servername: sni.jpmj.dev
   skip-cert-verify: true
   tls: true
@@ -1923,258 +1819,40 @@ proxies:
   ws-opts:
     headers:
       Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 🇵🇰PK²_2|1.4MB/s|GPT⁺|GM|YT|X
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 156.59.243.6
-  type: ss
+    path: /?ed=2560
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR¹-CA⁰_3|2.3MB/s|GPT|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 188.130.207.235
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_16|4.6MB/s|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 172.67.75.172
-  servername: sany.tara132.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sany.tara132.workers.dev
-    path: /sni.111000.dynv6.net/?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹⁺_7|2.3MB/s|8%|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 172.64.146.153
-  servername: do88.cmddo.ggff.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22620697-6fba-4b71-a348-0cef2f7bec1e
-  ws-opts:
-    headers:
-      Host: do88.cmddo.ggff.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇱🇻LV¹-CA⁰_1|3.2MB/s|GPT⁺|YT|TK|X
-  network: ws
-  port: 443
-  server: 5.34.208.18
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇾CY²_6|2.7MB/s|GPT⁺|YT-NL|TK|X|History
-  network: ws
-  port: 443
-  server: vip1.kaixincloud.top
-  servername: 639073677251729790.corolla-perma.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 130e98f6-18ad-4505-9a6e-6e00424bd058
-  ws-opts:
-    headers:
-      Host: 639073677251729790.corolla-perma.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /jsdrzrws?ed=2560
-  xudp: true
-- name: 🇬🇧GB¹-CA⁰_4|3.3MB/s|8%|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 57.129.137.93
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹-CA⁰_17|10.5MB/s|8%|GPT⁺|GM|YT|TK|X
-  network: ws
-  port: 2096
-  server: 8.6.112.191
-  servername: sni.my111000.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW²_4|1.4MB/s|GPT⁺|GM|YT|X
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: nbmrcg003507ck6.cybervena.com
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇵🇱PL²_5|1.7MB/s|26%|GPT⁺|YT|TK|X
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  server: 217.30.10.70
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_18|4.8MB/s|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 63.141.128.9
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸US⁻¹_5|7.3MB/s|GM|YT|TK|History
-  network: ws
-  port: 443
-  server: 172.64.80.1
-  servername: tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49d598ee-4dfc-4001-95ca-99a5b6002e3c
-  ws-opts:
-    headers:
-      Host: tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev
-    path: ws
-- client-fingerprint: chrome
-  name: 🇬🇧GB¹-CA⁰_5|3.8MB/s|GPT|YT|TK|X|History
-  network: ws
-  port: 8443
-  server: 57.128.177.218
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇾CY²_7|2.8MB/s|0%|GPT⁺|YT-RU|TK|X
-  network: tcp
-  port: 8443
+  name: 🇬🇧GB²_3|1.1MB/s|0%|GPT⁺|YT-RU|TK|X|History
+  port: 443
   reality-opts:
-    _spider-x: /
-    public-key: BSsqyfTD-avgb1CyUdy_qJA95HwyMadBMJt7-EQjggk
-    short-id: e473bbc75224b9df
-  server: 45.15.128.75
-  servername: max.ru
+    public-key: t7YdHqvQbBRuTgQQfkjXnfIpCSYLRtyD2TEUEfAVr2M
+    short-id: 331e17a8
+  server: 82.38.63.87
+  servername: www.microsoft.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: fad2b7e0-d80c-4b7b-a84f-d86e0e49f627
-- client-fingerprint: chrome
-  name: 🇫🇷FR¹-CA⁰_4|3.1MB/s|GPT⁺|YT|TK|X
-  network: ws
-  port: 8443
-  server: 51.91.249.115
-  tls: true
-  type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
-  xudp: true
+  uuid: 83124ed5-90cb-4c83-8d75-a81b5e488be0
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE¹-CA⁰_5|3.0MB/s|8%|GPT⁺|YT|TK|X|History
+  name: 🇩🇪DE²_6|3.1MB/s|15%|GPT⁺|YT|TK|X
   network: ws
-  port: 2012
-  server: 89.58.34.230
-  servername: sni.111000.indevs.in
+  port: 443
+  server: 173.245.58.75
+  servername: octopusss4.com
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+      Host: octopusss4.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /tsghdws
   xudp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP²_8|2.8MB/s|0%|GPT⁺|YT|X|History
-  network: tcp
-  password: IL37892054
-  port: 443
-  server: natural-seagull.rooster465.autos
-  skip-cert-verify: true
-  sni: natural-seagull.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_19|7.9MB/s|8%|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 2096
-  server: 45.40.155.191
-  servername: sni.my111000.tech
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.my111000.tech
-    max-early-data: 2560
-    path: /Telegram🇨🇳@WangCai2/
-- client-fingerprint: chrome
-  name: 🇺🇸US²_9|2.5MB/s|55%|GPT⁺|GM|YT|TK|X|History
+  name: 🇺🇸US²_10|1.8MB/s|55%|GPT⁺|GM|YT|TK|X|Succeed
   network: ws
   port: 8443
   server: vip1.kaixincloud.top
@@ -2188,403 +1866,74 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
     path: /57ba2ab1
+- client-fingerprint: chrome
+  name: 🇯🇵JP²_5|1.4MB/s|0%|GPT⁺|YT|X
+  password: WF42809561
+  port: 443
+  server: proper-marlin.rooster465.autos
+  skip-cert-verify: false
+  sni: proper-marlin.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇱🇻LV²_1|2.4MB/s|0%|GPT⁺|YT|TK|X|Succeed
-  password: MholStyHL7DhrewKbpQa20
-  port: 24637
-  server: 185.176.221.72
+  name: 🇩🇪DE²_7|1.6MB/s|41%|GPT⁺|YT|TK|X
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
   type: ss
-- name: 🇺🇸US⁻¹_6|6.8MB/s|GM|YT|TK|History
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: 172.64.229.217
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- client-fingerprint: chrome
-  name: 🇬🇧GB¹-CA⁰_6|3.7MB/s|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 2.56.179.4
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 🇩🇪DE¹-CA⁰_6|1.8MB/s|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 109.120.179.99
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 🇫🇷FR²_6|1.8MB/s|5%|GPT⁺|YT|TK|X
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: immense-gnu.rooster465.autos
-  sni: immense-gnu.rooster465.autos
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇩🇪DE¹-CA⁰_7|2.1MB/s|8%|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 135.181.210.228
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU²_4|1.7MB/s|YT|X
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F14RpPKCKo_qPcW7EFVu1M18JsAT8c04O08cIi0Ghg4
-    short-id: ab1cd2
-  server: 5.129.249.134
-  servername: ir.ozone.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: mega233
-  xudp: true
-- name: 🇫🇷FR¹-CA⁰_5|2.4MB/s|8%|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 51.91.254.78
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- name: 🇯🇵JP²_9|2.1MB/s|0%|GPT⁺|YT|X|History
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: eternal-kingfish.rooster465.autos
-  sni: eternal-kingfish.rooster465.autos
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_20|8.0MB/s|GPT⁺|GM|YT|TK|X
-  network: ws
-  port: 2096
-  server: 185.159.247.238
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US²_10|7.4MB/s|0%|GPT⁺|YT|TK|X
-  network: raw
-  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
-  port: 443
-  server: n1.chateditimage.com
-  skip-cert-verify: false
-  sni: n1.chateditimage.com
-  tls: true
-  type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇮🇳IN¹-CA⁰_2|1.6MB/s|GPT⁺|GM|YT|X|History
+  name: 🇺🇸US¹-SG⁰_3|6.7MB/s|8%|GPT⁺|GM|YT|TK|X|History
   network: ws
   port: 443
-  server: 98.70.26.236
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸US¹-DE⁰_1|2.4MB/s|8%|GPT⁺|GM|YT|TK|X
-  network: ws
-  port: 8443
-  server: myanmar.visa.com
-  servername: bba.zjck.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c416332e-2bde-4806-ac02-8f021c6e8f68
-  ws-opts:
-    headers:
-      Host: bba.zjck.de5.net
-    path: /?proxyip=proxyip.aliyun.fxxk.dedyn.io
-- name: 🇦🇹AT²_5|3.5MB/s|29%|GPT⁺|YT-DE|TK|X
-  network: ws
-  port: 443
-  server: 172.64.146.211
-  servername: terazhediii.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
-  ws-opts:
-    headers:
-      Host: terazhediii.info
-    path: /sghiyws
-- name: 🇺🇸US¹-CA⁰_21|2.3MB/s|8%|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 135.84.67.42
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: /?Join-V2rayTun0-Join-V2rayTun0-Join-V2rayTun0-Join-V2rayTun0-Join-V2rayTun0-Join-V2rayTun0-Join-V2rayTun0-Join-V2rayTun0-?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹-CA⁰_22|2.5MB/s|8%|GPT|GM|YT|TK|X
-  network: ws
-  port: 443
-  server: 147.182.239.72
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇦🇹AT²_6|3.5MB/s|29%|GPT⁺|YT-US|TK|X|History
-  network: ws
-  port: 443
-  server: vip1.kaixincloud.top
-  servername: picassooo.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7270612b-49f6-4b04-999c-34d8263da767
-  ws-opts:
-    headers:
-      Host: picassooo.info
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /aymdlws
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇷TR²_1|0.9MB/s|GPT⁺|YT-RU|X|History
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc
-    short-id: 6ea3daaac3d6bede
-  server: 188.132.184.148
-  servername: greenpepper.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a
-- name: 🇺🇸US¹-CA⁰_23|8.6MB/s|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 2096
-  server: 198.71.232.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- encryption: none
-  name: 🇩🇰DK²_1|2.8MB/s|0%|GPT⁺|YT-RU|TK|X
-  network: ws
-  port: 15855
-  server: 45.148.31.0
-  type: vless
-  udp: true
-  uuid: e4fc4761-154f-490e-bbaa-b4fa193f1073
-  ws-opts:
-    headers:
-      Host: Join---V2rayBaaz---Join---V2rayBaaz---Join---V2rayBaaz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇸🇬SG¹-CA⁰_2|2.0MB/s|GPT⁺|GM|YT|X|History
-  network: ws
-  port: 443
-  server: 168.138.189.91
-  servername: sni.jpmj.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-CA⁰_24|10.3MB/s|8%|GPT⁺|GM|YT|TK|X
-  network: ws
-  port: 2096
-  server: 216.205.52.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹-SG⁰_2|1.5MB/s|8%|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 2053
-  server: v2.dabache.top
-  servername: pnat6unnnp.gfw.hidns.co
+  server: static.shopify.com
   tls: true
   type: vless
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: pnat6unnnp.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /danfeng?ed=2560
+      Host: zu7rz41bbfz4.chinav.indevs.in
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /danfeng
   xudp: true
-- cipher: aes-256-cfb
-  name: 🇳🇱NL²_7|3.1MB/s|GPT⁺|YT|TK|X|History
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.166
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇦🇹AT²_7|3.0MB/s|29%|GPT⁺|YT-DE|TK|X|History
-  network: ws
-  port: 443
-  server: vip1.kaixincloud.top
-  servername: rivvers.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 098fd515-29de-4d74-b77d-d8ab878a7e2c
-  ws-opts:
-    headers:
-      Host: rivvers.info
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /resgdws
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB²_4|0.4MB/s|0%|GPT⁺|GM|TK|X
-  password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
-  port: 55988
-  server: 185.5.38.111
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇻🇳VN²_2|0.8MB/s|GPT⁺|GM|YT-US|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.198
-  type: ss
-  udp: true
-- name: 🇺🇸US¹⁺_8|4.3MB/s|8%|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 80
-  server: 104.17.150.99
-  type: vless
-  udp: true
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  ws-opts:
-    headers:
-      Host: vip.yaml7.ggff.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸US¹⁺_9|1.5MB/s|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 80
-  server: 172.64.146.198
-  type: vless
-  udp: true
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  ws-opts:
-    headers:
-      Host: vip.yaml7.ggff.net
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: edge
-  name: 🇺🇸US²_11|1.9MB/s|47%|GPT⁺|YT-CN|TK|X|History
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇨🇭CH²_3|1.9MB/s|0%|GPT⁺|YT-EE|TK-EE|X
   network: tcp
-  port: 51109
+  port: 443
   reality-opts:
-    public-key: wYa4Dj_V4TKfO3nRxIgk6cq19CWTq6anTB8sqEcbiX4
-    short-id: 9109aa
-  server: usvless.sudao888.xyz
-  servername: yahoo.com
+    public-key: sQrrYcu1AnXynaMenZCMT7yZsGRVYxjJMpN2uIuN9RA
+    short-id: fd0aaf7dd2c22362
+  server: 138.124.100.188
+  servername: et.pinkweb.one
   tls: true
   type: vless
   udp: true
-  uuid: b4e92f5c-80d5-4c00-b028-168f7493c197
+  uuid: 4dde0df3-aa67-417c-882e-28beb3886961
   xudp: true
-- name: 🇫🇷FR¹-CA⁰_6|1.5MB/s|GPT⁺|YT|TK|X|History
+- name: 🇺🇸US²_11|1.1MB/s|GPT⁺|GM|YT-SG|X
+  network: ws
+  port: 80
+  server: support.zoom.us
+  type: vless
+  udp: true
+  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.ggff.net
+    path: /@Tech_Sonic
+- name: 🇳🇱NL¹-CA⁰_2|1.1MB/s|8%|GPT|YT|TK|X|History
   network: ws
   port: 443
-  server: 37.59.96.47
-  servername: sni.111000.v6.navy
+  server: 45.131.187.210
+  servername: sni.111000.indevs.in
   skip-cert-verify: true
   tls: true
   type: vless
@@ -2592,265 +1941,151 @@ proxies:
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  name: 🇨🇾CY²_8|4.6MB/s|60%|GPT⁺|GM|YT-US|TK-US|X|History
-  port: 443
-  reality-opts:
-    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
-    short-id: 8bd29483ded126b4
-  server: 185.161.70.10
-  servername: wikihow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 21915536-afb5-4a0c-b047-fcf549d3a173
-- client-fingerprint: chrome
-  name: 🇯🇵JP²_10|2.9MB/s|0%|GPT⁺|YT|X
-  password: WF42809561
-  port: 443
-  server: master-possum.rooster465.autos
-  skip-cert-verify: false
-  sni: master-possum.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇱🇻LV¹-CA⁰_2|2.0MB/s|8%|GPT|YT|TK|X|History
-  network: ws
-  port: 8443
-  server: 37.128.204.4
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
       Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
-  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US²_12|2.4MB/s|0%|GPT⁺|GM|YT|TK|X|History
+  port: 22324
+  server: 216.106.185.141
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-cfb
-  name: 🇻🇳VN²_3|1.4MB/s|GPT⁺|YT-RU|X
+  name: 🇻🇳VN²_4|0.9MB/s|GPT⁺|GM|YT|X|History
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 103.186.154.37
-  tfo: false
+  server: 103.186.155.116
   type: ss
-- name: 🇮🇪IE²_1|0.7MB/s|0%|GPT⁺|YT|TK|X|History
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: sharing-porpoise.rooster465.autos
-  sni: sharing-porpoise.rooster465.autos
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇬🇧GB¹-CA⁰_7|3.3MB/s|100%|GPT⁺|YT|TK|X
-  network: ws
-  port: 8443
-  server: 57.129.137.204
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇳🇱NL¹-CA⁰_2|4.2MB/s|8%|GPT⁺|YT|TK|X
-  network: ws
-  port: 443
-  server: 5.35.34.240
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-  xudp: true
-- cipher: aes-128-gcm
-  name: 🇳🇱NL²_8|3.4MB/s|58%|GPT⁺|GM|YT-US|TK|X|History
-  password: shadowsocks
-  port: 443
-  server: 158.173.20.171
-  type: ss
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹-CA⁰_25|1.8MB/s|GPT⁺|GM|YT|TK|X
+  name: 🇺🇸US¹-CA⁰_21|13.1MB/s|GPT⁺|GM|YT|TK|X|History
   network: ws
   port: 2096
-  server: 199.181.197.138
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US¹⁺_10|5.4MB/s|GPT⁺|GM|YT|TK|X|History
-  network: ws
-  port: 443
-  server: 104.18.121.51
-  servername: xn--cz8h.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
-  ws-opts:
-    headers:
-      Host: xn--cz8h.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: pyip=proxyip.cmliussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP²_11|3.0MB/s|0%|GPT⁺|YT|X|History
-  password: WF42809561
-  port: 443
-  server: complete-cockatoo.rooster465.autos
+  server: 190.93.244.238
+  servername: sni.jpmj.dev
   skip-cert-verify: false
-  sni: complete-cockatoo.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼TW²_5|1.2MB/s|GPT⁺|GM|YT|X
-  port: 443
-  reality-opts:
-    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-    short-id: 96e03e0f184639ef
-  server: 220.130.75.219
-  servername: peer.pan.baidu.com
-  skip-cert-verify: true
-  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 4c1778f3965c48af9529c11ce054b9c2
-  xudp: true
-- name: 🇬🇧GB¹-CA⁰_8|4.1MB/s|67%|GPT|YT|TK|X
-  network: ws
-  port: 443
-  server: 57.129.137.81
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
+      Host: sni.jpmj.dev
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW²_6|2.5MB/s|GPT⁺|GM|YT|X
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 114.45.173.211
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 🇩🇪DE¹-CA⁰_8|2.3MB/s|GPT⁺|YT|TK|X|History
-  network: ws
-  port: 8443
-  server: 51.77.213.238
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-  xudp: true
-- name: 🇩🇪DE¹-CA⁰_9|2.3MB/s|GPT⁺|YT|TK|X|History
+  name: 🇺🇸US⁻¹_2|2.1MB/s|GM|YT|TK|History
   network: ws
   port: 443
-  server: 38.242.222.86
-  servername: sni.111000.indevs.in
+  server: 172.67.135.69
+  servername: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 2730487f-0ed5-4f04-92d5-f95f9253d4f4
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
+      Host: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev
+    path: ws
 - client-fingerprint: chrome
   encryption: none
-  name: 🇮🇳IN¹-CA⁰_3|0.3MB/s|GPT|GM|YT|X|History
+  name: 🇨🇭CH²_4|2.7MB/s|0%|GPT⁺|YT|TK|X|History
   network: ws
   port: 2053
-  server: 64.227.174.213
-  servername: sni.111000.indevs.in
+  server: vip3.kaixincloud.top
+  servername: fz3.sellink.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9caafed4-04ba-41b2-9c64-e4ce39a985d6
+  ws-opts:
+    headers:
+      Host: fz3.sellink.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE²_8|1.6MB/s|15%|GPT⁺|YT|TK|X|History
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: octopusss4.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  ws-opts:
+    headers:
+      Host: octopusss4.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /tsghdws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE²_9|2.3MB/s|6%|GPT⁺|YT|TK|X|History
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2XHOm5oJ92noxYHfahYv6dABkpp-bdehIA5grPB1X2c
+    short-id: beba4237
+  server: 94.156.115.109
+  servername: tunnel.vk-apps.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9357d31a-97f5-492b-9a9d-24dcb3449fb9
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-CA⁰_22|1.4MB/s|8%|GPT|GM|YT|TK|X|History
+  network: ws
+  port: 2096
+  server: 45.149.12.238
   tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
   xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE¹-CA⁰_10|2.5MB/s|8%|GPT⁺|YT|TK|X
+- name: 🇺🇸US⁻¹_3|9.2MB/s|GM|YT|TK
   network: ws
-  port: 8443
-  server: 5.75.198.50
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  name: 🇳🇱NL⁻¹_1|1.7MB/s|YT|TK
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.230
+  password: bpb-trojan
+  port: 443
+  server: sinbox.thep.vip
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+  sni: sinbox.thep.vip
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- name: 🇸🇪SE²_1|3.2MB/s|8%|GPT⁺|TK|X|History
+      Host: sinbox.thep.vip
+    path: /tr?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇦SA²_1|1.3MB/s|16%|GPT⁺|YT-HK|X|History
   port: 443
-  server: secdn13.dramatorg.net
-  servername: secdn13.dramatorg.net
-  skip-cert-verify: true
+  reality-opts:
+    public-key: 5-nnpf-B0VUro6YBz18hjPeeAf_Hx8c6IZpV2Gq7dyQ
+  server: 154.205.134.233
+  servername: dash.cloudflare.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e6c05419-9338-44fc-926d-918c55bacf44
+  uuid: 74ffd908-7a1d-4a3c-a356-64585c11258e
+- cipher: aes-256-cfb
+  name: 🇻🇳VN²_5|0.5MB/s|GPT⁺|YT|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.218
+  type: ss
+  udp: true
 proxy-groups:
 - exclude-filter: (?i)Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
   icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Static.png
