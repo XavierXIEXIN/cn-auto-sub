@@ -1,259 +1,269 @@
 # 检测结果分析报告
-# 生成时间: 2026-03-28 19:04:44
+# 生成时间: 2026-03-29 03:43:13
 
 summary: |
-  用时 3 分 6 秒,消耗流量 317.65 MB, 检测到 122 个可用节点，设置速度下限 384 KB/s。覆盖 24 个国家/地区 [Top: CA]; 线路分布多样 [CF 中转 54.9%, VPS 45.1%]; 流媒体解锁: [YouTube:121, TikTok:97]; AI 解锁[GPT+:110, Gemini:56, GPT:8]; 代理协议: vless|trojan|ss|vmess。
+  用时 2 分 23 秒,消耗流量 311.43 MB, 检测到 121 个可用节点，设置速度下限 384 KB/s。覆盖 26 个国家/地区 [Top: CA]; 以 VPS 为主 [CF 中转 47.1%, VPS 51.2%]; 流媒体解锁: [YouTube:119, TikTok:93]; AI 解锁[GPT+:113, Gemini:51, GPT:1]; 代理协议: vless|ss|trojan|vmess。
 
 check_info:
-  check_time: 03-28 19:01
-  check_time_raw: 2026-03-28T19:01:37Z
-  check_end_time_raw: 2026-03-28T19:04:44Z
-  check_duration: 3 分 6 秒
-  check_duration_raw: 186
-  check_count: 122
-  check_count_raw: 122
-  check_traffic: 317.65 MB
-  check_traffic_raw: 333079761
+  check_time: 03-29 03:40
+  check_time_raw: 2026-03-29T03:40:50Z
+  check_end_time_raw: 2026-03-29T03:43:13Z
+  check_duration: 2 分 23 秒
+  check_duration_raw: 143
+  check_count: 121
+  check_count_raw: 121
+  check_traffic: 311.43 MB
+  check_traffic_raw: 326559754
   check_min_speed: 384
 
 global_analysis:
-  alive_count: 122
+  alive_count: 121
   geography_distribution:
-    CA: 53
-    US: 42
+    CA: 42
+    US: 39
     DE: 17
-    NL: 10
-    FR: 7
-    AT: 6
-    VN: 5
-    JP: 4
-    HK: 4
-    SG: 4
-    GB: 4
+    NL: 11
+    FR: 10
+    VN: 8
+    GB: 7
+    JP: 7
     SE: 3
-    KR: 3
-    LV: 2
+    HK: 3
+    AT: 2
+    SG: 2
     TW: 2
     RU: 2
-    EE: 2
-    NO: 1
-    MA: 1
-    PL: 1
-    SA: 1
+    KR: 2
+    CY: 2
     ES: 1
-    CY: 1
+    AU: 1
+    MD: 1
+    IN: 1
+    LV: 1
+    FI: 1
+    IE: 1
     TR: 1
+    PL: 1
+    IQ: 1
   protocol_distribution:
-    vless: 98
-    trojan: 11
-    ss: 10
-    vmess: 3
+    vless: 90
+    ss: 16
+    trojan: 13
+    vmess: 2
   quality_metrics:
-    cf_consistent_ratio: 54.9%
+    cf_consistent_ratio: 47.1%
     cf_details:
       consistent_¹⁺:
-        US: 37
-        DE: 12
-        FR: 5
-        NL: 4
-        SE: 3
+        US: 31
+        DE: 6
+        FR: 6
+        NL: 5
         JP: 2
-        LV: 2
+        GB: 2
+        SE: 1
+        PL: 1
+        IN: 1
+        HK: 1
+        LV: 1
+      inconsistent_⁰:
+        CA: 42
+        NL: 2
+        JP: 1
+        DE: 1
         SG: 1
         GB: 1
-      inconsistent_⁰:
-        CA: 53
-        SG: 2
-      blocked_⁻¹: {}
+      blocked_⁻¹:
+        US: 2
     vps_details_²:
-      AT: 6
-      NL: 6
-      VN: 5
-      US: 5
-      DE: 5
-      HK: 4
-      KR: 3
-      GB: 3
-      JP: 2
-      TW: 2
-      FR: 2
-      EE: 2
+      DE: 10
+      VN: 8
+      US: 6
+      FR: 4
+      GB: 4
+      NL: 4
+      JP: 4
+      AT: 2
+      HK: 2
+      SE: 2
+      CY: 2
       RU: 2
-      PL: 1
-      SG: 1
-      CY: 1
-      TR: 1
-      MA: 1
-      NO: 1
-      SA: 1
+      KR: 2
+      TW: 2
+      FI: 1
+      AU: 1
+      IE: 1
+      IQ: 1
+      MD: 1
       ES: 1
+      SG: 1
+      TR: 1
 
 subs_ranking:
+  - url: http://127.0.0.1:18199/all.yaml#Succeed
+    stats: { rate: 4.1%, success: 5, total: 122 }
+    protocols: { vless: 4, vmess: 1 }
+    top_locations: [CA|DE|US]
   - url: http://127.0.0.1:18199/history.yaml#History
-    stats: { rate: 1.8%, success: 90, total: 4889 }
-    protocols: { vless: 73, trojan: 9, ss: 6, vmess: 2 }
+    stats: { rate: 1.6%, success: 79, total: 4921 }
+    protocols: { vless: 56, ss: 12, trojan: 11 }
     top_locations: [CA|US|DE]
-  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_SS+All_RUS_base64.txt
-    stats: { rate: 0.6%, success: 2, total: 335 }
-    protocols: { ss: 2 }
-    top_locations: [VN]
-  - url: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
-    stats: { rate: 0.5%, success: 1, total: 201 }
-    protocols: { trojan: 1 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/mahdibland.yaml
+    stats: { rate: 0.5%, success: 1, total: 200 }
+    protocols: { ss: 1 }
     top_locations: [NL]
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/_previous.yaml
+    stats: { rate: 0.4%, success: 3, total: 703 }
+    protocols: { vless: 2, ss: 1 }
+    top_locations: [TW|DE|GB]
+  - url: https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/all_valid_proxies.txt
+    stats: { rate: 0.4%, success: 13, total: 3287 }
+    protocols: { vless: 13 }
+    top_locations: [US|DE|CA]
+  - url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Ruk1ng001.yaml
+    stats: { rate: 0.4%, success: 1, total: 279 }
+    protocols: { ss: 1 }
+    top_locations: [TW]
   - url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/mixed/Leon406/SubCrawler/sub/share/a11.yaml
     stats: { rate: 0.3%, success: 1, total: 289 }
-    protocols: { ss: 1 }
-    top_locations: [DE]
-  - url: https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/all_valid_proxies.txt
-    stats: { rate: 0.3%, success: 10, total: 3216 }
-    protocols: { vless: 8, vmess: 1, trojan: 1 }
-    top_locations: [CA|US|SE]
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/_previous.yaml
-    stats: { rate: 0.3%, success: 2, total: 687 }
-    protocols: { vless: 2 }
-    top_locations: [CA|US]
-  - url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/Ruk1ng001.yaml
-    stats: { rate: 0.2%, success: 1, total: 434 }
-    protocols: { vless: 1 }
-    top_locations: [HK]
+    protocols: { trojan: 1 }
+    top_locations: [KR]
+  - url: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/clash.yaml
+    stats: { rate: 0.2%, success: 15, total: 6218 }
+    protocols: { vless: 12, vmess: 1, ss: 1, trojan: 1 }
+    top_locations: [US|CA|FR]
   - url: https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt
     stats: { rate: 0.2%, success: 1, total: 499 }
     protocols: { vless: 1 }
-    top_locations: [GB]
-  - url: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/clash.yaml
-    stats: { rate: 0.1%, success: 9, total: 6218 }
-    protocols: { vless: 8, ss: 1 }
-    top_locations: [CA|US|SA]
+    top_locations: [HK]
   - url: https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless
-    stats: { rate: 0.1%, success: 5, total: 5172 }
-    protocols: { vless: 5 }
-    top_locations: [CA|US|GB]
+    stats: { rate: 0.0%, success: 2, total: 5217 }
+    protocols: { vless: 2 }
+    top_locations: [US|GB|CA]
 
 subs_ranking_bad:
-  - url: https://edge-seed-pages.pages.dev/00d6a6ada8d2?b64#edge-seed-pages
-    stats: { rate: 0.0%, success: 0, total: 3 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/coldwater-10.yaml
-    stats: { rate: 0.0%, success: 0, total: 3833 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/aiboboxx.yaml
-    stats: { rate: 0.0%, success: 0, total: 716 }
+  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_SS+All_RUS_base64.txt
+    stats: { rate: 0.0%, success: 0, total: 360 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/clashfree.yaml
+    stats: { rate: 0.0%, success: 0, total: 418 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/Pawdroid.yaml
+    stats: { rate: 0.0%, success: 0, total: 8 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/changfengoss.yaml
+    stats: { rate: 0.0%, success: 0, total: 2 }
+  - url: http://127.0.0.1:18080/private-sub.txt#cf-workers-sub-legacy
+    stats: { rate: 0.0%, success: 0, total: 75 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/zhangkaiitugithub.yaml
+    stats: { rate: 0.0%, success: 0, total: 24 }
+  - url: https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml
+    stats: { rate: 0.0%, success: 0, total: 26 }
+  - url: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt
+    stats: { rate: 0.0%, success: 0, total: 14 }
+  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
+    stats: { rate: 0.0%, success: 0, total: 147 }
   - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_mobile_base64.txt
     stats: { rate: 0.0%, success: 0, total: 147 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/mahdibland.yaml
-    stats: { rate: 0.0%, success: 0, total: 200 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/ripaojiedian.yaml
+  - url: https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-14.txt
+    stats: { rate: 0.0%, success: 0, total: 9815 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/_pool.yaml
+    stats: { rate: 0.0%, success: 0, total: 206 }
+  - url: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
+    stats: { rate: 0.0%, success: 0, total: 54 }
+  - url: https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-19.txt
+    stats: { rate: 0.0%, success: 0, total: 1174 }
+  - url: https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml
+    stats: { rate: 0.0%, success: 0, total: 3643 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/soroushmirzaei.yaml
+    stats: { rate: 0.0%, success: 0, total: 42241 }
+  - url: https://raw.githubusercontent.com/liMilCo/v2r/main/base64/2.txt
+    stats: { rate: 0.0%, success: 0, total: 482 }
+  - url: https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt
+    stats: { rate: 0.0%, success: 0, total: 3 }
+  - url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml
+    stats: { rate: 0.0%, success: 0, total: 150 }
+  - url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Barabama_ndnode.yaml
+    stats: { rate: 0.0%, success: 0, total: 14 }
+  - url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/TrinityBase
+    stats: { rate: 0.0%, success: 0, total: 2029 }
+  - url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/Ruk1ng001.yaml
+    stats: { rate: 0.0%, success: 0, total: 434 }
+  - url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/VM_TrinityBase
+    stats: { rate: 0.0%, success: 0, total: 2222 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/yudou.yaml
+    stats: { rate: 0.0%, success: 0, total: 69 }
+  - url: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt
+    stats: { rate: 0.0%, success: 0, total: 197 }
+  - url: https://raw.githubusercontent.com/yorkLiu/FreeV2RayNode/main/v2ray.txt
+    stats: { rate: 0.0%, success: 0, total: 50 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/ermaozi.yaml
+    stats: { rate: 0.0%, success: 0, total: 21 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/anaer.yaml
+    stats: { rate: 0.0%, success: 0, total: 2157 }
+  - url: https://raw.githubusercontent.com/liMilCo/v2r/main/configs.txt
+    stats: { rate: 0.0%, success: 0, total: 3783 }
+  - url: https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/utils/pool/output.yaml
+    stats: { rate: 0.0%, success: 0, total: 3727 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/xrayvip.yaml
+    stats: { rate: 0.0%, success: 0, total: 24 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/chengaopan.yaml
+    stats: { rate: 0.0%, success: 0, total: 22 }
+  - url: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc2.yaml
     stats: { rate: 0.0%, success: 0, total: 14 }
   - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/hkaa0.yaml
     stats: { rate: 0.0%, success: 0, total: 6148 }
-  - url: https://raw.githubusercontent.com/liMilCo/v2r/main/base64/2.txt
-    stats: { rate: 0.0%, success: 0, total: 490 }
-  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
-    stats: { rate: 0.0%, success: 0, total: 147 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/SFZY666.yaml
-    stats: { rate: 0.0%, success: 0, total: 12 }
-  - url: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc2.yaml
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/ripaojiedian.yaml
     stats: { rate: 0.0%, success: 0, total: 14 }
-  - url: https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/utils/pool/output.yaml
-    stats: { rate: 0.0%, success: 0, total: 3727 }
-  - url: https://raw.githubusercontent.com/liMilCo/v2r/main/configs.txt
-    stats: { rate: 0.0%, success: 0, total: 3830 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/ermaozi.yaml
-    stats: { rate: 0.0%, success: 0, total: 21 }
-  - url: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc0.yaml
-    stats: { rate: 0.0%, success: 0, total: 139 }
-  - url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/TrinityBase
-    stats: { rate: 0.0%, success: 0, total: 2029 }
-  - url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Ruk1ng001.yaml
-    stats: { rate: 0.0%, success: 0, total: 279 }
-  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt
-    stats: { rate: 0.0%, success: 0, total: 73 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/_pool.yaml
-    stats: { rate: 0.0%, success: 0, total: 206 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/ttvg.yaml
-    stats: { rate: 0.0%, success: 0, total: 18 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/clashfree.yaml
-    stats: { rate: 0.0%, success: 0, total: 418 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/zhangkaiitugithub.yaml
-    stats: { rate: 0.0%, success: 0, total: 24 }
-  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt
-    stats: { rate: 0.0%, success: 0, total: 335 }
-  - url: https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix
-    stats: { rate: 0.0%, success: 0, total: 1329 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/anaer.yaml
-    stats: { rate: 0.0%, success: 0, total: 2157 }
-  - url: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.txt
-    stats: { rate: 0.0%, success: 0, total: 134 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/chengaopan.yaml
-    stats: { rate: 0.0%, success: 0, total: 22 }
-  - url: http://127.0.0.1:18199/all.yaml#Succeed
-    stats: { rate: 0.0%, success: 0, total: 120 }
-  - url: https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml
-    stats: { rate: 0.0%, success: 0, total: 26 }
-  - url: https://raw.githubusercontent.com/ovmvo/SubShare/main/sub/permanent/mihomo.yaml
-    stats: { rate: 0.0%, success: 0, total: 399 }
-  - url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/VM_TrinityBase
-    stats: { rate: 0.0%, success: 0, total: 2222 }
-  - url: https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt
+  - url: https://raw.githubusercontent.com/ts-sf/fly/main/clash
+    stats: { rate: 0.0%, success: 0, total: 74 }
+  - url: https://edge-seed-pages.pages.dev/00d6a6ada8d2?b64#edge-seed-pages
     stats: { rate: 0.0%, success: 0, total: 3 }
-  - url: https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml
-    stats: { rate: 0.0%, success: 0, total: 3643 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/Pawdroid.yaml
-    stats: { rate: 0.0%, success: 0, total: 4 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/tssf.yaml
-    stats: { rate: 0.0%, success: 0, total: 81 }
-  - url: https://raw.githubusercontent.com/yorkLiu/FreeV2RayNode/main/v2ray.txt
-    stats: { rate: 0.0%, success: 0, total: 50 }
-  - url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml
-    stats: { rate: 0.0%, success: 0, total: 150 }
-  - url: https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-14.txt
-    stats: { rate: 0.0%, success: 0, total: 9764 }
-  - url: http://127.0.0.1:18080/private-sub.txt#cf-workers-sub-legacy
-    stats: { rate: 0.0%, success: 0, total: 75 }
-  - url: https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/all.yaml
-    stats: { rate: 0.0%, success: 0, total: 86 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/snakem982.yaml
-    stats: { rate: 0.0%, success: 0, total: 81 }
   - url: https://raw.githubusercontent.com/mgit0001/test_clash/main/heima.txt
     stats: { rate: 0.0%, success: 0, total: 25 }
-  - url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Barabama_ndnode.yaml
-    stats: { rate: 0.0%, success: 0, total: 14 }
+  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt
+    stats: { rate: 0.0%, success: 0, total: 360 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/SFZY666.yaml
+    stats: { rate: 0.0%, success: 0, total: 12 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/ttvg.yaml
+    stats: { rate: 0.0%, success: 0, total: 18 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/tssf.yaml
+    stats: { rate: 0.0%, success: 0, total: 81 }
   - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/peasoft.yaml
     stats: { rate: 0.0%, success: 0, total: 32 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/blue-Youtube.yaml
-    stats: { rate: 0.0%, success: 0, total: 47 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/changfengoss.yaml
-    stats: { rate: 0.0%, success: 0, total: 2 }
-  - url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
-    stats: { rate: 0.0%, success: 0, total: 3 }
-  - url: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt
-    stats: { rate: 0.0%, success: 0, total: 197 }
-  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_base64.txt
-    stats: { rate: 0.0%, success: 0, total: 73 }
-  - url: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc1.yaml
-    stats: { rate: 0.0%, success: 0, total: 165 }
-  - url: https://raw.githubusercontent.com/Arefgh72/v2ray-proxy-pars-tester/main/output/github_all.txt
-    stats: { rate: 0.0%, success: 0, total: 23125 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/yudou.yaml
-    stats: { rate: 0.0%, success: 0, total: 69 }
-  - url: https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub2.txt
-    stats: { rate: 0.0%, success: 0, total: 138 }
-  - url: https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml
-    stats: { rate: 0.0%, success: 0, total: 316 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/xrayvip.yaml
-    stats: { rate: 0.0%, success: 0, total: 24 }
-  - url: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt
-    stats: { rate: 0.0%, success: 0, total: 14 }
-  - url: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
-    stats: { rate: 0.0%, success: 0, total: 68 }
-  - url: https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml
-    stats: { rate: 0.0%, success: 0, total: 118 }
-  - url: https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-19.txt
-    stats: { rate: 0.0%, success: 0, total: 1174 }
-  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/soroushmirzaei.yaml
-    stats: { rate: 0.0%, success: 0, total: 42241 }
-  - url: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc3.yaml
-    stats: { rate: 0.0%, success: 0, total: 26 }
   - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/trial.yaml
     stats: { rate: 0.0%, success: 0, total: 898 }
-  - url: https://raw.githubusercontent.com/ts-sf/fly/main/clash
-    stats: { rate: 0.0%, success: 0, total: 81 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/blue-Youtube.yaml
+    stats: { rate: 0.0%, success: 0, total: 47 }
+  - url: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc3.yaml
+    stats: { rate: 0.0%, success: 0, total: 26 }
+  - url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+    stats: { rate: 0.0%, success: 0, total: 3 }
+  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_base64.txt
+    stats: { rate: 0.0%, success: 0, total: 37 }
+  - url: https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml
+    stats: { rate: 0.0%, success: 0, total: 118 }
+  - url: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.txt
+    stats: { rate: 0.0%, success: 0, total: 134 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/snakem982.yaml
+    stats: { rate: 0.0%, success: 0, total: 72 }
+  - url: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc0.yaml
+    stats: { rate: 0.0%, success: 0, total: 139 }
+  - url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt
+    stats: { rate: 0.0%, success: 0, total: 37 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/aiboboxx.yaml
+    stats: { rate: 0.0%, success: 0, total: 716 }
+  - url: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
+    stats: { rate: 0.0%, success: 0, total: 201 }
+  - url: https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml
+    stats: { rate: 0.0%, success: 0, total: 323 }
+  - url: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc1.yaml
+    stats: { rate: 0.0%, success: 0, total: 165 }
+  - url: https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub2.txt
+    stats: { rate: 0.0%, success: 0, total: 138 }
+  - url: https://raw.githubusercontent.com/ovmvo/SubShare/main/sub/permanent/mihomo.yaml
+    stats: { rate: 0.0%, success: 0, total: 399 }
+  - url: https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix
+    stats: { rate: 0.0%, success: 0, total: 1329 }
+  - url: https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/all.yaml
+    stats: { rate: 0.0%, success: 0, total: 92 }
+  - url: https://raw.githubusercontent.com/Arefgh72/v2ray-proxy-pars-tester/main/output/github_all.txt
+    stats: { rate: 0.0%, success: 0, total: 23573 }
+  - url: https://raw.githubusercontent.com/sinspired/airport/main/subs/coldwater-10.yaml
+    stats: { rate: 0.0%, success: 0, total: 3833 }
