@@ -88,6 +88,14 @@
       <h1>CN Auto Sub</h1>
       <p>自动拉取、验活、清洗后发布的统一订阅。仓库内容由本机定时检测后自动更新，Cloudflare Pages 负责公开分发。</p>
       <div class="grid">
+        <a class="card" href="/cf-workers-sub.b64.txt">
+          <strong>cf-workers-sub.b64.txt</strong>
+          <span>静态镜像的 base64 订阅，适合直接替代 <code>a.ak.cloudns.be/be?b64</code>。</span>
+        </a>
+        <a class="card" href="/cf-workers-sub.clash.yaml">
+          <strong>cf-workers-sub.clash.yaml</strong>
+          <span>静态镜像的 Clash/Mihomo 配置，适合替代 <code>a.ak.cloudns.be/sub?token=be&amp;clash</code>。</span>
+        </a>
         <a class="card" href="/all.yaml">
           <strong>all.yaml</strong>
           <span>纯节点列表，适合继续做二次转换或汇聚。</span>
@@ -105,7 +113,7 @@
           <span>查看这轮检测的节点数量、成功率和来源统计。</span>
         </a>
       </div>
-      <div class="meta">Published by <code>subs-check-pro</code> and synced to GitHub automatically.</div>
+      <div class="meta">Published by <code>subs-check-pro</code> and mirrored from <code>cf-workers-sub</code> automatically.</div>
     </section>
   </main>
 </body>
