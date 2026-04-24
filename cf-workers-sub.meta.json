@@ -1,7 +1,7 @@
 {
   "source_link_url": "https://raw.githubusercontent.com/XavierXIEXIN/CF-Workers-SUB/main/LINK.txt",
-  "decoded_node_count": 64,
-  "link_sha256": "ebb39e88996d277ef4dc296068ca0b7df96e48905acbae2e8e0ee1743b9efc91",
-  "b64_sha256": "7f4b2060b27fd6332312c9c96061fb02ed138552003c7e24832521a3e61b4fbb",
-  "clash_sha256": "eb802a5a7314144da654300435eb376089ea728eda895d3beef0e44f6f376ca7"
+  "decoded_node_count": 10,
+  "link_sha256": "9b329770946dca22750b089d39fd8aae924915c5c40dfefe623c63090c49253d",
+  "b64_sha256": "afd64cfdcc18b8b93a2c7ea81dd07f2ac869ec62c33186d6fe27fedc613cf8e8",
+  "clash_sha256": "22017eeba79fa4d131620286fd9be1476218cccc29f3aa6d0f602bb828fc833d"
 }
