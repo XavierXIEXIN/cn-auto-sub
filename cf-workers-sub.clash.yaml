@@ -5,249 +5,9 @@ log-level: info
 
 proxies:
   -
-    name: "edge4-017|CF官方优选"
+    name: "seedb-027|CF官方优选"
     type: "vless"
-    server: "162.159.153.187"
-    port: 8443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge4-026|CF官方优选"
-    type: "vless"
-    server: "172.64.146.88"
-    port: 8443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge4-018|CF官方优选"
-    type: "vless"
-    server: "172.64.147.99"
-    port: 8443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedb-029|CF官方优选"
-    type: "vless"
-    server: "104.18.39.156"
-    port: 2096
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedf-008|CF官方优选"
-    type: "vless"
-    server: "172.64.145.234"
-    port: 8443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedb-002|CF官方优选"
-    type: "vless"
-    server: "104.18.38.34"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedd-009|CF电信优选"
-    type: "vless"
-    server: "8.39.125.68"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge4-030|CF官方优选"
-    type: "vless"
-    server: "104.18.40.165"
-    port: 2096
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedd-018|CF电信优选"
-    type: "vless"
-    server: "198.41.223.39"
-    port: 8443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge4-025|CF官方优选"
-    type: "vless"
-    server: "173.245.59.70"
-    port: 8443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seeda-030|CF官方优选"
-    type: "vless"
-    server: "162.159.41.232"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seeda-032|CF官方优选"
-    type: "vless"
-    server: "104.18.35.83"
-    port: 2096
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge1-031|CF电信优选"
-    type: "vless"
-    server: "8.35.211.59"
-    port: 2096
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-032|CF电信优选"
-    type: "vless"
-    server: "8.35.211.73"
-    port: 2096
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedf-032|CF官方优选"
-    type: "vless"
-    server: "172.64.146.125"
-    port: 2096
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-020|CF电信优选"
-    type: "vless"
-    server: "8.35.211.112"
+    server: "162.159.152.185"
     port: 2083
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -261,25 +21,9 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "seedd-013|CF电信优选"
+    name: "seedf-027|CF官方优选"
     type: "vless"
-    server: "8.35.211.24"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedb-004|CF官方优选"
-    type: "vless"
-    server: "104.18.36.165"
+    server: "162.159.153.157"
     port: 2087
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -293,9 +37,9 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "edge1-025|CF电信优选"
+    name: "edge4-004|CF官方优选"
     type: "vless"
-    server: "8.39.125.74"
+    server: "162.159.153.7"
     port: 2083
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -309,170 +53,10 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "seede-010|CF电信优选"
+    name: "seedb-017|CF官方优选"
     type: "vless"
-    server: "162.159.35.127"
-    port: 2053
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-005|CF电信优选"
-    type: "vless"
-    server: "8.39.125.251"
-    port: 2096
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-001|CF电信优选"
-    type: "vless"
-    server: "173.245.59.64"
-    port: 2083
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-015|CF电信优选"
-    type: "vless"
-    server: "8.35.211.192"
-    port: 2083
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedb-016|CF官方优选"
-    type: "vless"
-    server: "8.35.211.171"
-    port: 2087
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedb-018|CF官方优选"
-    type: "vless"
-    server: "104.18.39.40"
+    server: "162.159.152.25"
     port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedd-005|CF电信优选"
-    type: "vless"
-    server: "173.245.58.37"
-    port: 2087
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedb-005|CF官方优选"
-    type: "vless"
-    server: "198.41.223.71"
-    port: 2053
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge1-016|CF电信优选"
-    type: "vless"
-    server: "8.35.211.75"
-    port: 2053
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-019|CF电信优选"
-    type: "vless"
-    server: "198.41.223.127"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge1-021|CF电信优选"
-    type: "vless"
-    server: "8.35.211.6"
-    port: 2083
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
     network: "ws"
@@ -487,55 +71,7 @@ proxies:
   -
     name: "seedb-025|CF官方优选"
     type: "vless"
-    server: "173.245.59.140"
-    port: 8443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seeda-005|CF官方优选"
-    type: "vless"
-    server: "8.39.125.20"
-    port: 2083
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedf-003|CF官方优选"
-    type: "vless"
-    server: "172.64.144.77"
-    port: 2083
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-013|CF电信优选"
-    type: "vless"
-    server: "8.39.125.188"
+    server: "162.159.153.164"
     port: 2096
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -549,329 +85,9 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "edge4-005|CF官方优选"
+    name: "seedf-030|CF官方优选"
     type: "vless"
-    server: "104.18.43.249"
-    port: 2087
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedd-031|CF电信优选"
-    type: "vless"
-    server: "198.41.223.14"
-    port: 8443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedf-025|CF官方优选"
-    type: "vless"
-    server: "8.39.125.255"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedd-004|CF电信优选"
-    type: "vless"
-    server: "198.41.223.133"
-    port: 2083
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge1-011|CF电信优选"
-    type: "vless"
-    server: "162.159.35.167"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge1-002|CF电信优选"
-    type: "vless"
-    server: "198.41.223.229"
-    port: 2087
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge1-029|CF电信优选"
-    type: "vless"
-    server: "162.159.43.156"
-    port: 2053
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedd-026|CF电信优选"
-    type: "vless"
-    server: "8.39.125.224"
-    port: 2083
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seeda-013|CF官方优选"
-    type: "vless"
-    server: "162.159.33.41"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-009|CF电信优选"
-    type: "vless"
-    server: "8.35.211.97"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedd-002|CF电信优选"
-    type: "vless"
-    server: "198.41.223.229"
-    port: 2083
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge1-013|CF电信优选"
-    type: "vless"
-    server: "173.245.58.145"
-    port: 2053
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedd-025|CF电信优选"
-    type: "vless"
-    server: "198.41.223.151"
-    port: 2083
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedb-027|CF官方优选"
-    type: "vless"
-    server: "8.35.211.26"
-    port: 2096
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-030|CF电信优选"
-    type: "vless"
-    server: "8.35.211.18"
-    port: 2087
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-006|CF电信优选"
-    type: "vless"
-    server: "8.39.125.59"
-    port: 2087
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedb-023|CF官方优选"
-    type: "vless"
-    server: "8.39.125.238"
-    port: 443
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seede-021|CF电信优选"
-    type: "vless"
-    server: "198.41.223.26"
-    port: 2053
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seeda-026|CF官方优选"
-    type: "vless"
-    server: "198.41.223.98"
-    port: 2096
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "seedd-012|CF电信优选"
-    type: "vless"
-    server: "198.41.223.36"
-    port: 2053
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge4-015|CF官方优选"
-    type: "vless"
-    server: "104.18.44.153"
+    server: "162.159.152.229"
     port: 2087
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -887,7 +103,7 @@ proxies:
   -
     name: "seede-002|CF电信优选"
     type: "vless"
-    server: "173.245.58.118"
+    server: "8.35.211.61"
     port: 2053
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -901,10 +117,218 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "seeda-009|CF官方优选"
+    name: "seede-030|CF电信优选"
     type: "vless"
-    server: "198.41.223.49"
+    server: "8.35.211.49"
+    port: 443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seeda-023|CF官方优选"
+    type: "vless"
+    server: "8.35.211.1"
+    port: 8443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedd-019|CF电信优选"
+    type: "vless"
+    server: "173.245.58.205"
+    port: 8443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedd-025|CF电信优选"
+    type: "vless"
+    server: "8.35.211.255"
+    port: 8443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seeda-024|CF官方优选"
+    type: "vless"
+    server: "172.64.144.179"
+    port: 2087
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-006|CF电信优选"
+    type: "vless"
+    server: "8.39.125.14"
+    port: 443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-019|CF官方优选"
+    type: "vless"
+    server: "104.18.32.251"
+    port: 8443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-020|CF官方优选"
+    type: "vless"
+    server: "173.245.58.7"
     port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-003|CF电信优选"
+    type: "vless"
+    server: "198.41.223.19"
+    port: 2053
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedd-011|CF电信优选"
+    type: "vless"
+    server: "8.35.211.101"
+    port: 8443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-013|CF官方优选"
+    type: "vless"
+    server: "172.67.68.2"
+    port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seeda-015|CF官方优选"
+    type: "vless"
+    server: "198.41.223.0"
+    port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-024|CF官方优选"
+    type: "vless"
+    server: "172.64.147.170"
+    port: 2053
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedb-012|CF官方优选"
+    type: "vless"
+    server: "173.245.58.18"
+    port: 2096
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
     network: "ws"
@@ -919,7 +343,23 @@ proxies:
   -
     name: "seede-029|CF电信优选"
     type: "vless"
-    server: "8.35.211.84"
+    server: "162.159.40.1"
+    port: 2053
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "edge1-020|CF官方优选"
+    type: "vless"
+    server: "8.39.125.80"
     port: 8443
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -933,25 +373,9 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "seede-008|CF电信优选"
+    name: "edge1-015|CF官方优选"
     type: "vless"
-    server: "8.39.125.221"
-    port: 2083
-    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edge-seed-pages.pages.dev"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge-seed-pages.pages.dev"
-  -
-    name: "edge1-027|CF电信优选"
-    type: "vless"
-    server: "173.245.59.145"
+    server: "162.159.41.102"
     port: 2087
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -965,9 +389,25 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "edge1-019|CF电信优选"
+    name: "seeda-011|CF官方优选"
     type: "vless"
-    server: "198.41.223.52"
+    server: "8.35.211.12"
+    port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "edge4-017|CF官方优选"
+    type: "vless"
+    server: "162.159.32.49"
     port: 2096
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -981,9 +421,137 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "seeda-029|CF官方优选"
+    name: "seedb-032|CF官方优选"
     type: "vless"
-    server: "8.39.125.187"
+    server: "172.64.144.83"
+    port: 2053
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedd-023|CF电信优选"
+    type: "vless"
+    server: "162.159.40.215"
+    port: 2053
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedd-030|CF电信优选"
+    type: "vless"
+    server: "8.39.125.164"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedb-022|CF官方优选"
+    type: "vless"
+    server: "198.41.223.18"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedb-011|CF官方优选"
+    type: "vless"
+    server: "8.39.125.107"
+    port: 443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedb-016|CF官方优选"
+    type: "vless"
+    server: "172.67.71.123"
+    port: 2087
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-002|CF官方优选"
+    type: "vless"
+    server: "172.64.145.208"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-008|CF官方优选"
+    type: "vless"
+    server: "172.64.147.239"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-016|CF电信优选"
+    type: "vless"
+    server: "8.39.125.131"
     port: 8443
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -997,9 +565,41 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "seeda-007|CF官方优选"
+    name: "seedd-016|CF电信优选"
     type: "vless"
-    server: "104.18.32.238"
+    server: "198.41.223.81"
+    port: 2087
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-021|CF电信优选"
+    type: "vless"
+    server: "198.41.223.160"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedd-010|CF电信优选"
+    type: "vless"
+    server: "8.35.211.238"
     port: 443
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
@@ -1013,10 +613,410 @@ proxies:
       headers:
         Host: "edge-seed-pages.pages.dev"
   -
-    name: "edge1-007|CF电信优选"
+    name: "seedd-021|CF电信优选"
     type: "vless"
-    server: "8.39.125.57"
+    server: "198.41.223.19"
     port: 443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-004|CF电信优选"
+    type: "vless"
+    server: "8.35.211.58"
+    port: 2087
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-011|CF官方优选"
+    type: "vless"
+    server: "172.67.66.174"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedd-009|CF电信优选"
+    type: "vless"
+    server: "8.39.125.40"
+    port: 2087
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-020|CF电信优选"
+    type: "vless"
+    server: "173.245.59.206"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-025|CF电信优选"
+    type: "vless"
+    server: "8.35.211.88"
+    port: 2053
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-026|CF电信优选"
+    type: "vless"
+    server: "8.39.125.15"
+    port: 443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-010|CF官方优选"
+    type: "vless"
+    server: "198.41.223.167"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seeda-027|CF官方优选"
+    type: "vless"
+    server: "8.39.125.253"
+    port: 8443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "edge1-014|CF官方优选"
+    type: "vless"
+    server: "104.18.36.110"
+    port: 443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seeda-009|CF官方优选"
+    type: "vless"
+    server: "198.41.223.14"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedd-024|CF电信优选"
+    type: "vless"
+    server: "173.245.59.149"
+    port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seeda-018|CF官方优选"
+    type: "vless"
+    server: "104.18.38.208"
+    port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedb-013|CF官方优选"
+    type: "vless"
+    server: "104.26.2.161"
+    port: 2087
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-022|CF官方优选"
+    type: "vless"
+    server: "173.245.59.238"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seeda-006|CF官方优选"
+    type: "vless"
+    server: "8.35.211.48"
+    port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-010|CF电信优选"
+    type: "vless"
+    server: "162.159.42.110"
+    port: 8443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedf-031|CF官方优选"
+    type: "vless"
+    server: "8.39.125.94"
+    port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "edge1-032|CF官方优选"
+    type: "vless"
+    server: "172.67.71.251"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedb-026|CF官方优选"
+    type: "vless"
+    server: "104.18.36.239"
+    port: 2053
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seeda-022|CF官方优选"
+    type: "vless"
+    server: "173.245.58.35"
+    port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "edge1-009|CF官方优选"
+    type: "vless"
+    server: "162.159.41.184"
+    port: 2083
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "edge4-013|CF官方优选"
+    type: "vless"
+    server: "172.64.146.187"
+    port: 2087
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seede-028|CF电信优选"
+    type: "vless"
+    server: "162.159.32.137"
+    port: 2096
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seedd-020|CF电信优选"
+    type: "vless"
+    server: "8.39.125.5"
+    port: 8443
+    uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edge-seed-pages.pages.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edge-seed-pages.pages.dev"
+  -
+    name: "seeda-019|CF官方优选"
+    type: "vless"
+    server: "172.67.66.94"
+    port: 8443
     uuid: "3f1bfcdd-86b1-4a01-bca5-9b75ed4494dc"
     udp: true
     network: "ws"
@@ -1034,140 +1034,140 @@ proxy-groups:
     type: select
     proxies:
       - "自动选择"
-      - "edge4-017|CF官方优选"
-      - "edge4-026|CF官方优选"
-      - "edge4-018|CF官方优选"
-      - "seedb-029|CF官方优选"
-      - "seedf-008|CF官方优选"
-      - "seedb-002|CF官方优选"
-      - "seedd-009|CF电信优选"
-      - "edge4-030|CF官方优选"
-      - "seedd-018|CF电信优选"
-      - "edge4-025|CF官方优选"
-      - "seeda-030|CF官方优选"
-      - "seeda-032|CF官方优选"
-      - "edge1-031|CF电信优选"
-      - "seede-032|CF电信优选"
-      - "seedf-032|CF官方优选"
-      - "seede-020|CF电信优选"
-      - "seedd-013|CF电信优选"
-      - "seedb-004|CF官方优选"
-      - "edge1-025|CF电信优选"
-      - "seede-010|CF电信优选"
-      - "seede-005|CF电信优选"
-      - "seede-001|CF电信优选"
-      - "seede-015|CF电信优选"
-      - "seedb-016|CF官方优选"
-      - "seedb-018|CF官方优选"
-      - "seedd-005|CF电信优选"
-      - "seedb-005|CF官方优选"
-      - "edge1-016|CF电信优选"
-      - "seede-019|CF电信优选"
-      - "edge1-021|CF电信优选"
-      - "seedb-025|CF官方优选"
-      - "seeda-005|CF官方优选"
-      - "seedf-003|CF官方优选"
-      - "seede-013|CF电信优选"
-      - "edge4-005|CF官方优选"
-      - "seedd-031|CF电信优选"
-      - "seedf-025|CF官方优选"
-      - "seedd-004|CF电信优选"
-      - "edge1-011|CF电信优选"
-      - "edge1-002|CF电信优选"
-      - "edge1-029|CF电信优选"
-      - "seedd-026|CF电信优选"
-      - "seeda-013|CF官方优选"
-      - "seede-009|CF电信优选"
-      - "seedd-002|CF电信优选"
-      - "edge1-013|CF电信优选"
-      - "seedd-025|CF电信优选"
       - "seedb-027|CF官方优选"
-      - "seede-030|CF电信优选"
-      - "seede-006|CF电信优选"
-      - "seedb-023|CF官方优选"
-      - "seede-021|CF电信优选"
-      - "seeda-026|CF官方优选"
-      - "seedd-012|CF电信优选"
-      - "edge4-015|CF官方优选"
+      - "seedf-027|CF官方优选"
+      - "edge4-004|CF官方优选"
+      - "seedb-017|CF官方优选"
+      - "seedb-025|CF官方优选"
+      - "seedf-030|CF官方优选"
       - "seede-002|CF电信优选"
-      - "seeda-009|CF官方优选"
+      - "seede-030|CF电信优选"
+      - "seeda-023|CF官方优选"
+      - "seedd-019|CF电信优选"
+      - "seedd-025|CF电信优选"
+      - "seeda-024|CF官方优选"
+      - "seede-006|CF电信优选"
+      - "seedf-019|CF官方优选"
+      - "seedf-020|CF官方优选"
+      - "seede-003|CF电信优选"
+      - "seedd-011|CF电信优选"
+      - "seedf-013|CF官方优选"
+      - "seeda-015|CF官方优选"
+      - "seedf-024|CF官方优选"
+      - "seedb-012|CF官方优选"
       - "seede-029|CF电信优选"
-      - "seede-008|CF电信优选"
-      - "edge1-027|CF电信优选"
-      - "edge1-019|CF电信优选"
-      - "seeda-029|CF官方优选"
-      - "seeda-007|CF官方优选"
-      - "edge1-007|CF电信优选"
+      - "edge1-020|CF官方优选"
+      - "edge1-015|CF官方优选"
+      - "seeda-011|CF官方优选"
+      - "edge4-017|CF官方优选"
+      - "seedb-032|CF官方优选"
+      - "seedd-023|CF电信优选"
+      - "seedd-030|CF电信优选"
+      - "seedb-022|CF官方优选"
+      - "seedb-011|CF官方优选"
+      - "seedb-016|CF官方优选"
+      - "seedf-002|CF官方优选"
+      - "seedf-008|CF官方优选"
+      - "seede-016|CF电信优选"
+      - "seedd-016|CF电信优选"
+      - "seede-021|CF电信优选"
+      - "seedd-010|CF电信优选"
+      - "seedd-021|CF电信优选"
+      - "seede-004|CF电信优选"
+      - "seedf-011|CF官方优选"
+      - "seedd-009|CF电信优选"
+      - "seede-020|CF电信优选"
+      - "seede-025|CF电信优选"
+      - "seede-026|CF电信优选"
+      - "seedf-010|CF官方优选"
+      - "seeda-027|CF官方优选"
+      - "edge1-014|CF官方优选"
+      - "seeda-009|CF官方优选"
+      - "seedd-024|CF电信优选"
+      - "seeda-018|CF官方优选"
+      - "seedb-013|CF官方优选"
+      - "seedf-022|CF官方优选"
+      - "seeda-006|CF官方优选"
+      - "seede-010|CF电信优选"
+      - "seedf-031|CF官方优选"
+      - "edge1-032|CF官方优选"
+      - "seedb-026|CF官方优选"
+      - "seeda-022|CF官方优选"
+      - "edge1-009|CF官方优选"
+      - "edge4-013|CF官方优选"
+      - "seede-028|CF电信优选"
+      - "seedd-020|CF电信优选"
+      - "seeda-019|CF官方优选"
   - name: "自动选择"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
     proxies:
-      - "edge4-017|CF官方优选"
-      - "edge4-026|CF官方优选"
-      - "edge4-018|CF官方优选"
-      - "seedb-029|CF官方优选"
-      - "seedf-008|CF官方优选"
-      - "seedb-002|CF官方优选"
-      - "seedd-009|CF电信优选"
-      - "edge4-030|CF官方优选"
-      - "seedd-018|CF电信优选"
-      - "edge4-025|CF官方优选"
-      - "seeda-030|CF官方优选"
-      - "seeda-032|CF官方优选"
-      - "edge1-031|CF电信优选"
-      - "seede-032|CF电信优选"
-      - "seedf-032|CF官方优选"
-      - "seede-020|CF电信优选"
-      - "seedd-013|CF电信优选"
-      - "seedb-004|CF官方优选"
-      - "edge1-025|CF电信优选"
-      - "seede-010|CF电信优选"
-      - "seede-005|CF电信优选"
-      - "seede-001|CF电信优选"
-      - "seede-015|CF电信优选"
-      - "seedb-016|CF官方优选"
-      - "seedb-018|CF官方优选"
-      - "seedd-005|CF电信优选"
-      - "seedb-005|CF官方优选"
-      - "edge1-016|CF电信优选"
-      - "seede-019|CF电信优选"
-      - "edge1-021|CF电信优选"
-      - "seedb-025|CF官方优选"
-      - "seeda-005|CF官方优选"
-      - "seedf-003|CF官方优选"
-      - "seede-013|CF电信优选"
-      - "edge4-005|CF官方优选"
-      - "seedd-031|CF电信优选"
-      - "seedf-025|CF官方优选"
-      - "seedd-004|CF电信优选"
-      - "edge1-011|CF电信优选"
-      - "edge1-002|CF电信优选"
-      - "edge1-029|CF电信优选"
-      - "seedd-026|CF电信优选"
-      - "seeda-013|CF官方优选"
-      - "seede-009|CF电信优选"
-      - "seedd-002|CF电信优选"
-      - "edge1-013|CF电信优选"
-      - "seedd-025|CF电信优选"
       - "seedb-027|CF官方优选"
-      - "seede-030|CF电信优选"
-      - "seede-006|CF电信优选"
-      - "seedb-023|CF官方优选"
-      - "seede-021|CF电信优选"
-      - "seeda-026|CF官方优选"
-      - "seedd-012|CF电信优选"
-      - "edge4-015|CF官方优选"
+      - "seedf-027|CF官方优选"
+      - "edge4-004|CF官方优选"
+      - "seedb-017|CF官方优选"
+      - "seedb-025|CF官方优选"
+      - "seedf-030|CF官方优选"
       - "seede-002|CF电信优选"
-      - "seeda-009|CF官方优选"
+      - "seede-030|CF电信优选"
+      - "seeda-023|CF官方优选"
+      - "seedd-019|CF电信优选"
+      - "seedd-025|CF电信优选"
+      - "seeda-024|CF官方优选"
+      - "seede-006|CF电信优选"
+      - "seedf-019|CF官方优选"
+      - "seedf-020|CF官方优选"
+      - "seede-003|CF电信优选"
+      - "seedd-011|CF电信优选"
+      - "seedf-013|CF官方优选"
+      - "seeda-015|CF官方优选"
+      - "seedf-024|CF官方优选"
+      - "seedb-012|CF官方优选"
       - "seede-029|CF电信优选"
-      - "seede-008|CF电信优选"
-      - "edge1-027|CF电信优选"
-      - "edge1-019|CF电信优选"
-      - "seeda-029|CF官方优选"
-      - "seeda-007|CF官方优选"
-      - "edge1-007|CF电信优选"
+      - "edge1-020|CF官方优选"
+      - "edge1-015|CF官方优选"
+      - "seeda-011|CF官方优选"
+      - "edge4-017|CF官方优选"
+      - "seedb-032|CF官方优选"
+      - "seedd-023|CF电信优选"
+      - "seedd-030|CF电信优选"
+      - "seedb-022|CF官方优选"
+      - "seedb-011|CF官方优选"
+      - "seedb-016|CF官方优选"
+      - "seedf-002|CF官方优选"
+      - "seedf-008|CF官方优选"
+      - "seede-016|CF电信优选"
+      - "seedd-016|CF电信优选"
+      - "seede-021|CF电信优选"
+      - "seedd-010|CF电信优选"
+      - "seedd-021|CF电信优选"
+      - "seede-004|CF电信优选"
+      - "seedf-011|CF官方优选"
+      - "seedd-009|CF电信优选"
+      - "seede-020|CF电信优选"
+      - "seede-025|CF电信优选"
+      - "seede-026|CF电信优选"
+      - "seedf-010|CF官方优选"
+      - "seeda-027|CF官方优选"
+      - "edge1-014|CF官方优选"
+      - "seeda-009|CF官方优选"
+      - "seedd-024|CF电信优选"
+      - "seeda-018|CF官方优选"
+      - "seedb-013|CF官方优选"
+      - "seedf-022|CF官方优选"
+      - "seeda-006|CF官方优选"
+      - "seede-010|CF电信优选"
+      - "seedf-031|CF官方优选"
+      - "edge1-032|CF官方优选"
+      - "seedb-026|CF官方优选"
+      - "seeda-022|CF官方优选"
+      - "edge1-009|CF官方优选"
+      - "edge4-013|CF官方优选"
+      - "seede-028|CF电信优选"
+      - "seedd-020|CF电信优选"
+      - "seeda-019|CF官方优选"
 
 rules:
   - "MATCH,节点选择"
