@@ -5,313 +5,9 @@ log-level: info
 
 proxies:
   -
-    name: "reedge-008|CF官方优选"
-    type: "vless"
-    server: "91.193.59.10"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-028|CF官方优选"
-    type: "vless"
-    server: "91.193.58.241"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-015|CF官方优选"
-    type: "vless"
-    server: "91.193.59.34"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-024|CF官方优选"
-    type: "vless"
-    server: "104.17.16.123"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
     name: "reedge-011|CF官方优选"
     type: "vless"
-    server: "8.35.211.63"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-002|CF官方优选"
-    type: "vless"
-    server: "104.17.188.178"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-001|CF官方优选"
-    type: "vless"
-    server: "104.18.32.90"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-030|CF官方优选"
-    type: "vless"
-    server: "104.17.174.124"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-005|CF官方优选"
-    type: "vless"
-    server: "104.19.39.251"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-026|CF官方优选"
-    type: "vless"
-    server: "104.17.164.187"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-017|CF官方优选"
-    type: "vless"
-    server: "104.17.208.227"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-031|CF官方优选"
-    type: "vless"
-    server: "198.41.223.95"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-012|CF官方优选"
-    type: "vless"
-    server: "8.39.125.76"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-014|CF官方优选"
-    type: "vless"
-    server: "104.17.63.99"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-003|CF官方优选"
-    type: "vless"
-    server: "8.39.125.99"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-016|CF官方优选"
-    type: "vless"
-    server: "198.41.208.178"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-018|CF官方优选"
-    type: "vless"
-    server: "104.18.38.239"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-023|CF官方优选"
-    type: "vless"
-    server: "173.245.59.103"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-009|CF官方优选"
-    type: "vless"
-    server: "198.41.209.101"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-006|CF官方优选"
-    type: "vless"
-    server: "104.17.100.212"
+    server: "162.159.36.213"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -327,7 +23,23 @@ proxies:
   -
     name: "reedge-013|CF官方优选"
     type: "vless"
-    server: "104.16.253.23"
+    server: "8.39.125.124"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-005|CF官方优选"
+    type: "vless"
+    server: "8.35.211.244"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -343,7 +55,7 @@ proxies:
   -
     name: "reedge-029|CF官方优选"
     type: "vless"
-    server: "104.18.91.69"
+    server: "198.41.223.219"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -357,9 +69,201 @@ proxies:
       headers:
         Host: "reedge.akkk.qzz.io"
   -
-    name: "reedge-004|CF官方优选"
+    name: "reedge-010|CF官方优选"
     type: "vless"
-    server: "8.39.125.234"
+    server: "104.18.34.207"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-024|CF官方优选"
+    type: "vless"
+    server: "198.41.223.186"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-003|CF官方优选"
+    type: "vless"
+    server: "8.35.211.42"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-019|CF官方优选"
+    type: "vless"
+    server: "104.18.33.62"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-030|CF官方优选"
+    type: "vless"
+    server: "198.41.223.111"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-008|CF官方优选"
+    type: "vless"
+    server: "172.67.70.32"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-006|CF官方优选"
+    type: "vless"
+    server: "104.26.10.193"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-031|CF官方优选"
+    type: "vless"
+    server: "104.17.146.170"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-028|CF官方优选"
+    type: "vless"
+    server: "104.16.145.212"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-023|CF官方优选"
+    type: "vless"
+    server: "104.19.156.162"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-017|CF官方优选"
+    type: "vless"
+    server: "198.41.209.254"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-012|CF官方优选"
+    type: "vless"
+    server: "104.17.187.55"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-007|CF官方优选"
+    type: "vless"
+    server: "104.17.184.216"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -375,7 +279,7 @@ proxies:
   -
     name: "reedge-020|CF官方优选"
     type: "vless"
-    server: "162.159.38.135"
+    server: "104.19.54.114"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -391,7 +295,199 @@ proxies:
   -
     name: "reedge-021|CF官方优选"
     type: "vless"
-    server: "104.17.59.131"
+    server: "104.17.122.90"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-032|CF官方优选"
+    type: "vless"
+    server: "104.17.56.204"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-015|CF官方优选"
+    type: "vless"
+    server: "104.19.62.145"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-027|CF官方优选"
+    type: "vless"
+    server: "104.17.213.83"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-009|CF官方优选"
+    type: "vless"
+    server: "104.17.183.177"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-002|CF官方优选"
+    type: "vless"
+    server: "104.17.211.136"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-018|CF官方优选"
+    type: "vless"
+    server: "104.16.148.103"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-025|CF官方优选"
+    type: "vless"
+    server: "172.66.0.65"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-016|CF官方优选"
+    type: "vless"
+    server: "172.66.0.198"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-014|CF官方优选"
+    type: "vless"
+    server: "104.17.183.20"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-026|CF官方优选"
+    type: "vless"
+    server: "104.17.165.219"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-004|CF官方优选"
+    type: "vless"
+    server: "104.17.113.89"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-001|CF官方优选"
+    type: "vless"
+    server: "104.19.61.105"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -410,62 +506,74 @@ proxy-groups:
     type: select
     proxies:
       - "自动选择"
-      - "reedge-008|CF官方优选"
-      - "reedge-028|CF官方优选"
-      - "reedge-015|CF官方优选"
-      - "reedge-024|CF官方优选"
       - "reedge-011|CF官方优选"
-      - "reedge-002|CF官方优选"
-      - "reedge-001|CF官方优选"
-      - "reedge-030|CF官方优选"
-      - "reedge-005|CF官方优选"
-      - "reedge-026|CF官方优选"
-      - "reedge-017|CF官方优选"
-      - "reedge-031|CF官方优选"
-      - "reedge-012|CF官方优选"
-      - "reedge-014|CF官方优选"
-      - "reedge-003|CF官方优选"
-      - "reedge-016|CF官方优选"
-      - "reedge-018|CF官方优选"
-      - "reedge-023|CF官方优选"
-      - "reedge-009|CF官方优选"
-      - "reedge-006|CF官方优选"
       - "reedge-013|CF官方优选"
+      - "reedge-005|CF官方优选"
       - "reedge-029|CF官方优选"
-      - "reedge-004|CF官方优选"
+      - "reedge-010|CF官方优选"
+      - "reedge-024|CF官方优选"
+      - "reedge-003|CF官方优选"
+      - "reedge-019|CF官方优选"
+      - "reedge-030|CF官方优选"
+      - "reedge-008|CF官方优选"
+      - "reedge-006|CF官方优选"
+      - "reedge-031|CF官方优选"
+      - "reedge-028|CF官方优选"
+      - "reedge-023|CF官方优选"
+      - "reedge-017|CF官方优选"
+      - "reedge-012|CF官方优选"
+      - "reedge-007|CF官方优选"
       - "reedge-020|CF官方优选"
       - "reedge-021|CF官方优选"
+      - "reedge-032|CF官方优选"
+      - "reedge-015|CF官方优选"
+      - "reedge-027|CF官方优选"
+      - "reedge-009|CF官方优选"
+      - "reedge-002|CF官方优选"
+      - "reedge-018|CF官方优选"
+      - "reedge-025|CF官方优选"
+      - "reedge-016|CF官方优选"
+      - "reedge-014|CF官方优选"
+      - "reedge-026|CF官方优选"
+      - "reedge-004|CF官方优选"
+      - "reedge-001|CF官方优选"
   - name: "自动选择"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
     proxies:
-      - "reedge-008|CF官方优选"
-      - "reedge-028|CF官方优选"
-      - "reedge-015|CF官方优选"
-      - "reedge-024|CF官方优选"
       - "reedge-011|CF官方优选"
-      - "reedge-002|CF官方优选"
-      - "reedge-001|CF官方优选"
-      - "reedge-030|CF官方优选"
-      - "reedge-005|CF官方优选"
-      - "reedge-026|CF官方优选"
-      - "reedge-017|CF官方优选"
-      - "reedge-031|CF官方优选"
-      - "reedge-012|CF官方优选"
-      - "reedge-014|CF官方优选"
-      - "reedge-003|CF官方优选"
-      - "reedge-016|CF官方优选"
-      - "reedge-018|CF官方优选"
-      - "reedge-023|CF官方优选"
-      - "reedge-009|CF官方优选"
-      - "reedge-006|CF官方优选"
       - "reedge-013|CF官方优选"
+      - "reedge-005|CF官方优选"
       - "reedge-029|CF官方优选"
-      - "reedge-004|CF官方优选"
+      - "reedge-010|CF官方优选"
+      - "reedge-024|CF官方优选"
+      - "reedge-003|CF官方优选"
+      - "reedge-019|CF官方优选"
+      - "reedge-030|CF官方优选"
+      - "reedge-008|CF官方优选"
+      - "reedge-006|CF官方优选"
+      - "reedge-031|CF官方优选"
+      - "reedge-028|CF官方优选"
+      - "reedge-023|CF官方优选"
+      - "reedge-017|CF官方优选"
+      - "reedge-012|CF官方优选"
+      - "reedge-007|CF官方优选"
       - "reedge-020|CF官方优选"
       - "reedge-021|CF官方优选"
+      - "reedge-032|CF官方优选"
+      - "reedge-015|CF官方优选"
+      - "reedge-027|CF官方优选"
+      - "reedge-009|CF官方优选"
+      - "reedge-002|CF官方优选"
+      - "reedge-018|CF官方优选"
+      - "reedge-025|CF官方优选"
+      - "reedge-016|CF官方优选"
+      - "reedge-014|CF官方优选"
+      - "reedge-026|CF官方优选"
+      - "reedge-004|CF官方优选"
+      - "reedge-001|CF官方优选"
 
 rules:
   - "MATCH,节点选择"
