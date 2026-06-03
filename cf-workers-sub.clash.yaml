@@ -5,457 +5,73 @@ log-level: info
 
 proxies:
   -
-    name: "reedge-011|CF官方优选"
+    name: "edt2-hk-011|HK|香港|Hong Kong|CF官方优选11"
     type: "vless"
-    server: "162.159.36.213"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    server: "198.41.223.250"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
     tls: true
-    servername: "reedge.akkk.qzz.io"
+    servername: "edt.akkk.qzz.io"
     client-fingerprint: "chrome"
-    skip-cert-verify: true
+    skip-cert-verify: false
     ws-opts:
-      path: "/sub"
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
       headers:
-        Host: "reedge.akkk.qzz.io"
+        Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-013|CF官方优选"
+    name: "edt2-us-004|US|美国|United States|USA|CF官方优选4"
     type: "vless"
-    server: "8.39.125.124"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    server: "8.39.125.133"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
     tls: true
-    servername: "reedge.akkk.qzz.io"
+    servername: "edt.akkk.qzz.io"
     client-fingerprint: "chrome"
-    skip-cert-verify: true
+    skip-cert-verify: false
     ws-opts:
-      path: "/sub"
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
       headers:
-        Host: "reedge.akkk.qzz.io"
+        Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-005|CF官方优选"
+    name: "edt2-us-010|US|美国|United States|USA|CF官方优选10"
     type: "vless"
-    server: "8.35.211.244"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    server: "188.164.248.135"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
     tls: true
-    servername: "reedge.akkk.qzz.io"
+    servername: "edt.akkk.qzz.io"
     client-fingerprint: "chrome"
-    skip-cert-verify: true
+    skip-cert-verify: false
     ws-opts:
-      path: "/sub"
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
       headers:
-        Host: "reedge.akkk.qzz.io"
+        Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-029|CF官方优选"
+    name: "edt2-jp-015|JP|日本|Japan|CF官方优选15"
     type: "vless"
-    server: "198.41.223.219"
+    server: "8.35.211.83"
     port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
     tls: true
-    servername: "reedge.akkk.qzz.io"
+    servername: "edt.akkk.qzz.io"
     client-fingerprint: "chrome"
-    skip-cert-verify: true
+    skip-cert-verify: false
     ws-opts:
-      path: "/sub"
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
       headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-010|CF官方优选"
-    type: "vless"
-    server: "104.18.34.207"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-024|CF官方优选"
-    type: "vless"
-    server: "198.41.223.186"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-003|CF官方优选"
-    type: "vless"
-    server: "8.35.211.42"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
+        Host: "edt.akkk.qzz.io"
   -
     name: "reedge-019|CF官方优选"
     type: "vless"
-    server: "104.18.33.62"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-030|CF官方优选"
-    type: "vless"
-    server: "198.41.223.111"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-008|CF官方优选"
-    type: "vless"
-    server: "172.67.70.32"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-006|CF官方优选"
-    type: "vless"
-    server: "104.26.10.193"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-031|CF官方优选"
-    type: "vless"
-    server: "104.17.146.170"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-028|CF官方优选"
-    type: "vless"
-    server: "104.16.145.212"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-023|CF官方优选"
-    type: "vless"
-    server: "104.19.156.162"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-017|CF官方优选"
-    type: "vless"
-    server: "198.41.209.254"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-012|CF官方优选"
-    type: "vless"
-    server: "104.17.187.55"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-007|CF官方优选"
-    type: "vless"
-    server: "104.17.184.216"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-020|CF官方优选"
-    type: "vless"
-    server: "104.19.54.114"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-021|CF官方优选"
-    type: "vless"
-    server: "104.17.122.90"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-032|CF官方优选"
-    type: "vless"
-    server: "104.17.56.204"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-015|CF官方优选"
-    type: "vless"
-    server: "104.19.62.145"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-027|CF官方优选"
-    type: "vless"
-    server: "104.17.213.83"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-009|CF官方优选"
-    type: "vless"
-    server: "104.17.183.177"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-002|CF官方优选"
-    type: "vless"
-    server: "104.17.211.136"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-018|CF官方优选"
-    type: "vless"
-    server: "104.16.148.103"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-025|CF官方优选"
-    type: "vless"
-    server: "172.66.0.65"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-016|CF官方优选"
-    type: "vless"
-    server: "172.66.0.198"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-014|CF官方优选"
-    type: "vless"
-    server: "104.17.183.20"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-026|CF官方优选"
-    type: "vless"
-    server: "104.17.165.219"
+    server: "162.159.46.166"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -471,7 +87,7 @@ proxies:
   -
     name: "reedge-004|CF官方优选"
     type: "vless"
-    server: "104.17.113.89"
+    server: "8.39.125.135"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -485,9 +101,9 @@ proxies:
       headers:
         Host: "reedge.akkk.qzz.io"
   -
-    name: "reedge-001|CF官方优选"
+    name: "reedge-026|CF官方优选"
     type: "vless"
-    server: "104.19.61.105"
+    server: "173.245.58.67"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -500,80 +116,1058 @@ proxies:
       path: "/sub"
       headers:
         Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-hk-016|HK|香港|Hong Kong|CF官方优选16"
+    type: "vless"
+    server: "8.39.125.251"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-hk-007|HK|香港|Hong Kong|CF官方优选7"
+    type: "vless"
+    server: "8.39.125.80"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-007|SG|新加坡|Singapore|CF官方优选7"
+    type: "vless"
+    server: "8.39.125.147"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-011|US|美国|United States|USA|CF官方优选11"
+    type: "vless"
+    server: "104.18.36.82"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-011|JP|日本|Japan|CF官方优选11"
+    type: "vless"
+    server: "198.41.223.223"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-013|CF官方优选"
+    type: "vless"
+    server: "8.35.211.39"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-017|CF官方优选"
+    type: "vless"
+    server: "104.18.45.222"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-021|CF官方优选"
+    type: "vless"
+    server: "104.26.10.83"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-hk-004|HK|香港|Hong Kong|CF官方优选4"
+    type: "vless"
+    server: "172.67.66.201"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-002|SG|新加坡|Singapore|CF官方优选2"
+    type: "vless"
+    server: "162.159.32.9"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-hk-003|HK|香港|Hong Kong|CF官方优选3"
+    type: "vless"
+    server: "172.67.74.149"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-013|JP|日本|Japan|CF官方优选13"
+    type: "vless"
+    server: "172.67.75.9"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-012|JP|日本|Japan|CF官方优选12"
+    type: "vless"
+    server: "172.67.70.173"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-009|CF官方优选"
+    type: "vless"
+    server: "172.67.75.89"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-us-008|US|美国|United States|USA|CF官方优选8"
+    type: "vless"
+    server: "104.17.177.253"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-006|CF官方优选"
+    type: "vless"
+    server: "104.17.162.40"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-jp-001|JP|日本|Japan|CF官方优选1"
+    type: "vless"
+    server: "104.17.118.114"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-030|CF官方优选"
+    type: "vless"
+    server: "104.16.250.117"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-013|SG|新加坡|Singapore|CF官方优选13"
+    type: "vless"
+    server: "104.17.150.104"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-014|US|美国|United States|USA|CF官方优选14"
+    type: "vless"
+    server: "104.17.177.162"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-010|CF官方优选"
+    type: "vless"
+    server: "104.16.252.91"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-us-005|US|美国|United States|USA|CF官方优选5"
+    type: "vless"
+    server: "104.17.191.84"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-004|SG|新加坡|Singapore|CF官方优选4"
+    type: "vless"
+    server: "104.17.173.202"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-027|CF官方优选"
+    type: "vless"
+    server: "104.17.20.145"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-032|CF官方优选"
+    type: "vless"
+    server: "162.159.33.85"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-us-015|US|美国|United States|USA|CF官方优选15"
+    type: "vless"
+    server: "104.19.60.100"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-009|US|美国|United States|USA|CF官方优选9"
+    type: "vless"
+    server: "198.41.208.147"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-hk-001|HK|香港|Hong Kong|CF官方优选1"
+    type: "vless"
+    server: "104.17.51.147"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-007|JP|日本|Japan|CF官方优选7"
+    type: "vless"
+    server: "104.19.51.158"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-015|CF官方优选"
+    type: "vless"
+    server: "198.41.209.71"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-us-001|US|美国|United States|USA|CF官方优选1"
+    type: "vless"
+    server: "104.17.127.200"
+    port: 2096
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-014|SG|新加坡|Singapore|CF官方优选14"
+    type: "vless"
+    server: "172.67.66.254"
+    port: 2096
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-010|SG|新加坡|Singapore|CF官方优选10"
+    type: "vless"
+    server: "104.19.51.150"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-014|CF官方优选"
+    type: "vless"
+    server: "162.159.34.224"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-003|SG|新加坡|Singapore|CF官方优选3"
+    type: "vless"
+    server: "104.19.32.221"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-022|CF官方优选"
+    type: "vless"
+    server: "198.41.223.83"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-hk-013|HK|香港|Hong Kong|CF官方优选13"
+    type: "vless"
+    server: "104.17.177.207"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-002|CF官方优选"
+    type: "vless"
+    server: "104.18.35.117"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-005|CF官方优选"
+    type: "vless"
+    server: "104.17.22.153"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-016|CF官方优选"
+    type: "vless"
+    server: "91.193.59.174"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-jp-016|JP|日本|Japan|CF官方优选16"
+    type: "vless"
+    server: "104.17.219.212"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-hk-006|HK|香港|Hong Kong|CF官方优选6"
+    type: "vless"
+    server: "104.17.49.99"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-020|CF官方优选"
+    type: "vless"
+    server: "162.159.44.196"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "reedge-003|CF官方优选"
+    type: "vless"
+    server: "104.17.115.170"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-us-003|US|美国|United States|USA|CF官方优选3"
+    type: "vless"
+    server: "172.66.1.58"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-008|JP|日本|Japan|CF官方优选8"
+    type: "vless"
+    server: "104.16.159.238"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-018|CF官方优选"
+    type: "vless"
+    server: "104.19.45.22"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-008|SG|新加坡|Singapore|CF官方优选8"
+    type: "vless"
+    server: "104.16.144.227"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-007|CF官方优选"
+    type: "vless"
+    server: "104.16.146.92"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-012|SG|新加坡|Singapore|CF官方优选12"
+    type: "vless"
+    server: "104.17.127.52"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-009|SG|新加坡|Singapore|CF官方优选9"
+    type: "vless"
+    server: "104.17.104.124"
+    port: 2096
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-011|SG|新加坡|Singapore|CF官方优选11"
+    type: "vless"
+    server: "104.17.121.235"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-023|CF官方优选"
+    type: "vless"
+    server: "104.19.50.235"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-us-007|US|美国|United States|USA|CF官方优选7"
+    type: "vless"
+    server: "104.18.95.146"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-002|US|美国|United States|USA|CF官方优选2"
+    type: "vless"
+    server: "104.17.209.103"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-013|US|美国|United States|USA|CF官方优选13"
+    type: "vless"
+    server: "172.66.3.95"
+    port: 2096
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-001|SG|新加坡|Singapore|CF官方优选1"
+    type: "vless"
+    server: "104.18.89.5"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
 
 proxy-groups:
   - name: "节点选择"
     type: select
     proxies:
       - "自动选择"
-      - "reedge-011|CF官方优选"
-      - "reedge-013|CF官方优选"
-      - "reedge-005|CF官方优选"
-      - "reedge-029|CF官方优选"
-      - "reedge-010|CF官方优选"
-      - "reedge-024|CF官方优选"
-      - "reedge-003|CF官方优选"
+      - "edt2-hk-011|HK|香港|Hong Kong|CF官方优选11"
+      - "edt2-us-004|US|美国|United States|USA|CF官方优选4"
+      - "edt2-us-010|US|美国|United States|USA|CF官方优选10"
+      - "edt2-jp-015|JP|日本|Japan|CF官方优选15"
       - "reedge-019|CF官方优选"
-      - "reedge-030|CF官方优选"
-      - "reedge-008|CF官方优选"
-      - "reedge-006|CF官方优选"
-      - "reedge-031|CF官方优选"
-      - "reedge-028|CF官方优选"
-      - "reedge-023|CF官方优选"
-      - "reedge-017|CF官方优选"
-      - "reedge-012|CF官方优选"
-      - "reedge-007|CF官方优选"
-      - "reedge-020|CF官方优选"
-      - "reedge-021|CF官方优选"
-      - "reedge-032|CF官方优选"
-      - "reedge-015|CF官方优选"
-      - "reedge-027|CF官方优选"
-      - "reedge-009|CF官方优选"
-      - "reedge-002|CF官方优选"
-      - "reedge-018|CF官方优选"
-      - "reedge-025|CF官方优选"
-      - "reedge-016|CF官方优选"
-      - "reedge-014|CF官方优选"
-      - "reedge-026|CF官方优选"
       - "reedge-004|CF官方优选"
-      - "reedge-001|CF官方优选"
+      - "reedge-026|CF官方优选"
+      - "edt2-hk-016|HK|香港|Hong Kong|CF官方优选16"
+      - "edt2-hk-007|HK|香港|Hong Kong|CF官方优选7"
+      - "edt2-007|SG|新加坡|Singapore|CF官方优选7"
+      - "edt2-us-011|US|美国|United States|USA|CF官方优选11"
+      - "edt2-jp-011|JP|日本|Japan|CF官方优选11"
+      - "reedge-013|CF官方优选"
+      - "reedge-017|CF官方优选"
+      - "reedge-021|CF官方优选"
+      - "edt2-hk-004|HK|香港|Hong Kong|CF官方优选4"
+      - "edt2-002|SG|新加坡|Singapore|CF官方优选2"
+      - "edt2-hk-003|HK|香港|Hong Kong|CF官方优选3"
+      - "edt2-jp-013|JP|日本|Japan|CF官方优选13"
+      - "edt2-jp-012|JP|日本|Japan|CF官方优选12"
+      - "reedge-009|CF官方优选"
+      - "edt2-us-008|US|美国|United States|USA|CF官方优选8"
+      - "reedge-006|CF官方优选"
+      - "edt2-jp-001|JP|日本|Japan|CF官方优选1"
+      - "reedge-030|CF官方优选"
+      - "edt2-013|SG|新加坡|Singapore|CF官方优选13"
+      - "edt2-us-014|US|美国|United States|USA|CF官方优选14"
+      - "reedge-010|CF官方优选"
+      - "edt2-us-005|US|美国|United States|USA|CF官方优选5"
+      - "edt2-004|SG|新加坡|Singapore|CF官方优选4"
+      - "reedge-027|CF官方优选"
+      - "reedge-032|CF官方优选"
+      - "edt2-us-015|US|美国|United States|USA|CF官方优选15"
+      - "edt2-us-009|US|美国|United States|USA|CF官方优选9"
+      - "edt2-hk-001|HK|香港|Hong Kong|CF官方优选1"
+      - "edt2-jp-007|JP|日本|Japan|CF官方优选7"
+      - "reedge-015|CF官方优选"
+      - "edt2-us-001|US|美国|United States|USA|CF官方优选1"
+      - "edt2-014|SG|新加坡|Singapore|CF官方优选14"
+      - "edt2-010|SG|新加坡|Singapore|CF官方优选10"
+      - "reedge-014|CF官方优选"
+      - "edt2-003|SG|新加坡|Singapore|CF官方优选3"
+      - "reedge-022|CF官方优选"
+      - "edt2-hk-013|HK|香港|Hong Kong|CF官方优选13"
+      - "reedge-002|CF官方优选"
+      - "reedge-005|CF官方优选"
+      - "reedge-016|CF官方优选"
+      - "edt2-jp-016|JP|日本|Japan|CF官方优选16"
+      - "edt2-hk-006|HK|香港|Hong Kong|CF官方优选6"
+      - "reedge-020|CF官方优选"
+      - "reedge-003|CF官方优选"
+      - "edt2-us-003|US|美国|United States|USA|CF官方优选3"
+      - "edt2-jp-008|JP|日本|Japan|CF官方优选8"
+      - "reedge-018|CF官方优选"
+      - "edt2-008|SG|新加坡|Singapore|CF官方优选8"
+      - "reedge-007|CF官方优选"
+      - "edt2-012|SG|新加坡|Singapore|CF官方优选12"
+      - "edt2-009|SG|新加坡|Singapore|CF官方优选9"
+      - "edt2-011|SG|新加坡|Singapore|CF官方优选11"
+      - "reedge-023|CF官方优选"
+      - "edt2-us-007|US|美国|United States|USA|CF官方优选7"
+      - "edt2-us-002|US|美国|United States|USA|CF官方优选2"
+      - "edt2-us-013|US|美国|United States|USA|CF官方优选13"
+      - "edt2-001|SG|新加坡|Singapore|CF官方优选1"
   - name: "自动选择"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
     proxies:
-      - "reedge-011|CF官方优选"
-      - "reedge-013|CF官方优选"
-      - "reedge-005|CF官方优选"
-      - "reedge-029|CF官方优选"
-      - "reedge-010|CF官方优选"
-      - "reedge-024|CF官方优选"
-      - "reedge-003|CF官方优选"
+      - "edt2-hk-011|HK|香港|Hong Kong|CF官方优选11"
+      - "edt2-us-004|US|美国|United States|USA|CF官方优选4"
+      - "edt2-us-010|US|美国|United States|USA|CF官方优选10"
+      - "edt2-jp-015|JP|日本|Japan|CF官方优选15"
       - "reedge-019|CF官方优选"
-      - "reedge-030|CF官方优选"
-      - "reedge-008|CF官方优选"
-      - "reedge-006|CF官方优选"
-      - "reedge-031|CF官方优选"
-      - "reedge-028|CF官方优选"
-      - "reedge-023|CF官方优选"
-      - "reedge-017|CF官方优选"
-      - "reedge-012|CF官方优选"
-      - "reedge-007|CF官方优选"
-      - "reedge-020|CF官方优选"
-      - "reedge-021|CF官方优选"
-      - "reedge-032|CF官方优选"
-      - "reedge-015|CF官方优选"
-      - "reedge-027|CF官方优选"
-      - "reedge-009|CF官方优选"
-      - "reedge-002|CF官方优选"
-      - "reedge-018|CF官方优选"
-      - "reedge-025|CF官方优选"
-      - "reedge-016|CF官方优选"
-      - "reedge-014|CF官方优选"
-      - "reedge-026|CF官方优选"
       - "reedge-004|CF官方优选"
-      - "reedge-001|CF官方优选"
+      - "reedge-026|CF官方优选"
+      - "edt2-hk-016|HK|香港|Hong Kong|CF官方优选16"
+      - "edt2-hk-007|HK|香港|Hong Kong|CF官方优选7"
+      - "edt2-007|SG|新加坡|Singapore|CF官方优选7"
+      - "edt2-us-011|US|美国|United States|USA|CF官方优选11"
+      - "edt2-jp-011|JP|日本|Japan|CF官方优选11"
+      - "reedge-013|CF官方优选"
+      - "reedge-017|CF官方优选"
+      - "reedge-021|CF官方优选"
+      - "edt2-hk-004|HK|香港|Hong Kong|CF官方优选4"
+      - "edt2-002|SG|新加坡|Singapore|CF官方优选2"
+      - "edt2-hk-003|HK|香港|Hong Kong|CF官方优选3"
+      - "edt2-jp-013|JP|日本|Japan|CF官方优选13"
+      - "edt2-jp-012|JP|日本|Japan|CF官方优选12"
+      - "reedge-009|CF官方优选"
+      - "edt2-us-008|US|美国|United States|USA|CF官方优选8"
+      - "reedge-006|CF官方优选"
+      - "edt2-jp-001|JP|日本|Japan|CF官方优选1"
+      - "reedge-030|CF官方优选"
+      - "edt2-013|SG|新加坡|Singapore|CF官方优选13"
+      - "edt2-us-014|US|美国|United States|USA|CF官方优选14"
+      - "reedge-010|CF官方优选"
+      - "edt2-us-005|US|美国|United States|USA|CF官方优选5"
+      - "edt2-004|SG|新加坡|Singapore|CF官方优选4"
+      - "reedge-027|CF官方优选"
+      - "reedge-032|CF官方优选"
+      - "edt2-us-015|US|美国|United States|USA|CF官方优选15"
+      - "edt2-us-009|US|美国|United States|USA|CF官方优选9"
+      - "edt2-hk-001|HK|香港|Hong Kong|CF官方优选1"
+      - "edt2-jp-007|JP|日本|Japan|CF官方优选7"
+      - "reedge-015|CF官方优选"
+      - "edt2-us-001|US|美国|United States|USA|CF官方优选1"
+      - "edt2-014|SG|新加坡|Singapore|CF官方优选14"
+      - "edt2-010|SG|新加坡|Singapore|CF官方优选10"
+      - "reedge-014|CF官方优选"
+      - "edt2-003|SG|新加坡|Singapore|CF官方优选3"
+      - "reedge-022|CF官方优选"
+      - "edt2-hk-013|HK|香港|Hong Kong|CF官方优选13"
+      - "reedge-002|CF官方优选"
+      - "reedge-005|CF官方优选"
+      - "reedge-016|CF官方优选"
+      - "edt2-jp-016|JP|日本|Japan|CF官方优选16"
+      - "edt2-hk-006|HK|香港|Hong Kong|CF官方优选6"
+      - "reedge-020|CF官方优选"
+      - "reedge-003|CF官方优选"
+      - "edt2-us-003|US|美国|United States|USA|CF官方优选3"
+      - "edt2-jp-008|JP|日本|Japan|CF官方优选8"
+      - "reedge-018|CF官方优选"
+      - "edt2-008|SG|新加坡|Singapore|CF官方优选8"
+      - "reedge-007|CF官方优选"
+      - "edt2-012|SG|新加坡|Singapore|CF官方优选12"
+      - "edt2-009|SG|新加坡|Singapore|CF官方优选9"
+      - "edt2-011|SG|新加坡|Singapore|CF官方优选11"
+      - "reedge-023|CF官方优选"
+      - "edt2-us-007|US|美国|United States|USA|CF官方优选7"
+      - "edt2-us-002|US|美国|United States|USA|CF官方优选2"
+      - "edt2-us-013|US|美国|United States|USA|CF官方优选13"
+      - "edt2-001|SG|新加坡|Singapore|CF官方优选1"
 
 rules:
   - "MATCH,节点选择"
