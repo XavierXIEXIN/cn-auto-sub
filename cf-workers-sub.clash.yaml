@@ -5,90 +5,10 @@ log-level: info
 
 proxies:
   -
-    name: "edt2-hk-015|HK|Hong Kong|香港"
+    name: "edt2-us-003|US|United States|USA|美国"
     type: "vless"
-    server: "173.245.58.182"
-    port: 8443
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-hk-008|HK|Hong Kong|香港"
-    type: "vless"
-    server: "173.245.59.197"
-    port: 2083
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-hk-001|HK|Hong Kong|香港"
-    type: "vless"
-    server: "8.39.125.219"
-    port: 8443
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-jp-013|JP|Japan|日本"
-    type: "vless"
-    server: "8.39.125.123"
-    port: 2083
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-011|SG|Singapore|新加坡"
-    type: "vless"
-    server: "104.18.47.168"
-    port: 2053
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-us-004|US|United States|USA|美国"
-    type: "vless"
-    server: "104.18.34.213"
-    port: 443
+    server: "8.39.125.130"
+    port: 2096
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
@@ -101,25 +21,9 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-hk-004|HK|Hong Kong|香港"
+    name: "edt2-007|SG|Singapore|新加坡"
     type: "vless"
-    server: "198.41.223.68"
-    port: 2087
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-hk-016|HK|Hong Kong|香港"
-    type: "vless"
-    server: "198.41.223.117"
+    server: "8.35.211.46"
     port: 2096
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -129,13 +33,13 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      path: "/"
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-hk-011|HK|Hong Kong|香港"
+    name: "edt2-012|SG|Singapore|新加坡"
     type: "vless"
-    server: "104.18.34.69"
+    server: "104.18.39.189"
     port: 2096
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -145,13 +49,13 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      path: "/"
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-009|SG|Singapore|新加坡"
+    name: "edt2-hk-012|HK|Hong Kong|香港"
     type: "vless"
-    server: "104.18.38.140"
+    server: "8.35.211.133"
     port: 2053
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -161,13 +65,45 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/"
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-016"
+    name: "reedge-031|US|United States|USA|美国"
     type: "vless"
-    server: "188.164.248.181"
+    server: "8.39.125.54"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-hk-005|HK|Hong Kong|香港"
+    type: "vless"
+    server: "188.164.248.140"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-008|JP|Japan|日本"
+    type: "vless"
+    server: "198.41.223.27"
     port: 8443
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -177,45 +113,13 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/"
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-025|US|United States|USA|美国"
+    name: "edt2-jp-003|JP|Japan|日本"
     type: "vless"
-    server: "104.18.38.139"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-016|US|United States|USA|美国"
-    type: "vless"
-    server: "8.35.211.211"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "edt2-jp-015|JP|Japan|日本"
-    type: "vless"
-    server: "8.39.125.66"
+    server: "8.39.125.206"
     port: 2053
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -229,57 +133,41 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-015|US|United States|USA|美国"
+    name: "edt2-003|SG|Singapore|新加坡"
     type: "vless"
-    server: "188.164.248.144"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    server: "8.39.125.197"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
     tls: true
-    servername: "reedge.akkk.qzz.io"
+    servername: "edt.akkk.qzz.io"
     client-fingerprint: "chrome"
-    skip-cert-verify: true
+    skip-cert-verify: false
     ws-opts:
-      path: "/sub"
+      path: "/"
       headers:
-        Host: "reedge.akkk.qzz.io"
+        Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-022|US|United States|USA|美国"
+    name: "edt2-hk-001|HK|Hong Kong|香港"
     type: "vless"
-    server: "172.67.70.111"
+    server: "162.159.40.102"
     port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
     tls: true
-    servername: "reedge.akkk.qzz.io"
+    servername: "edt.akkk.qzz.io"
     client-fingerprint: "chrome"
-    skip-cert-verify: true
+    skip-cert-verify: false
     ws-opts:
-      path: "/sub"
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
       headers:
-        Host: "reedge.akkk.qzz.io"
+        Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-004|US|United States|USA|美国"
+    name: "reedge-005|US|United States|USA|美国"
     type: "vless"
-    server: "104.19.152.2"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-019|US|United States|USA|美国"
-    type: "vless"
-    server: "104.17.216.191"
+    server: "8.35.211.199"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -295,215 +183,7 @@ proxies:
   -
     name: "edt2-jp-002|JP|Japan|日本"
     type: "vless"
-    server: "104.17.117.247"
-    port: 2083
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "reedge-012|US|United States|USA|美国"
-    type: "vless"
-    server: "104.26.14.60"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "edt2-jp-014|JP|Japan|日本"
-    type: "vless"
-    server: "104.17.111.111"
-    port: 443
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "reedge-011|US|United States|USA|美国"
-    type: "vless"
-    server: "172.66.1.96"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-007|US|United States|USA|美国"
-    type: "vless"
-    server: "104.26.7.80"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-024|US|United States|USA|美国"
-    type: "vless"
-    server: "8.39.125.187"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "edt2-us-007|US|United States|USA|美国"
-    type: "vless"
-    server: "104.17.187.46"
-    port: 2053
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "reedge-032|US|United States|USA|美国"
-    type: "vless"
-    server: "198.41.223.40"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-028|US|United States|USA|美国"
-    type: "vless"
-    server: "91.193.58.223"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "edt2-hk-007|HK|Hong Kong|香港"
-    type: "vless"
-    server: "104.17.153.116"
-    port: 2096
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-jp-016|JP|Japan|日本"
-    type: "vless"
-    server: "104.18.46.225"
-    port: 2087
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-013|US|United States|USA|美国"
-    type: "vless"
-    server: "104.18.89.28"
-    port: 2096
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "reedge-002|US|United States|USA|美国"
-    type: "vless"
-    server: "198.41.223.152"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "edt2-006|US|United States|USA|美国"
-    type: "vless"
-    server: "172.66.0.71"
+    server: "104.18.36.36"
     port: 8443
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -513,14 +193,14 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/"
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-us-006|US|United States|USA|美国"
+    name: "edt2-us-011|US|United States|USA|美国"
     type: "vless"
-    server: "91.193.59.45"
-    port: 2096
+    server: "8.35.211.196"
+    port: 2053
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
@@ -533,9 +213,25 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-014|US|United States|USA|美国"
+    name: "edt2-009|SG|Singapore|新加坡"
     type: "vless"
-    server: "104.17.217.250"
+    server: "188.164.248.136"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-028|US|United States|USA|美国"
+    type: "vless"
+    server: "188.164.248.185"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -549,58 +245,10 @@ proxies:
       headers:
         Host: "reedge.akkk.qzz.io"
   -
-    name: "edt2-012|US|United States|USA|美国"
+    name: "edt2-hk-008|HK|Hong Kong|香港"
     type: "vless"
-    server: "198.41.209.124"
-    port: 2083
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-jp-011|JP|Japan|日本"
-    type: "vless"
-    server: "104.16.240.217"
+    server: "162.159.40.237"
     port: 2053
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-us-003|US|United States|USA|美国"
-    type: "vless"
-    server: "104.19.46.117"
-    port: 2087
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-hk-002|HK|Hong Kong|香港"
-    type: "vless"
-    server: "91.193.59.29"
-    port: 2083
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
@@ -613,9 +261,185 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-jp-007|JP|Japan|日本"
+    name: "edt2-002|US|United States|USA|美国"
     type: "vless"
-    server: "104.19.157.3"
+    server: "8.39.125.221"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-014|JP|Japan|日本"
+    type: "vless"
+    server: "104.18.45.98"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-005|US|United States|USA|美国"
+    type: "vless"
+    server: "172.67.79.32"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-009|US|United States|USA|美国"
+    type: "vless"
+    server: "104.26.2.110"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-007|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.217.164"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-013|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.104.52"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-013|US|United States|USA|美国"
+    type: "vless"
+    server: "173.245.59.171"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-jp-011|JP|Japan|日本"
+    type: "vless"
+    server: "104.17.181.81"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-015|JP|Japan|日本"
+    type: "vless"
+    server: "104.17.160.162"
+    port: 2096
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-006|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.152.138"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-007|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.22.220"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-jp-004|JP|Japan|日本"
+    type: "vless"
+    server: "104.17.16.106"
     port: 2083
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -629,25 +453,25 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-us-016|US|United States|USA|美国"
+    name: "reedge-018|US|United States|USA|美国"
     type: "vless"
-    server: "162.159.43.219"
-    port: 2096
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    server: "104.18.86.253"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
     network: "ws"
     tls: true
-    servername: "edt.akkk.qzz.io"
+    servername: "reedge.akkk.qzz.io"
     client-fingerprint: "chrome"
-    skip-cert-verify: false
+    skip-cert-verify: true
     ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      path: "/sub"
       headers:
-        Host: "edt.akkk.qzz.io"
+        Host: "reedge.akkk.qzz.io"
   -
-    name: "edt2-jp-012|JP|Japan|日本"
+    name: "edt2-jp-007|JP|Japan|日本"
     type: "vless"
-    server: "104.26.11.109"
+    server: "104.17.169.230"
     port: 2096
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -661,90 +485,10 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-us-001|US|United States|USA|美国"
-    type: "vless"
-    server: "172.67.79.124"
-    port: 2087
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "reedge-010|US|United States|USA|美国"
-    type: "vless"
-    server: "104.19.153.113"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-018|US|United States|USA|美国"
-    type: "vless"
-    server: "172.66.3.26"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "reedge-023|US|United States|USA|美国"
-    type: "vless"
-    server: "104.19.56.27"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "edt2-us-008|VG"
-    type: "vless"
-    server: "104.17.110.44"
-    port: 443
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
     name: "edt2-014|US|United States|USA|美国"
     type: "vless"
-    server: "104.17.96.5"
-    port: 2087
+    server: "104.19.37.115"
+    port: 2053
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
@@ -757,10 +501,58 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-jp-006|JP|Japan|日本"
+    name: "edt2-us-016|US|United States|USA|美国"
     type: "vless"
-    server: "104.26.9.57"
+    server: "172.66.0.123"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-010|JP|Japan|日本"
+    type: "vless"
+    server: "104.19.63.36"
     port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-011|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.60.99"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-009"
+    type: "vless"
+    server: "104.17.171.92"
+    port: 2083
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
@@ -775,7 +567,39 @@ proxies:
   -
     name: "edt2-us-010|US|United States|USA|美国"
     type: "vless"
-    server: "104.17.107.195"
+    server: "173.245.59.78"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-004|US|United States|USA|美国"
+    type: "vless"
+    server: "104.16.250.26"
+    port: 2096
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-008|US|United States|USA|美国"
+    type: "vless"
+    server: "104.16.158.214"
     port: 443
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -789,9 +613,73 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-us-002|US|United States|USA|美国"
+    name: "edt2-us-012|US|United States|USA|美国"
     type: "vless"
-    server: "104.17.56.227"
+    server: "104.19.145.250"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-011|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.17.41"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-hk-004|HK|Hong Kong|香港"
+    type: "vless"
+    server: "198.41.209.220"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-010|US|United States|USA|美国"
+    type: "vless"
+    server: "104.16.155.114"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-us-015|US|United States|USA|美国"
+    type: "vless"
+    server: "104.19.40.144"
     port: 8443
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -805,10 +693,10 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-003|US|United States|USA|美国"
+    name: "edt2-us-004|US|United States|USA|美国"
     type: "vless"
-    server: "104.17.63.71"
-    port: 2087
+    server: "104.19.50.4"
+    port: 8443
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
@@ -817,45 +705,13 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/"
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-017|US|United States|USA|美国"
+    name: "edt2-hk-014|HK|Hong Kong|香港"
     type: "vless"
-    server: "8.39.125.166"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "edt2-hk-006|HK|Hong Kong|香港"
-    type: "vless"
-    server: "104.17.159.46"
-    port: 2053
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-hk-005|HK|Hong Kong|香港"
-    type: "vless"
-    server: "104.17.24.157"
+    server: "104.17.216.21"
     port: 2087
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -869,9 +725,9 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-013|US|United States|USA|美国"
+    name: "reedge-023|US|United States|USA|美国"
     type: "vless"
-    server: "162.159.46.28"
+    server: "104.19.63.132"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -885,10 +741,10 @@ proxies:
       headers:
         Host: "reedge.akkk.qzz.io"
   -
-    name: "edt2-005|DE|Germany|德国"
+    name: "edt2-013|US|United States|USA|美国"
     type: "vless"
-    server: "172.67.65.253"
-    port: 2053
+    server: "104.17.182.173"
+    port: 2096
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
@@ -901,9 +757,25 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-027|US|United States|USA|美国"
+    name: "edt2-jp-016|JP|Japan|日本"
     type: "vless"
-    server: "8.39.125.173"
+    server: "91.193.59.10"
+    port: 2096
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-009|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.152.97"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -919,8 +791,8 @@ proxies:
   -
     name: "edt2-jp-005|JP|Japan|日本"
     type: "vless"
-    server: "104.17.159.137"
-    port: 2087
+    server: "104.19.152.228"
+    port: 2053
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
@@ -933,9 +805,25 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "reedge-026|US|United States|USA|美国"
+    name: "edt2-us-001|US|United States|USA|美国"
     type: "vless"
-    server: "104.17.60.23"
+    server: "104.17.184.93"
+    port: 8443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-015|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.105.200"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -949,9 +837,41 @@ proxies:
       headers:
         Host: "reedge.akkk.qzz.io"
   -
-    name: "edt2-hk-012|HK|Hong Kong|香港"
+    name: "edt2-001|US|United States|USA|美国"
     type: "vless"
-    server: "104.16.240.47"
+    server: "91.193.59.135"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-jp-001|JP|Japan|日本"
+    type: "vless"
+    server: "162.159.45.244"
+    port: 2083
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-hk-007|HK|Hong Kong|香港"
+    type: "vless"
+    server: "104.19.52.163"
     port: 8443
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -965,41 +885,41 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-jp-004|JP|Japan|日本"
+    name: "edt2-hk-009|SC|Seychelles|塞舌尔"
     type: "vless"
-    server: "91.193.58.234"
+    server: "104.17.48.35"
+    port: 2087
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-020|US|United States|USA|美国"
+    type: "vless"
+    server: "91.193.58.132"
     port: 443
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
     network: "ws"
     tls: true
-    servername: "edt.akkk.qzz.io"
+    servername: "reedge.akkk.qzz.io"
     client-fingerprint: "chrome"
-    skip-cert-verify: false
+    skip-cert-verify: true
     ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      path: "/sub"
       headers:
-        Host: "edt.akkk.qzz.io"
+        Host: "reedge.akkk.qzz.io"
   -
-    name: "edt2-002|DE|Germany|德国"
+    name: "edt2-hk-002|HK|Hong Kong|香港"
     type: "vless"
-    server: "104.26.11.109"
-    port: 8443
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edt2-hk-010|SC|Seychelles|塞舌尔"
-    type: "vless"
-    server: "104.17.158.144"
+    server: "104.19.36.171"
     port: 2083
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -1013,10 +933,10 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edt2-015|DE|Germany|德国"
+    name: "edt2-016|US|United States|USA|美国"
     type: "vless"
-    server: "172.67.70.64"
-    port: 2087
+    server: "104.17.151.185"
+    port: 443
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
     network: "ws"
@@ -1028,146 +948,226 @@ proxies:
       path: "/"
       headers:
         Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-hk-010|HK|Hong Kong|香港"
+    type: "vless"
+    server: "104.17.148.15"
+    port: 2096
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-hk-015|HK|Hong Kong|香港"
+    type: "vless"
+    server: "172.67.66.92"
+    port: 443
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "edt2-hk-011|HK|Hong Kong|香港"
+    type: "vless"
+    server: "104.17.120.128"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
+  -
+    name: "reedge-030|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.155.81"
+    port: 443
+    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "reedge.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    ws-opts:
+      path: "/sub"
+      headers:
+        Host: "reedge.akkk.qzz.io"
+  -
+    name: "edt2-hk-003|SC|Seychelles|塞舌尔"
+    type: "vless"
+    server: "104.17.184.130"
+    port: 2053
+    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "edt.akkk.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "edt.akkk.qzz.io"
 
 proxy-groups:
   - name: "节点选择"
     type: select
     proxies:
       - "自动选择"
-      - "edt2-hk-015|HK|Hong Kong|香港"
-      - "edt2-hk-008|HK|Hong Kong|香港"
-      - "edt2-hk-001|HK|Hong Kong|香港"
-      - "edt2-jp-013|JP|Japan|日本"
-      - "edt2-011|SG|Singapore|新加坡"
-      - "edt2-us-004|US|United States|USA|美国"
-      - "edt2-hk-004|HK|Hong Kong|香港"
-      - "edt2-hk-016|HK|Hong Kong|香港"
-      - "edt2-hk-011|HK|Hong Kong|香港"
-      - "edt2-009|SG|Singapore|新加坡"
-      - "edt2-016"
-      - "reedge-025|US|United States|USA|美国"
-      - "reedge-016|US|United States|USA|美国"
-      - "edt2-jp-015|JP|Japan|日本"
-      - "reedge-015|US|United States|USA|美国"
-      - "reedge-022|US|United States|USA|美国"
-      - "reedge-004|US|United States|USA|美国"
-      - "reedge-019|US|United States|USA|美国"
-      - "edt2-jp-002|JP|Japan|日本"
-      - "reedge-012|US|United States|USA|美国"
-      - "edt2-jp-014|JP|Japan|日本"
-      - "reedge-011|US|United States|USA|美国"
-      - "reedge-007|US|United States|USA|美国"
-      - "reedge-024|US|United States|USA|美国"
-      - "edt2-us-007|US|United States|USA|美国"
-      - "reedge-032|US|United States|USA|美国"
-      - "reedge-028|US|United States|USA|美国"
-      - "edt2-hk-007|HK|Hong Kong|香港"
-      - "edt2-jp-016|JP|Japan|日本"
-      - "edt2-013|US|United States|USA|美国"
-      - "reedge-002|US|United States|USA|美国"
-      - "edt2-006|US|United States|USA|美国"
-      - "edt2-us-006|US|United States|USA|美国"
-      - "reedge-014|US|United States|USA|美国"
-      - "edt2-012|US|United States|USA|美国"
-      - "edt2-jp-011|JP|Japan|日本"
       - "edt2-us-003|US|United States|USA|美国"
-      - "edt2-hk-002|HK|Hong Kong|香港"
-      - "edt2-jp-007|JP|Japan|日本"
-      - "edt2-us-016|US|United States|USA|美国"
-      - "edt2-jp-012|JP|Japan|日本"
-      - "edt2-us-001|US|United States|USA|美国"
-      - "reedge-010|US|United States|USA|美国"
-      - "reedge-018|US|United States|USA|美国"
-      - "reedge-023|US|United States|USA|美国"
-      - "edt2-us-008|VG"
-      - "edt2-014|US|United States|USA|美国"
-      - "edt2-jp-006|JP|Japan|日本"
-      - "edt2-us-010|US|United States|USA|美国"
-      - "edt2-us-002|US|United States|USA|美国"
-      - "edt2-003|US|United States|USA|美国"
-      - "reedge-017|US|United States|USA|美国"
-      - "edt2-hk-006|HK|Hong Kong|香港"
-      - "edt2-hk-005|HK|Hong Kong|香港"
-      - "reedge-013|US|United States|USA|美国"
-      - "edt2-005|DE|Germany|德国"
-      - "reedge-027|US|United States|USA|美国"
-      - "edt2-jp-005|JP|Japan|日本"
-      - "reedge-026|US|United States|USA|美国"
+      - "edt2-007|SG|Singapore|新加坡"
+      - "edt2-012|SG|Singapore|新加坡"
       - "edt2-hk-012|HK|Hong Kong|香港"
+      - "reedge-031|US|United States|USA|美国"
+      - "edt2-hk-005|HK|Hong Kong|香港"
+      - "edt2-jp-008|JP|Japan|日本"
+      - "edt2-jp-003|JP|Japan|日本"
+      - "edt2-003|SG|Singapore|新加坡"
+      - "edt2-hk-001|HK|Hong Kong|香港"
+      - "reedge-005|US|United States|USA|美国"
+      - "edt2-jp-002|JP|Japan|日本"
+      - "edt2-us-011|US|United States|USA|美国"
+      - "edt2-009|SG|Singapore|新加坡"
+      - "reedge-028|US|United States|USA|美国"
+      - "edt2-hk-008|HK|Hong Kong|香港"
+      - "edt2-002|US|United States|USA|美国"
+      - "edt2-jp-014|JP|Japan|日本"
+      - "edt2-us-005|US|United States|USA|美国"
+      - "edt2-us-009|US|United States|USA|美国"
+      - "edt2-us-007|US|United States|USA|美国"
+      - "edt2-us-013|US|United States|USA|美国"
+      - "reedge-013|US|United States|USA|美国"
+      - "edt2-jp-011|JP|Japan|日本"
+      - "edt2-jp-015|JP|Japan|日本"
+      - "edt2-006|US|United States|USA|美国"
+      - "reedge-007|US|United States|USA|美国"
       - "edt2-jp-004|JP|Japan|日本"
-      - "edt2-002|DE|Germany|德国"
-      - "edt2-hk-010|SC|Seychelles|塞舌尔"
-      - "edt2-015|DE|Germany|德国"
+      - "reedge-018|US|United States|USA|美国"
+      - "edt2-jp-007|JP|Japan|日本"
+      - "edt2-014|US|United States|USA|美国"
+      - "edt2-us-016|US|United States|USA|美国"
+      - "edt2-jp-010|JP|Japan|日本"
+      - "edt2-011|US|United States|USA|美国"
+      - "edt2-jp-009"
+      - "edt2-us-010|US|United States|USA|美国"
+      - "edt2-004|US|United States|USA|美国"
+      - "edt2-us-008|US|United States|USA|美国"
+      - "edt2-us-012|US|United States|USA|美国"
+      - "reedge-011|US|United States|USA|美国"
+      - "edt2-hk-004|HK|Hong Kong|香港"
+      - "edt2-010|US|United States|USA|美国"
+      - "edt2-us-015|US|United States|USA|美国"
+      - "edt2-us-004|US|United States|USA|美国"
+      - "edt2-hk-014|HK|Hong Kong|香港"
+      - "reedge-023|US|United States|USA|美国"
+      - "edt2-013|US|United States|USA|美国"
+      - "edt2-jp-016|JP|Japan|日本"
+      - "reedge-009|US|United States|USA|美国"
+      - "edt2-jp-005|JP|Japan|日本"
+      - "edt2-us-001|US|United States|USA|美国"
+      - "reedge-015|US|United States|USA|美国"
+      - "edt2-001|US|United States|USA|美国"
+      - "edt2-jp-001|JP|Japan|日本"
+      - "edt2-hk-007|HK|Hong Kong|香港"
+      - "edt2-hk-009|SC|Seychelles|塞舌尔"
+      - "reedge-020|US|United States|USA|美国"
+      - "edt2-hk-002|HK|Hong Kong|香港"
+      - "edt2-016|US|United States|USA|美国"
+      - "edt2-hk-010|HK|Hong Kong|香港"
+      - "edt2-hk-015|HK|Hong Kong|香港"
+      - "edt2-hk-011|HK|Hong Kong|香港"
+      - "reedge-030|US|United States|USA|美国"
+      - "edt2-hk-003|SC|Seychelles|塞舌尔"
   - name: "自动选择"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
     proxies:
-      - "edt2-hk-015|HK|Hong Kong|香港"
-      - "edt2-hk-008|HK|Hong Kong|香港"
-      - "edt2-hk-001|HK|Hong Kong|香港"
-      - "edt2-jp-013|JP|Japan|日本"
-      - "edt2-011|SG|Singapore|新加坡"
-      - "edt2-us-004|US|United States|USA|美国"
-      - "edt2-hk-004|HK|Hong Kong|香港"
-      - "edt2-hk-016|HK|Hong Kong|香港"
-      - "edt2-hk-011|HK|Hong Kong|香港"
-      - "edt2-009|SG|Singapore|新加坡"
-      - "edt2-016"
-      - "reedge-025|US|United States|USA|美国"
-      - "reedge-016|US|United States|USA|美国"
-      - "edt2-jp-015|JP|Japan|日本"
-      - "reedge-015|US|United States|USA|美国"
-      - "reedge-022|US|United States|USA|美国"
-      - "reedge-004|US|United States|USA|美国"
-      - "reedge-019|US|United States|USA|美国"
-      - "edt2-jp-002|JP|Japan|日本"
-      - "reedge-012|US|United States|USA|美国"
-      - "edt2-jp-014|JP|Japan|日本"
-      - "reedge-011|US|United States|USA|美国"
-      - "reedge-007|US|United States|USA|美国"
-      - "reedge-024|US|United States|USA|美国"
-      - "edt2-us-007|US|United States|USA|美国"
-      - "reedge-032|US|United States|USA|美国"
-      - "reedge-028|US|United States|USA|美国"
-      - "edt2-hk-007|HK|Hong Kong|香港"
-      - "edt2-jp-016|JP|Japan|日本"
-      - "edt2-013|US|United States|USA|美国"
-      - "reedge-002|US|United States|USA|美国"
-      - "edt2-006|US|United States|USA|美国"
-      - "edt2-us-006|US|United States|USA|美国"
-      - "reedge-014|US|United States|USA|美国"
-      - "edt2-012|US|United States|USA|美国"
-      - "edt2-jp-011|JP|Japan|日本"
       - "edt2-us-003|US|United States|USA|美国"
-      - "edt2-hk-002|HK|Hong Kong|香港"
-      - "edt2-jp-007|JP|Japan|日本"
-      - "edt2-us-016|US|United States|USA|美国"
-      - "edt2-jp-012|JP|Japan|日本"
-      - "edt2-us-001|US|United States|USA|美国"
-      - "reedge-010|US|United States|USA|美国"
-      - "reedge-018|US|United States|USA|美国"
-      - "reedge-023|US|United States|USA|美国"
-      - "edt2-us-008|VG"
-      - "edt2-014|US|United States|USA|美国"
-      - "edt2-jp-006|JP|Japan|日本"
-      - "edt2-us-010|US|United States|USA|美国"
-      - "edt2-us-002|US|United States|USA|美国"
-      - "edt2-003|US|United States|USA|美国"
-      - "reedge-017|US|United States|USA|美国"
-      - "edt2-hk-006|HK|Hong Kong|香港"
-      - "edt2-hk-005|HK|Hong Kong|香港"
-      - "reedge-013|US|United States|USA|美国"
-      - "edt2-005|DE|Germany|德国"
-      - "reedge-027|US|United States|USA|美国"
-      - "edt2-jp-005|JP|Japan|日本"
-      - "reedge-026|US|United States|USA|美国"
+      - "edt2-007|SG|Singapore|新加坡"
+      - "edt2-012|SG|Singapore|新加坡"
       - "edt2-hk-012|HK|Hong Kong|香港"
+      - "reedge-031|US|United States|USA|美国"
+      - "edt2-hk-005|HK|Hong Kong|香港"
+      - "edt2-jp-008|JP|Japan|日本"
+      - "edt2-jp-003|JP|Japan|日本"
+      - "edt2-003|SG|Singapore|新加坡"
+      - "edt2-hk-001|HK|Hong Kong|香港"
+      - "reedge-005|US|United States|USA|美国"
+      - "edt2-jp-002|JP|Japan|日本"
+      - "edt2-us-011|US|United States|USA|美国"
+      - "edt2-009|SG|Singapore|新加坡"
+      - "reedge-028|US|United States|USA|美国"
+      - "edt2-hk-008|HK|Hong Kong|香港"
+      - "edt2-002|US|United States|USA|美国"
+      - "edt2-jp-014|JP|Japan|日本"
+      - "edt2-us-005|US|United States|USA|美国"
+      - "edt2-us-009|US|United States|USA|美国"
+      - "edt2-us-007|US|United States|USA|美国"
+      - "edt2-us-013|US|United States|USA|美国"
+      - "reedge-013|US|United States|USA|美国"
+      - "edt2-jp-011|JP|Japan|日本"
+      - "edt2-jp-015|JP|Japan|日本"
+      - "edt2-006|US|United States|USA|美国"
+      - "reedge-007|US|United States|USA|美国"
       - "edt2-jp-004|JP|Japan|日本"
-      - "edt2-002|DE|Germany|德国"
-      - "edt2-hk-010|SC|Seychelles|塞舌尔"
-      - "edt2-015|DE|Germany|德国"
+      - "reedge-018|US|United States|USA|美国"
+      - "edt2-jp-007|JP|Japan|日本"
+      - "edt2-014|US|United States|USA|美国"
+      - "edt2-us-016|US|United States|USA|美国"
+      - "edt2-jp-010|JP|Japan|日本"
+      - "edt2-011|US|United States|USA|美国"
+      - "edt2-jp-009"
+      - "edt2-us-010|US|United States|USA|美国"
+      - "edt2-004|US|United States|USA|美国"
+      - "edt2-us-008|US|United States|USA|美国"
+      - "edt2-us-012|US|United States|USA|美国"
+      - "reedge-011|US|United States|USA|美国"
+      - "edt2-hk-004|HK|Hong Kong|香港"
+      - "edt2-010|US|United States|USA|美国"
+      - "edt2-us-015|US|United States|USA|美国"
+      - "edt2-us-004|US|United States|USA|美国"
+      - "edt2-hk-014|HK|Hong Kong|香港"
+      - "reedge-023|US|United States|USA|美国"
+      - "edt2-013|US|United States|USA|美国"
+      - "edt2-jp-016|JP|Japan|日本"
+      - "reedge-009|US|United States|USA|美国"
+      - "edt2-jp-005|JP|Japan|日本"
+      - "edt2-us-001|US|United States|USA|美国"
+      - "reedge-015|US|United States|USA|美国"
+      - "edt2-001|US|United States|USA|美国"
+      - "edt2-jp-001|JP|Japan|日本"
+      - "edt2-hk-007|HK|Hong Kong|香港"
+      - "edt2-hk-009|SC|Seychelles|塞舌尔"
+      - "reedge-020|US|United States|USA|美国"
+      - "edt2-hk-002|HK|Hong Kong|香港"
+      - "edt2-016|US|United States|USA|美国"
+      - "edt2-hk-010|HK|Hong Kong|香港"
+      - "edt2-hk-015|HK|Hong Kong|香港"
+      - "edt2-hk-011|HK|Hong Kong|香港"
+      - "reedge-030|US|United States|USA|美国"
+      - "edt2-hk-003|SC|Seychelles|塞舌尔"
 
 rules:
   - "MATCH,节点选择"
