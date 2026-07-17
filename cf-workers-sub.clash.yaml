@@ -5,233 +5,9 @@ log-level: info
 
 proxies:
   -
-    name: "edge3-jp-003|JP|Japan|日本"
+    name: "edt2-006|SG|Singapore|新加坡"
     type: "vless"
-    server: "162.159.39.17"
-    port: 8443
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.axxx.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
-      headers:
-        Host: "e.axxx.qzz.io"
-  -
-    name: "edge3-002|JP|Japan|日本"
-    type: "vless"
-    server: "162.159.38.51"
-    port: 2083
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.axxx.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "e.axxx.qzz.io"
-  -
-    name: "edge3-009|SG|Singapore|新加坡"
-    type: "vless"
-    server: "104.26.15.242"
-    port: 8443
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.axxx.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "e.axxx.qzz.io"
-  -
-    name: "edge2-hk-009|HK|Hong Kong|香港"
-    type: "vless"
-    server: "172.67.70.38"
-    port: 2053
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "edge3-jp-006|JP|Japan|日本"
-    type: "vless"
-    server: "162.159.38.199"
-    port: 443
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.axxx.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
-      headers:
-        Host: "e.axxx.qzz.io"
-  -
-    name: "edge3-us-007"
-    type: "vless"
-    server: "104.26.14.28"
-    port: 8443
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.axxx.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
-      headers:
-        Host: "e.axxx.qzz.io"
-  -
-    name: "edge2-us-001|US|United States|USA|美国"
-    type: "vless"
-    server: "172.67.70.154"
-    port: 8443
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "edge2-us-010|US|United States|USA|美国"
-    type: "vless"
-    server: "108.162.198.217"
-    port: 2096
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "edge2-012"
-    type: "vless"
-    server: "172.67.70.193"
-    port: 2083
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "edge2-hk-008|HK|Hong Kong|香港"
-    type: "vless"
-    server: "108.162.198.144"
-    port: 2053
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "edge2-016|US|United States|USA|美国"
-    type: "vless"
-    server: "104.17.62.82"
-    port: 2083
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "edge2-hk-003|HK|Hong Kong|香港"
-    type: "vless"
-    server: "162.159.39.213"
-    port: 8443
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "reedge-005|US|United States|USA|美国"
-    type: "vless"
-    server: "104.16.153.227"
-    port: 443
-    uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "reedge.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    ws-opts:
-      path: "/sub"
-      headers:
-        Host: "reedge.akkk.qzz.io"
-  -
-    name: "edge2-hk-001|HK|Hong Kong|香港"
-    type: "vless"
-    server: "104.17.115.196"
-    port: 443
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "edt2-001|SG|Singapore|新加坡"
-    type: "vless"
-    server: "172.66.3.188"
+    server: "8.35.211.64"
     port: 2083
     uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
     udp: true
@@ -245,57 +21,25 @@ proxies:
       headers:
         Host: "edt.akkk.qzz.io"
   -
-    name: "edge3-006|US|United States|USA|美国"
+    name: "edge2-hk-004|HK|Hong Kong|香港"
     type: "vless"
-    server: "104.17.113.104"
-    port: 8443
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.axxx.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "e.axxx.qzz.io"
-  -
-    name: "edge3-us-005|US|United States|USA|美国"
-    type: "vless"
-    server: "104.17.101.106"
-    port: 2053
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.axxx.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
-      headers:
-        Host: "e.axxx.qzz.io"
-  -
-    name: "edge3-jp-009|JP|Japan|日本"
-    type: "vless"
-    server: "104.19.50.41"
+    server: "8.35.211.147"
     port: 2083
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
     udp: true
     network: "ws"
     tls: true
-    servername: "e.axxx.qzz.io"
+    servername: "e.abbb.qzz.io"
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
       headers:
-        Host: "e.axxx.qzz.io"
+        Host: "e.abbb.qzz.io"
   -
-    name: "reedge-003|US|United States|USA|美国"
+    name: "reedge-001|US|United States|USA|美国"
     type: "vless"
-    server: "104.17.144.46"
+    server: "188.164.248.129"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -309,10 +53,10 @@ proxies:
       headers:
         Host: "reedge.akkk.qzz.io"
   -
-    name: "edge2-us-003|US|United States|USA|美国"
+    name: "edge2-003|SG|Singapore|新加坡"
     type: "vless"
-    server: "104.17.186.4"
-    port: 2053
+    server: "173.245.59.99"
+    port: 8443
     uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
     udp: true
     network: "ws"
@@ -321,14 +65,14 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      path: "/"
       headers:
         Host: "e.abbb.qzz.io"
   -
     name: "edge3-us-008|US|United States|USA|美国"
     type: "vless"
-    server: "104.17.102.92"
-    port: 2053
+    server: "188.164.248.37"
+    port: 2083
     uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
     udp: true
     network: "ws"
@@ -341,9 +85,41 @@ proxies:
       headers:
         Host: "e.axxx.qzz.io"
   -
-    name: "reedge-002|US|United States|USA|美国"
+    name: "edge3-014|SG|Singapore|新加坡"
     type: "vless"
-    server: "104.19.48.195"
+    server: "104.18.33.162"
+    port: 443
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge2-hk-006|HK|Hong Kong|香港"
+    type: "vless"
+    server: "104.26.1.186"
+    port: 2053
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.abbb.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "e.abbb.qzz.io"
+  -
+    name: "reedge-003"
+    type: "vless"
+    server: "172.67.67.170"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -357,10 +133,42 @@ proxies:
       headers:
         Host: "reedge.akkk.qzz.io"
   -
-    name: "edge3-010|US|United States|USA|美国"
+    name: "edge3-us-004|US|United States|USA|美国"
     type: "vless"
-    server: "104.19.50.243"
+    server: "173.245.59.195"
+    port: 443
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge3-hk-005|SG|Singapore|新加坡"
+    type: "vless"
+    server: "104.26.2.245"
     port: 2053
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge3-005|DE|Germany|德国"
+    type: "vless"
+    server: "172.67.67.253"
+    port: 2087
     uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
     udp: true
     network: "ws"
@@ -373,9 +181,121 @@ proxies:
       headers:
         Host: "e.axxx.qzz.io"
   -
-    name: "edge2-013|US|United States|USA|美国"
+    name: "edge2-jp-003|JP|Japan|日本"
     type: "vless"
-    server: "104.19.53.89"
+    server: "104.18.33.172"
+    port: 443
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.abbb.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "e.abbb.qzz.io"
+  -
+    name: "edge3-us-003|US|United States|USA|美国"
+    type: "vless"
+    server: "104.26.11.34"
+    port: 8443
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge3-006|DE|Germany|德国"
+    type: "vless"
+    server: "172.67.74.60"
+    port: 2096
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge3-jp-008|JP|Japan|日本"
+    type: "vless"
+    server: "104.26.7.148"
+    port: 2053
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge2-jp-001|JP|Japan|日本"
+    type: "vless"
+    server: "173.245.59.126"
+    port: 443
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.abbb.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      headers:
+        Host: "e.abbb.qzz.io"
+  -
+    name: "edge2-us-010|US|United States|USA|美国"
+    type: "vless"
+    server: "198.41.223.208"
+    port: 2087
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.abbb.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "e.abbb.qzz.io"
+  -
+    name: "edge3-016|SG|Singapore|新加坡"
+    type: "vless"
+    server: "8.35.211.203"
+    port: 8443
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge2-012|SG|Singapore|新加坡"
+    type: "vless"
+    server: "188.164.248.12"
     port: 2096
     uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
     udp: true
@@ -389,58 +309,42 @@ proxies:
       headers:
         Host: "e.abbb.qzz.io"
   -
-    name: "edge3-hk-004|HK|Hong Kong|香港"
+    name: "edge2-jp-004|JP|Japan|日本"
     type: "vless"
-    server: "104.18.33.191"
-    port: 2087
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    server: "188.164.248.145"
+    port: 2083
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
     udp: true
     network: "ws"
     tls: true
-    servername: "e.axxx.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
-      headers:
-        Host: "e.axxx.qzz.io"
-  -
-    name: "edge3-jp-005|JP|Japan|日本"
-    type: "vless"
-    server: "104.16.252.121"
-    port: 8443
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.axxx.qzz.io"
+    servername: "e.abbb.qzz.io"
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
       path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
       headers:
-        Host: "e.axxx.qzz.io"
+        Host: "e.abbb.qzz.io"
   -
-    name: "edt2-005|SG|Singapore|新加坡"
+    name: "edge3-009|JP|Japan|日本"
     type: "vless"
-    server: "8.35.211.125"
-    port: 443
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    server: "108.162.198.149"
+    port: 2053
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
     udp: true
     network: "ws"
     tls: true
-    servername: "edt.akkk.qzz.io"
+    servername: "e.axxx.qzz.io"
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
       path: "/"
       headers:
-        Host: "edt.akkk.qzz.io"
+        Host: "e.axxx.qzz.io"
   -
-    name: "edge2-jp-010|JP|Japan|日本"
+    name: "edge2-010|SG|Singapore|新加坡"
     type: "vless"
-    server: "198.41.209.210"
-    port: 2053
+    server: "162.159.32.212"
+    port: 2083
     uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
     udp: true
     network: "ws"
@@ -449,14 +353,14 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      path: "/"
       headers:
         Host: "e.abbb.qzz.io"
   -
-    name: "edge2-jp-005|JP|Japan|日本"
+    name: "edge2-016|SG|Singapore|新加坡"
     type: "vless"
-    server: "104.16.246.169"
-    port: 443
+    server: "104.19.48.3"
+    port: 8443
     uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
     udp: true
     network: "ws"
@@ -465,14 +369,14 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      path: "/"
       headers:
         Host: "e.abbb.qzz.io"
   -
-    name: "edge3-hk-001|HK|Hong Kong|香港"
+    name: "edge3-hk-010|SG|Singapore|新加坡"
     type: "vless"
-    server: "173.245.58.92"
-    port: 2053
+    server: "198.41.223.126"
+    port: 2083
     uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
     udp: true
     network: "ws"
@@ -485,9 +389,25 @@ proxies:
       headers:
         Host: "e.axxx.qzz.io"
   -
-    name: "edge2-jp-003|JP|Japan|日本"
+    name: "edge3-008|JP|Japan|日本"
     type: "vless"
-    server: "104.19.54.1"
+    server: "162.159.39.189"
+    port: 2096
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge2-jp-010|JP|Japan|日本"
+    type: "vless"
+    server: "104.17.160.84"
     port: 2053
     uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
     udp: true
@@ -501,9 +421,57 @@ proxies:
       headers:
         Host: "e.abbb.qzz.io"
   -
-    name: "reedge-004|US|United States|USA|美国"
+    name: "edge3-hk-006|HK|Hong Kong|香港"
     type: "vless"
-    server: "8.35.211.192"
+    server: "198.41.208.145"
+    port: 2096
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge3-us-007|US|United States|USA|美国"
+    type: "vless"
+    server: "104.19.34.192"
+    port: 443
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge2-us-006|US|United States|USA|美国"
+    type: "vless"
+    server: "104.17.147.146"
+    port: 2083
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.abbb.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "e.abbb.qzz.io"
+  -
+    name: "reedge-002"
+    type: "vless"
+    server: "104.17.22.255"
     port: 443
     uuid: "95384f22-ef5f-4f5e-83af-d6998cc4244d"
     udp: true
@@ -517,42 +485,42 @@ proxies:
       headers:
         Host: "reedge.akkk.qzz.io"
   -
-    name: "edge3-jp-004|JP|Japan|日本"
+    name: "edge3-hk-002|SG|Singapore|新加坡"
     type: "vless"
-    server: "104.17.175.111"
+    server: "104.17.63.37"
+    port: 2053
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge3-hk-003|HK|Hong Kong|香港"
+    type: "vless"
+    server: "162.159.39.228"
+    port: 2096
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge2-us-001|SG|Singapore|新加坡"
+    type: "vless"
+    server: "104.19.55.149"
     port: 8443
-    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.axxx.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
-      headers:
-        Host: "e.axxx.qzz.io"
-  -
-    name: "edt2-006|SG|Singapore|新加坡"
-    type: "vless"
-    server: "104.19.52.39"
-    port: 2083
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "edt.akkk.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edt.akkk.qzz.io"
-  -
-    name: "edge2-006|US|United States|USA|美国"
-    type: "vless"
-    server: "104.16.150.145"
-    port: 443
     uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
     udp: true
     network: "ws"
@@ -561,13 +529,29 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/"
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
       headers:
         Host: "e.abbb.qzz.io"
   -
-    name: "edge3-013|US|United States|USA|美国"
+    name: "edge3-us-006|US|United States|USA|美国"
     type: "vless"
-    server: "172.66.3.185"
+    server: "104.17.169.21"
+    port: 2096
+    uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.axxx.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "e.axxx.qzz.io"
+  -
+    name: "edge3-hk-009|SG|Singapore|新加坡"
+    type: "vless"
+    server: "104.17.186.252"
     port: 443
     uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
     udp: true
@@ -577,46 +561,46 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/"
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
       headers:
         Host: "e.axxx.qzz.io"
   -
-    name: "edge2-jp-001|JP|Japan|日本"
+    name: "edge2-hk-005|HK|Hong Kong|香港"
     type: "vless"
-    server: "198.41.223.153"
-    port: 2083
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "edge2-001|US|United States|USA|美国"
-    type: "vless"
-    server: "104.17.172.154"
-    port: 2083
-    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "e.abbb.qzz.io"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "e.abbb.qzz.io"
-  -
-    name: "edge3-jp-007|JP|Japan|日本"
-    type: "vless"
-    server: "104.19.35.120"
+    server: "104.16.147.9"
     port: 2087
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.abbb.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
+      headers:
+        Host: "e.abbb.qzz.io"
+  -
+    name: "edge2-us-003"
+    type: "vless"
+    server: "104.17.212.209"
+    port: 2087
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.abbb.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "e.abbb.qzz.io"
+  -
+    name: "edge3-hk-008|HK|Hong Kong|香港"
+    type: "vless"
+    server: "104.16.241.237"
+    port: 2096
     uuid: "9f075edb-92af-4522-b488-f3f17de5a2e6"
     udp: true
     network: "ws"
@@ -625,117 +609,133 @@ proxies:
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/proxyip=proxyip.jp.fxxk.dedyn.io"
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
       headers:
         Host: "e.axxx.qzz.io"
   -
-    name: "edt2-003|SG|Singapore|新加坡"
+    name: "edge2-hk-007|HK|Hong Kong|香港"
     type: "vless"
-    server: "104.17.54.13"
-    port: 8443
-    uuid: "f0841bb1-00ff-4841-ba14-a3ec24d94bb5"
+    server: "104.19.55.133"
+    port: 443
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
     udp: true
     network: "ws"
     tls: true
-    servername: "edt.akkk.qzz.io"
+    servername: "e.abbb.qzz.io"
     client-fingerprint: "chrome"
     skip-cert-verify: false
     ws-opts:
-      path: "/"
+      path: "/proxyip=proxyip.hk.fxxk.dedyn.io"
       headers:
-        Host: "edt.akkk.qzz.io"
+        Host: "e.abbb.qzz.io"
+  -
+    name: "edge2-us-005|SG|Singapore|新加坡"
+    type: "vless"
+    server: "104.17.160.119"
+    port: 2087
+    uuid: "b5675b45-9c15-4092-b55e-72c4d68c520e"
+    udp: true
+    network: "ws"
+    tls: true
+    servername: "e.abbb.qzz.io"
+    client-fingerprint: "chrome"
+    skip-cert-verify: false
+    ws-opts:
+      path: "/proxyip=proxyip.us.fxxk.dedyn.io"
+      headers:
+        Host: "e.abbb.qzz.io"
 
 proxy-groups:
   - name: "节点选择"
     type: select
     proxies:
       - "自动选择"
-      - "edge3-jp-003|JP|Japan|日本"
-      - "edge3-002|JP|Japan|日本"
-      - "edge3-009|SG|Singapore|新加坡"
-      - "edge2-hk-009|HK|Hong Kong|香港"
-      - "edge3-jp-006|JP|Japan|日本"
-      - "edge3-us-007"
-      - "edge2-us-001|US|United States|USA|美国"
-      - "edge2-us-010|US|United States|USA|美国"
-      - "edge2-012"
-      - "edge2-hk-008|HK|Hong Kong|香港"
-      - "edge2-016|US|United States|USA|美国"
-      - "edge2-hk-003|HK|Hong Kong|香港"
-      - "reedge-005|US|United States|USA|美国"
-      - "edge2-hk-001|HK|Hong Kong|香港"
-      - "edt2-001|SG|Singapore|新加坡"
-      - "edge3-006|US|United States|USA|美国"
-      - "edge3-us-005|US|United States|USA|美国"
-      - "edge3-jp-009|JP|Japan|日本"
-      - "reedge-003|US|United States|USA|美国"
-      - "edge2-us-003|US|United States|USA|美国"
-      - "edge3-us-008|US|United States|USA|美国"
-      - "reedge-002|US|United States|USA|美国"
-      - "edge3-010|US|United States|USA|美国"
-      - "edge2-013|US|United States|USA|美国"
-      - "edge3-hk-004|HK|Hong Kong|香港"
-      - "edge3-jp-005|JP|Japan|日本"
-      - "edt2-005|SG|Singapore|新加坡"
-      - "edge2-jp-010|JP|Japan|日本"
-      - "edge2-jp-005|JP|Japan|日本"
-      - "edge3-hk-001|HK|Hong Kong|香港"
-      - "edge2-jp-003|JP|Japan|日本"
-      - "reedge-004|US|United States|USA|美国"
-      - "edge3-jp-004|JP|Japan|日本"
       - "edt2-006|SG|Singapore|新加坡"
-      - "edge2-006|US|United States|USA|美国"
-      - "edge3-013|US|United States|USA|美国"
+      - "edge2-hk-004|HK|Hong Kong|香港"
+      - "reedge-001|US|United States|USA|美国"
+      - "edge2-003|SG|Singapore|新加坡"
+      - "edge3-us-008|US|United States|USA|美国"
+      - "edge3-014|SG|Singapore|新加坡"
+      - "edge2-hk-006|HK|Hong Kong|香港"
+      - "reedge-003"
+      - "edge3-us-004|US|United States|USA|美国"
+      - "edge3-hk-005|SG|Singapore|新加坡"
+      - "edge3-005|DE|Germany|德国"
+      - "edge2-jp-003|JP|Japan|日本"
+      - "edge3-us-003|US|United States|USA|美国"
+      - "edge3-006|DE|Germany|德国"
+      - "edge3-jp-008|JP|Japan|日本"
       - "edge2-jp-001|JP|Japan|日本"
-      - "edge2-001|US|United States|USA|美国"
-      - "edge3-jp-007|JP|Japan|日本"
-      - "edt2-003|SG|Singapore|新加坡"
+      - "edge2-us-010|US|United States|USA|美国"
+      - "edge3-016|SG|Singapore|新加坡"
+      - "edge2-012|SG|Singapore|新加坡"
+      - "edge2-jp-004|JP|Japan|日本"
+      - "edge3-009|JP|Japan|日本"
+      - "edge2-010|SG|Singapore|新加坡"
+      - "edge2-016|SG|Singapore|新加坡"
+      - "edge3-hk-010|SG|Singapore|新加坡"
+      - "edge3-008|JP|Japan|日本"
+      - "edge2-jp-010|JP|Japan|日本"
+      - "edge3-hk-006|HK|Hong Kong|香港"
+      - "edge3-us-007|US|United States|USA|美国"
+      - "edge2-us-006|US|United States|USA|美国"
+      - "reedge-002"
+      - "edge3-hk-002|SG|Singapore|新加坡"
+      - "edge3-hk-003|HK|Hong Kong|香港"
+      - "edge2-us-001|SG|Singapore|新加坡"
+      - "edge3-us-006|US|United States|USA|美国"
+      - "edge3-hk-009|SG|Singapore|新加坡"
+      - "edge2-hk-005|HK|Hong Kong|香港"
+      - "edge2-us-003"
+      - "edge3-hk-008|HK|Hong Kong|香港"
+      - "edge2-hk-007|HK|Hong Kong|香港"
+      - "edge2-us-005|SG|Singapore|新加坡"
   - name: "自动选择"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
     proxies:
-      - "edge3-jp-003|JP|Japan|日本"
-      - "edge3-002|JP|Japan|日本"
-      - "edge3-009|SG|Singapore|新加坡"
-      - "edge2-hk-009|HK|Hong Kong|香港"
-      - "edge3-jp-006|JP|Japan|日本"
-      - "edge3-us-007"
-      - "edge2-us-001|US|United States|USA|美国"
-      - "edge2-us-010|US|United States|USA|美国"
-      - "edge2-012"
-      - "edge2-hk-008|HK|Hong Kong|香港"
-      - "edge2-016|US|United States|USA|美国"
-      - "edge2-hk-003|HK|Hong Kong|香港"
-      - "reedge-005|US|United States|USA|美国"
-      - "edge2-hk-001|HK|Hong Kong|香港"
-      - "edt2-001|SG|Singapore|新加坡"
-      - "edge3-006|US|United States|USA|美国"
-      - "edge3-us-005|US|United States|USA|美国"
-      - "edge3-jp-009|JP|Japan|日本"
-      - "reedge-003|US|United States|USA|美国"
-      - "edge2-us-003|US|United States|USA|美国"
-      - "edge3-us-008|US|United States|USA|美国"
-      - "reedge-002|US|United States|USA|美国"
-      - "edge3-010|US|United States|USA|美国"
-      - "edge2-013|US|United States|USA|美国"
-      - "edge3-hk-004|HK|Hong Kong|香港"
-      - "edge3-jp-005|JP|Japan|日本"
-      - "edt2-005|SG|Singapore|新加坡"
-      - "edge2-jp-010|JP|Japan|日本"
-      - "edge2-jp-005|JP|Japan|日本"
-      - "edge3-hk-001|HK|Hong Kong|香港"
-      - "edge2-jp-003|JP|Japan|日本"
-      - "reedge-004|US|United States|USA|美国"
-      - "edge3-jp-004|JP|Japan|日本"
       - "edt2-006|SG|Singapore|新加坡"
-      - "edge2-006|US|United States|USA|美国"
-      - "edge3-013|US|United States|USA|美国"
+      - "edge2-hk-004|HK|Hong Kong|香港"
+      - "reedge-001|US|United States|USA|美国"
+      - "edge2-003|SG|Singapore|新加坡"
+      - "edge3-us-008|US|United States|USA|美国"
+      - "edge3-014|SG|Singapore|新加坡"
+      - "edge2-hk-006|HK|Hong Kong|香港"
+      - "reedge-003"
+      - "edge3-us-004|US|United States|USA|美国"
+      - "edge3-hk-005|SG|Singapore|新加坡"
+      - "edge3-005|DE|Germany|德国"
+      - "edge2-jp-003|JP|Japan|日本"
+      - "edge3-us-003|US|United States|USA|美国"
+      - "edge3-006|DE|Germany|德国"
+      - "edge3-jp-008|JP|Japan|日本"
       - "edge2-jp-001|JP|Japan|日本"
-      - "edge2-001|US|United States|USA|美国"
-      - "edge3-jp-007|JP|Japan|日本"
-      - "edt2-003|SG|Singapore|新加坡"
+      - "edge2-us-010|US|United States|USA|美国"
+      - "edge3-016|SG|Singapore|新加坡"
+      - "edge2-012|SG|Singapore|新加坡"
+      - "edge2-jp-004|JP|Japan|日本"
+      - "edge3-009|JP|Japan|日本"
+      - "edge2-010|SG|Singapore|新加坡"
+      - "edge2-016|SG|Singapore|新加坡"
+      - "edge3-hk-010|SG|Singapore|新加坡"
+      - "edge3-008|JP|Japan|日本"
+      - "edge2-jp-010|JP|Japan|日本"
+      - "edge3-hk-006|HK|Hong Kong|香港"
+      - "edge3-us-007|US|United States|USA|美国"
+      - "edge2-us-006|US|United States|USA|美国"
+      - "reedge-002"
+      - "edge3-hk-002|SG|Singapore|新加坡"
+      - "edge3-hk-003|HK|Hong Kong|香港"
+      - "edge2-us-001|SG|Singapore|新加坡"
+      - "edge3-us-006|US|United States|USA|美国"
+      - "edge3-hk-009|SG|Singapore|新加坡"
+      - "edge2-hk-005|HK|Hong Kong|香港"
+      - "edge2-us-003"
+      - "edge3-hk-008|HK|Hong Kong|香港"
+      - "edge2-hk-007|HK|Hong Kong|香港"
+      - "edge2-us-005|SG|Singapore|新加坡"
 
 rules:
   - "MATCH,节点选择"
